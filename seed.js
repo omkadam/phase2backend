@@ -8,184 +8,74 @@ mongoose.connect("mongodb://localhost:27017/your-db-name", {
 }).then(async () => {
   console.log("✅ Connected to MongoDB for seeding!");
 
-  // Clear existing series
+  // Purana data clean karo
   await Series.deleteMany({});
 
   const seriesData = [
     {
       slug: "pause-with-5-breaths",
-      title: "Series 1 – Book 1",
-      subtitle: "Think Outside The Box",
-      image: "https://d16ho1g3lqitul.cloudfront.net/why.svg",
-      steps: 3,
-      lessons: [
+      title: "Pause with 5 Breaths",
+      subtitle: "Think Outside the Box",
+      image: "https://d16ho1g3lqitul.cloudfront.net/series-cover.svg",
+      units: [
         {
-          lessonId: "lesson-1",
-          questions: [
+          title: "Unit 1: Introduction to Calmness",
+          subtitle: "Start your journey",
+          image: "https://d16ho1g3lqitul.cloudfront.net/unit1.svg",
+          steps: 3,
+          lessons: [
             {
-              type: "book",
-              pages: [
-                "https://via.placeholder.com/300x400.png?text=Page+1",
-                "https://via.placeholder.com/300x400.png?text=Page+2",
-                "https://via.placeholder.com/300x400.png?text=Page+3"
+              lessonId: "lesson-1",
+              questions: [
+                { type: "mcq", question: "What is 2 + 2?", options: ["3", "4", "5"], correct: "4" },
+                { type: "mcq", question: "Sky color?", options: ["Blue", "Green"], correct: "Blue" }
               ]
             },
             {
-              type: "mcq",
-              question: "What color is the sky?",
-              options: ["Blue", "Green", "Red"],
-              correct: "Blue"
+              lessonId: "lesson-2",
+              questions: [
+                { type: "match-the-pair", question: "Sun ☀️", options: ["Hot", "Cold"], correct: "Hot" },
+                { type: "mcq", question: "What is 3 + 2?", options: ["3", "5", "6"], correct: "5" }
+              ]
+            },
+            {
+              lessonId: "lesson-3",
+              questions: [
+                { type: "book", pages: [
+                  "https://d16ho1g3lqitul.cloudfront.net/page1.jpg",
+                  "https://d16ho1g3lqitul.cloudfront.net/page2.jpg"
+                ]}
+              ]
             }
           ]
         },
         {
-          lessonId: "lesson-2",
-          questions: [
+          title: "Unit 2: Awareness and Breath",
+          subtitle: "Learn to observe yourself",
+          image: "https://d16ho1g3lqitul.cloudfront.net/unit2.svg",
+          steps: 3,
+          lessons: [
             {
-              type: "mcq",
-              question: "What is 3 + 2?",
-              options: ["3", "4", "5"],
-              correct: "5"
+              lessonId: "lesson-1",
+              questions: [
+                { type: "mcq", question: "What is 10 + 5?", options: ["14", "15", "16"], correct: "15" },
+                { type: "mcq", question: "Leaf color?", options: ["Red", "Green"], correct: "Green" }
+              ]
             },
             {
-              type: "mcq",
-              question: "What color is the sky?",
-              options: ["Blue", "Green", "Red"],
-              correct: "Blue"
-            }
-          ]
-        },
-        {
-          lessonId: "lesson-3",
-          questions: [
-            {
-              type: "mcq",
-              question: "What is 4 + 2?",
-              options: ["3", "4", "6"],
-              correct: "6"
+              lessonId: "lesson-2",
+              questions: [
+                { type: "match-the-pair", question: "Moon 🌙", options: ["Night", "Day"], correct: "Night" },
+                { type: "mcq", question: "What is 7 + 2?", options: ["8", "9", "10"], correct: "9" }
+              ]
             },
             {
-              type: "mcq",
-              question: "What color is your's?",
-              options: ["Blue", "Green", "Red", "White"],
-              correct: "Blue"
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      slug: "awareness",
-      title: "Series 1 – Book 2",
-      subtitle: "Be Mindful",
-      image: "https://d16ho1g3lqitul.cloudfront.net/why.svg",
-      steps: 3,
-      lessons: [
-        {
-          lessonId: "lesson-1",
-          questions: [
-            {
-              type: "mcq",
-              question: "What is 8 + 2?",
-              options: ["3", "4", "10"],
-              correct: "10"
-            },
-            {
-              type: "mcq",
-              question: "What color is the sky?",
-              options: ["Blue", "Green", "Red"],
-              correct: "Blue"
-            }
-          ]
-        },
-        {
-          lessonId: "lesson-2",
-          questions: [
-            {
-              type: "mcq",
-              question: "What is 31 + 2?",
-              options: ["3", "4", "33"],
-              correct: "33"
-            },
-            {
-              type: "mcq",
-              question: "What color is the sky?",
-              options: ["Blue", "Green", "Red"],
-              correct: "Blue"
-            }
-          ]
-        },
-        {
-          lessonId: "lesson-3",
-          questions: [
-            {
-              type: "mcq",
-              question: "What is 4 + 2?",
-              options: ["3", "4", "6"],
-              correct: "6"
-            },
-            {
-              type: "mcq",
-              question: "What color is your's?",
-              options: ["Blue", "Green", "Red", "White"],
-              correct: "Blue"
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      slug: "sochu-series-1",
-      title: "Sochu Series – Beginner Pack",
-      subtitle: "Think. Feel. Grow.",
-      image: "https://d16ho1g3lqitul.cloudfront.net/why.svg",
-      steps: 3,
-      lessons: [
-        {
-          lessonId: "lesson-1",
-          questions: [
-            {
-              type: "mcq",
-              question: "What is 5 + 5?",
-              options: ["9", "10", "11"],
-              correct: "10"
-            },
-            {
-              type: "mcq",
-              question: "What color is grass?",
-              options: ["Blue", "Green", "Red"],
-              correct: "Green"
-            }
-          ]
-        },
-        {
-          lessonId: "lesson-2",
-          questions: [
-            {
-              type: "match-the-pair",
-              question: "Moon 🌙",
-              options: ["Night", "Day"],
-              correct: "Night"
-            },
-            {
-              type: "match-the-pair",
-              question: "Sun ☀️",
-              options: ["Night", "Day"],
-              correct: "Day"
-            }
-          ]
-        },
-        {
-          lessonId: "lesson-3",
-          questions: [
-            {
-              type: "book",
-              pages: [
-                "https://via.placeholder.com/300x400.png?text=Mindful+Page+1",
-                "https://via.placeholder.com/300x400.png?text=Mindful+Page+2",
-                "https://via.placeholder.com/300x400.png?text=Mindful+Page+3"
+              lessonId: "lesson-3",
+              questions: [
+                { type: "book", pages: [
+                  "https://d16ho1g3lqitul.cloudfront.net/page3.jpg",
+                  "https://d16ho1g3lqitul.cloudfront.net/page4.jpg"
+                ]}
               ]
             }
           ]
@@ -194,9 +84,7 @@ mongoose.connect("mongodb://localhost:27017/your-db-name", {
     }
   ];
 
-  // Insert dummy data
   await Series.insertMany(seriesData);
-  console.log("✅ Dummy series and lessons inserted successfully!");
-
+  console.log("✅ Dummy series and units inserted successfully!");
   mongoose.disconnect();
 });
