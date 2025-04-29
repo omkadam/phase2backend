@@ -2,10 +2,22 @@ import mongoose from "mongoose";
 
 const questionSchema = new mongoose.Schema({
   type: { type: String, default: "mcq" },
-  question: { type: String },
-  options: { type: [String] },
-  correct: { type: String },
-  pages: { type: [String] }, // for book type
+  question: {
+    en: { type: String },
+    hi: { type: String },
+  },
+  options: {
+    en: [{ type: String }],
+    hi: [{ type: String }],
+  },
+  correct: {
+    en: { type: String },
+    hi: { type: String },
+  },
+  pages: {
+    en: [{ type: String }], // Book reading pages
+    hi: [{ type: String }],
+  },
 });
 
 const lessonSchema = new mongoose.Schema({
@@ -14,8 +26,14 @@ const lessonSchema = new mongoose.Schema({
 });
 
 const unitSchema = new mongoose.Schema({
-  title: { type: String, required: true },
-  subtitle: { type: String, required: true },
+  title: {
+    en: { type: String },
+    hi: { type: String },
+  },
+  subtitle: {
+    en: { type: String },
+    hi: { type: String },
+  },
   image: { type: String, required: true },
   steps: { type: Number, default: 0 },
   lessons: [lessonSchema],
@@ -23,10 +41,16 @@ const unitSchema = new mongoose.Schema({
 
 const seriesSchema = new mongoose.Schema({
   slug: { type: String, required: true, unique: true },
-  title: { type: String, required: true },
-  subtitle: { type: String },
+  title: {
+    en: { type: String },
+    hi: { type: String },
+  },
+  subtitle: {
+    en: { type: String },
+    hi: { type: String },
+  },
   image: { type: String },
-  units: [unitSchema], // 🔥 Important: Units array
+  units: [unitSchema],
 });
 
 export default mongoose.model("Series", seriesSchema);
