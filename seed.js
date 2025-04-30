@@ -1,6 +1,6 @@
-// seed.js
 import mongoose from "mongoose";
 import Series from "./models/Series.js";
+import Broadcast from "./models/Broadcast.js"; // 👈 Import Broadcast model
 
 mongoose.connect("mongodb://localhost:27017/your-db-name", {
   useNewUrlParser: true,
@@ -8,9 +8,11 @@ mongoose.connect("mongodb://localhost:27017/your-db-name", {
 }).then(async () => {
   console.log("✅ Connected to MongoDB for seeding!");
 
-  // Purana data clean karo
+  // Clean old data
   await Series.deleteMany({});
+  await Broadcast.deleteMany({});
 
+  // ---------------- SERIES DATA ---------------- //
   const seriesData = [
     {
       slug: "pause-with-5-breaths",
@@ -161,6 +163,62 @@ mongoose.connect("mongodb://localhost:27017/your-db-name", {
   ];
 
   await Series.insertMany(seriesData);
-  console.log("✅ Dummy bilingual series and units inserted successfully!");
+  console.log("✅ Series seeded");
+
+  // ---------------- BROADCAST DATA ---------------- //
+  const broadcastData = [
+    {
+      name: "Sochu - Pune",
+      slug: "sochu-pune",
+      description: "Pune users ke liye special updates and inspiration",
+      posts: [
+        {
+          title: "🌄 Good Morning Pune!",
+          content: "Aaj ka mantra: Breathe deeply and stay calm 🙏"
+        },
+        {
+          title: "🧘 Soothing Sound",
+          content: "Try our 3-minute breathing session today!"
+        }
+      ]
+    },
+    {
+      name: "Sochu - Nagpur",
+      slug: "sochu-nagpur",
+      description: "Nagpur ke dosto ke liye daily inspiration",
+      posts: [
+        {
+          title: "🔥 Rise & Shine Nagpur!",
+          content: "Aaj ka thought: You are stronger than you think 💪"
+        }
+      ]
+    },
+    {
+      name: "Sochu - Hindi Motivation",
+      slug: "sochu-hindi-motivation",
+      description: "Roz ek motivational thought Hindi mein 🧠",
+      posts: [
+        {
+          title: "🌟 प्रेरणा",
+          content: "जो अपने ऊपर विश्वास रखता है, वह कुछ भी कर सकता है।"
+        }
+      ]
+    },
+    {
+      name: "Sochu - Mindfulness",
+      slug: "sochu-mindfulness",
+      description: "Har din ek mindful practice ya tip milega",
+      posts: [
+        {
+          title: "💡 Mindfulness Tip",
+          content: "Try 1 minute silence with eyes closed right now 🧘"
+        }
+      ]
+    }
+  ];
+
+  await Broadcast.insertMany(broadcastData);
+  console.log("✅ Broadcast channels with posts seeded!");
+
   mongoose.disconnect();
 });
