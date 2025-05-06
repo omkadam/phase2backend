@@ -18,6 +18,11 @@ const questionSchema = new mongoose.Schema({
     en: [{ type: String }], // Book reading pages
     hi: [{ type: String }],
   },
+
+  readAloudText: {
+    en: { type: String },
+    hi: { type: String },
+  }
 });
 
 const lessonSchema = new mongoose.Schema({
