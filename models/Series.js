@@ -2,13 +2,27 @@ import mongoose from "mongoose";
 
 const questionSchema = new mongoose.Schema({
   type: { type: String, default: "mcq" },
+  allowCustomAnswer: {type: Boolean, default: false},
+  image: {type: String},
   question: {
     en: { type: String },
     hi: { type: String },
   },
   options: {
-    en: [{ type: String }],
-    hi: [{ type: String }],
+    en: [
+      {
+        text: String,
+        image: String,
+        audio: String,
+      },
+    ],
+    hi: [
+      {
+        text: String,
+        image: String,
+        audio: String,
+      },
+    ],
   },
   correct: {
     en: { type: String },

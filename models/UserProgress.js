@@ -11,6 +11,14 @@ const userProgressSchema = new mongoose.Schema({
 
   // ✅ Naya field added to track subscribed broadcast channels
   broadcastSubscriptions: { type: [String], default: [] },
+
+  // ✅ Add this to track user answers per lesson
+  lessons: [
+    {
+      lessonId: String,
+      answers: [String], // answer per question index
+    }
+  ],
 });
 
 export default mongoose.model("UserProgress", userProgressSchema);

@@ -16,6 +16,7 @@ app.use(express.json());
 mongoose.connect("mongodb://localhost:27017/your-db-name");
 
 // ✅ API routes
+app.use("/uploads", express.static("uploads"));
 app.use("/api/series", seriesRoutes);
 app.use("/api/feeling", feelingRoutes);
 app.use("/api/broadcasts", broadcastsRouter);

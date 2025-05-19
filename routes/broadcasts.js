@@ -50,4 +50,97 @@ router.get("/user/:userId/posts", async (req, res) => {
     res.json(posts);
   });
 
+
+// Like a post
+router.post('/:slug/posts/:postId/like', async (req, res) => {
+  try {
+    const { slug, postId } = req.params;
+    const { userId, username } = req.body;
+
+    const broadcast = await Broadcast.findOne({ slug });
+    if (!broadcast) {
+      return res.status(404).json({ error: 'Broadcast not found' });
+    }
+
+    const post = broadcast.posts.id(postId);
+    if (!post) {
+      return res.status(404).json({ error: 'Post not found' });
+    }
+
+    // Check if user already liked
+    const existingLike = post.likes.find(like => like.userId === userId);
+    
+    if (existingLike) {
+      // Unlike - remove the like
+      post.likes = post.likes.filter(like => like.userId !== userId);
+    } else {
+      // Like - add the like
+      post.likes.push({ userId, username });
+    }
+
+    await broadcast.save();
+    res.json({ likes: post.likes });
+  } catch (error) {
+    console.error('Error handling like:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Add a comment to a post
+router.post('/:slug/posts/:postId/comment', async (req, res) => {
+  try {
+    const { slug, postId } = req.params;
+    const { userId, username, content } = req.body;
+
+    if (!content || !content.trim()) {
+      return res.status(400).json({ error: 'Comment content is required' });
+    }
+
+    const broadcast = await Broadcast.findOne({ slug });
+    if (!broadcast) {
+      return res.status(404).json({ error: 'Broadcast not found' });
+    }
+
+    const post = broadcast.posts.id(postId);
+    if (!post) {
+      return res.status(404).json({ error: 'Post not found' });
+    }
+
+    // Add the comment
+    post.comments.push({
+      userId,
+      username,
+      content: content.trim()
+    });
+
+    await broadcast.save();
+    res.json({ comments: post.comments });
+  } catch (error) {
+    console.error('Error adding comment:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Get comments for a specific post (optional - if you want to fetch comments separately)
+router.get('/:slug/posts/:postId/comments', async (req, res) => {
+  try {
+    const { slug, postId } = req.params;
+    
+    const broadcast = await Broadcast.findOne({ slug });
+    if (!broadcast) {
+      return res.status(404).json({ error: 'Broadcast not found' });
+    }
+
+    const post = broadcast.posts.id(postId);
+    if (!post) {
+      return res.status(404).json({ error: 'Post not found' });
+    }
+
+    res.json(post.comments);
+  } catch (error) {
+    console.error('Error fetching comments:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 export default router;

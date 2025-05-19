@@ -6,6 +6,7 @@ const userProfileSchema = new mongoose.Schema({
   name: String,
   username: String,
   dob: Date,
+  profileImage: String, // New field for base64 image
 });
 
 export default mongoose.model("UserProfile", userProfileSchema);
