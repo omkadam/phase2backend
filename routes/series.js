@@ -16,19 +16,38 @@ router.get("/:slug", async (req, res) => {
 // Get lesson by series and lessonId
 router.get("/:slug/lesson/:lessonId", async (req, res) => {
   const { slug, lessonId } = req.params;
+  console.log("Received slug:", slug);
+  console.log("Received lessonId:", lessonId);
+
   const series = await Series.findOne({ slug });
-  if (!series) return res.status(404).json({ error: "Series not found" });
+  if (!series) {
+    console.log("Series not found");
+    return res.status(404).json({ error: "Series not found" });
+  }
 
   const [unitPart, lessonPart] = lessonId.replace("lesson-", "").split("-");
   const unitIndex = parseInt(unitPart, 10) - 1;
   const lessonIndex = parseInt(lessonPart, 10) - 1;
 
-  const unit = series.units?.[unitIndex];
-  const lesson = unit?.lessons?.[lessonIndex];
+  console.log("Unit Index:", unitIndex);
+  console.log("Lesson Index:", lessonIndex);
 
-  if (!lesson) return res.status(404).json({ error: "Lesson not found" });
+  const unit = series.units?.[unitIndex];
+  if (!unit) {
+    console.log("Unit not found");
+    return res.status(404).json({ error: "Unit not found" });
+  }
+
+  const lesson = unit?.lessons?.[lessonIndex];
+  if (!lesson) {
+    console.log("Lesson not found");
+    return res.status(404).json({ error: "Lesson not found" });
+  }
+
+  console.log("Retrieved Lesson:", JSON.stringify(lesson, null, 2));
   res.json(lesson);
 });
+
 
 // Get user progress
 router.get("/:slug/progress/:userId", async (req, res) => {
@@ -121,7 +140,11 @@ router.patch("/:slug/progress/:userId", async (req, res) => {
 
     // XP / Hearts update
     progress.xp = Math.max(0, (progress.xp || 0) + xpChange);
-    progress.hearts = Math.max(0, (progress.hearts || 5) + heartChange);
+    if (req.body.setHearts !== undefined) {
+  progress.hearts = Math.min(5, req.body.setHearts); // clamp max to 5
+} else {
+  progress.hearts = Math.max(0, (progress.hearts || 5) + heartChange);
+}
 
     // ✅ Save lesson progress
     if (lessonId && lastCompletedQuestionIndex !== undefined) {

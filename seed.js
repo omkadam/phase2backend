@@ -40,147 +40,282 @@ mongoose
               {
                 lessonId: "lesson-1",
                 questions: [
+                  // {
+                  //   type: "book",
+                  //   pages: {
+                  //     en: [
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page1.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page2.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page3.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page4.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page5.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page6.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page7.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page8.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page9.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page10.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page11.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page12.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page13.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page14.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page15.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page16.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page17.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page18.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page19.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page20.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page21.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page22.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page23.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page24.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page25.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page26.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page27.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page28.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page25.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page29.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page30.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page31.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page32.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page33.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page34.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page35.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page36.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page37.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page38.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page39.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page40.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page41.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page42.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page43.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page44.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page45.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page46.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page47.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page48.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page49.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page50.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page51.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page52.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page53.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page54.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page55.png",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page56.png",
+
+                  //     ],
+                  //     hi: [
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page1-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page2-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page3-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page4-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page5-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page6-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page7-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page8-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page9-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page10-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page11-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page12-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page13-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page14-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page15-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page16-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page17-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page18-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page19-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page20-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page21-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page22-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page23-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page24-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page25-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page26-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page27-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page28-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page29-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page30-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page31-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page32-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page33-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page34-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page35-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page36-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page37-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page38-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page39-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page40-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page41-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page42-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page43-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page44-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page45-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page46-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page47-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page48-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page49-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page50-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page51-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page52-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page53-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page54-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page55-hi.jpg",
+                  //       "https://d16ho1g3lqitul.cloudfront.net/page56-hi.jpg",
+
+                  //     ],
+                  //   },
+                  // },
                   {
                     type: "book",
                     pages: {
                       en: [
-                        "https://d16ho1g3lqitul.cloudfront.net/page1.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page2.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page3.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page4.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page5.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page6.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page7.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page8.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page9.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page10.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page11.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page12.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page13.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page14.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page15.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page16.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page17.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page18.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page19.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page20.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page21.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page22.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page23.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page24.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page25.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page26.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page27.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page28.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page25.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page29.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page30.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page31.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page32.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page33.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page34.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page35.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page36.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page37.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page38.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page39.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page40.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page41.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page42.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page43.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page44.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page45.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page46.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page47.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page48.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page49.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page50.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page51.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page52.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page53.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page54.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page55.png",
-                        "https://d16ho1g3lqitul.cloudfront.net/page56.png",
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page1.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p1m.mp3", hardWords: [],speakText: "Take a deep breath and feel the wind around you." },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page2.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p1.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page3.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p2.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page4.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p3.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page5.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p4.mp3", hardWords: ["engrossed - focused or lost in an activity (verb)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page6.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p5.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page7.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p6.mp3", hardWords: ["jitters - slight irregular movement (verb or noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page8.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p7.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page9.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p8.mp3", hardWords: ["contagious - spread from person to person (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page10.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p9.mp3", hardWords: ["strict - following exact rules (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page11.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p10.mp3", hardWords: ["jolly - happy and cheerful (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page12.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p11.mp3", hardWords: ["erupt - break out suddenly (verb)", "curious - eager to know and learn (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page13.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p12.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page14.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p13.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page15.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p14.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page16.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p15.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page17.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p16.mp3", hardWords: ["bond - to establish a relationship (verb or noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page18.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p17.mp3", hardWords: ["inventor - creator (noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page19.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p18.mp3", hardWords: ["inventor - creator (noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page20.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p19.mp3", hardWords: ["maiden - the first attempt of its kind (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page21.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p20.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page22.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p21.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page23.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p22.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page24.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p23.mp3", hardWords: ["inventor - creator (noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page25.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p24.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page26.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p25.mp3", hardWords: ["baffled - totally puzzled or confused (verb)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page27.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p26.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page28.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p27.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page29.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p28.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page30.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p29.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page31.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p30.mp3", hardWords: ["commotion - a noisy disturbance (noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page32.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p31.mp3", hardWords: ["engrossed - focused or lost in an activity (verb)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page33.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p32.mp3", hardWords: ["wreck - completely spoil (verb or noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page34.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p33.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page35.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p34.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page36.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p35.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page37.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p36.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page38.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p37.mp3", hardWords: ["disheartened - having lost confidence (verb)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page39.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p38.mp3", hardWords: ["humanity - human beings collectively (noun)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page40.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p39.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page41.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p40.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page42.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p41.mp3", hardWords: ["annoyed - slightly irritated (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page43.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p42.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page44.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p43.mp3", hardWords: ["helter-skelter - without a particular order (adjective)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page45.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p44.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page46.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p45.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page47.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p46.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page48.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p47.mp3", hardWords: ["tumble - to fall suddenly (verb)"] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page49.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p48.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page50.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p49.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page51.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p50.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page52.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p51.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page53.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p52.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page54.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p53.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page55.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p54.mp3", hardWords: [] },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page56.png", audio: "https://d16ho1g3lqitul.cloudfront.net/p55.mp3", hardWords: [] },
 
                       ],
                       hi: [
-                        "https://d16ho1g3lqitul.cloudfront.net/page1-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page2-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page3-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page4-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page5-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page6-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page7-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page8-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page9-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page10-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page11-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page12-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page13-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page14-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page15-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page16-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page17-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page18-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page19-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page20-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page21-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page22-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page23-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page24-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page25-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page26-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page27-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page28-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page29-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page30-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page31-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page32-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page33-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page34-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page35-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page36-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page37-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page38-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page39-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page40-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page41-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page42-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page43-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page44-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page45-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page46-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page47-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page48-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page49-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page50-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page51-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page52-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page53-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page54-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page55-hi.jpg",
-                        "https://d16ho1g3lqitul.cloudfront.net/page56-hi.jpg",
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page1-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-m.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page2-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/1h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page3-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/2h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page4-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/3h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page5-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page6-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/5h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page7-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/6h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page8-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/7h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page9-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/8h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page10-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/9h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page11-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/10h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page12-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/11h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page13-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/12h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page14-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/13h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page15-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/14h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page16-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/15h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page17-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/16h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page18-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/17h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page19-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/18h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page20-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/19h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page21-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/20h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page22-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/21h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page23-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/22h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page24-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/23h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page25-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/24h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page26-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/25h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page27-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/26h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page28-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/27h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page29-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/28h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page30-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/29h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page31-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/30h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page32-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/31h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page33-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/32h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page34-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/33h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page35-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/34h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page36-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/35h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page37-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/36h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page38-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/37h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page39-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/38h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page40-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/39h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page41-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/40h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page42-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/41h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page43-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/42h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page44-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/43h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page45-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/44h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page46-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/45h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page47-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/46h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page48-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/47h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page49-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/48h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page50-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/49h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page51-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/50h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page52-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/51h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page53-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/52h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page54-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/53h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page55-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/54h.mp3" },
+                        { image: "https://d16ho1g3lqitul.cloudfront.net/page56-hi.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/55h-hi.mp3" },
 
-                      ],
-                    },
+                      ]
+                    }
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
+                    allowCustomAnswer: true,
                     question: {
-                      en: "Sky color?",
-                      hi: "आसमान का रंग क्या है?",
+                      en: "This book might have touched your heart. What are you feeling?",
+                      hi: "यह किताब शायद आपके दिल को छू गई हो। आप क्या महसूस कर रहे हैं?",
                     },
                     options: {
                       en: [
-                        { text: "Blue", image: "https://example.com/blue.jpg", audio: "https://example.com/blue.mp3" },
-                        { text: "Green" },
+                        { text: "Happy"},
+                        { text: "Inspired" },
+                        { text: "Calm" },
+                        { text: "Curious" },
+                        { text: "Thoughtful" },
+                        { text: "Empowered" },
+                        { text: "Bored" },
                       ],
                       hi: [
-                        { text: "नीला" },
-                        { text: "हरा" },
+                        { text: "खुश" },
+                        { text: "प्रेरित" },
+                        { text: "शांत" },
+                        { text: "जिज्ञासु" },
+                        { text: "	सोच में पड़ गया" },
+                        { text: "सशक्त महसूस कर रहा हूँ" },
+                        { text: "बोर हो गया" },
                       ],
                     },
-                    correct: { en: "Blue", hi: "नीला" },
+                    correct: { en: "Happy", hi: "खुश" },
                   },
                 ],
               },
@@ -205,16 +340,17 @@ mongoose
                   // },
                   {
                     type: "mcq",
+                    allowCustomAnswer: true,
                     question: {
                       en: "Anju was engrossed in reading her book. What is the meaning of engrossed?",
                       hi: "अंजू अपनी किताब पढ़ने में तल्लीन थी। Engrossed का मतलब क्या होता है?",
                     },
                     options: {
                       en: [
-                        { text: "Lost in thought.", image: "https://example.com/blue.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-1en.mp3" },
-                        { text: "Focussed or lost in an activity!", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-2en.mp3" },
-                        { text: "Completed something.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-3en.mp3" },
-                        { text: "Not liking something.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-4en.mp3" },
+                        { text: "Lost in thought.", image: "https://d16ho1g3lqitul.cloudfront.net/1-a-C.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-1en.mp3" },
+                        { text: "Focussed or lost in an activity!", image: "https://d16ho1g3lqitul.cloudfront.net/1-a-A.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-2en.mp3" },
+                        { text: "Completed something.", image: "https://d16ho1g3lqitul.cloudfront.net/1-a-D.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-3en.mp3" },
+                        { text: "Not liking something.", image: "https://d16ho1g3lqitul.cloudfront.net/1-a-B.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-4en.mp3" },
                       ],
                       hi: [
                         { text: "ख्यालों में खोया हुआ।", image: "https://example.com/blue.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-1-1.mp3" },
@@ -230,10 +366,10 @@ mongoose
                     question: { en: "What does it mean to have the jitters?", hi: "Jitters का मतलब क्या होता है?" },
                     options: {
                       en: [
-                        { text: "To have snacks to eat.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-1en.mp3" },
-                        { text: "Having insects near you.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-2en.mp3" },
-                        { text: "To be scared.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-3en.mp3" },
-                        { text: "Shaking hard.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-4en.mp3" },
+                        { text: "To have snacks to eat.", image: "https://d16ho1g3lqitul.cloudfront.net/1-b-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-1en.mp3" },
+                        { text: "Having insects near you.", image: "https://d16ho1g3lqitul.cloudfront.net/1-b-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-2en.mp3" },
+                        { text: "To be scared.", image: "https://d16ho1g3lqitul.cloudfront.net/1-b-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-3en.mp3" },
+                        { text: "Shaking hard.", image: "https://d16ho1g3lqitul.cloudfront.net/1-b-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-4en.mp3" },
                       ],
                       hi: [
                         { text: "खाने के लिए स्नैक्स।", audio: "https://d16ho1g3lqitul.cloudfront.net/q-2-1.mp3" },
@@ -350,10 +486,10 @@ mongoose
                     question: { en: "Mr Williams believes that being ______ is not the way.", hi: "श्री विलियम्स का मानना है कि ______ होना सही तरीका नहीं है।" },
                     options: {
                       en: [
-                        { text: "loud", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-1en.mp3" },
-                        { text: "strict", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-2en.mp3" },
-                        { text: "lazy", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-3en.mp3" },
-                        { text: "sad", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-4en.mp3" },
+                        { text: "loud", image: "https://d16ho1g3lqitul.cloudfront.net/2-c-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-1en.mp3" },
+                        { text: "strict", image: "https://d16ho1g3lqitul.cloudfront.net/2-c-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-2en.mp3" },
+                        { text: "lazy", image: "https://d16ho1g3lqitul.cloudfront.net/2-c-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-3en.mp3" },
+                        { text: "sad", image: "https://d16ho1g3lqitul.cloudfront.net/2-c-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-4en.mp3" },
                       ],
                       hi: [
                         { text: "जोर से", audio: "https://d16ho1g3lqitul.cloudfront.net/q-8-1.mp3" },
@@ -369,10 +505,10 @@ mongoose
                     question: { en: "Raju was baffled by Mr Kumar’s answer. What does it mean to be baffled?", hi: "राजू श्री कुमार के उत्तर से हैरान था। Baffled का मतलब क्या होता है?" },
                     options: {
                       en: [
-                        { text: "confused", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-1en.mp3" },
-                        { text: "troubled", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-2en.mp3" },
-                        { text: "amused", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-3en.mp3" },
-                        { text: "excited", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-4en.mp3" },
+                        { text: "confused", image: "https://d16ho1g3lqitul.cloudfront.net/2-d-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-1en.mp3" },
+                        { text: "troubled", image: "https://d16ho1g3lqitul.cloudfront.net/2-d-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-2en.mp3" },
+                        { text: "amused", image: "https://d16ho1g3lqitul.cloudfront.net/2-d-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-3en.mp3" },
+                        { text: "excited", image: "https://d16ho1g3lqitul.cloudfront.net/2-d-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-4en.mp3" },
                       ],
                       hi: [
                         { text: "उलझन में", audio: "https://d16ho1g3lqitul.cloudfront.net/q-9-1.mp3" },
@@ -410,17 +546,18 @@ mongoose
                 questions: [
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Do you remember your first day of school? What did it feel like?", hi: "क्या आपको अपने स्कूल के पहले दिन की याद है? वह कैसा लगा था?" },
                     options: {
                       en: [
-                        { text: "Yay! I’ll meet new people…", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-1en.mp3" },
-                        { text: "blah", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-2en.mp3" },
-                        { text: "Oh no! New people…", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-3en.mp3" },
-                        { text: "Umm… I wish I could sleep more…", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-4en.mp3" },
+                        { text: "Yay! I’ll meet new people…", image: "https://d16ho1g3lqitul.cloudfront.net/3-b-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-1en.mp3" },
+                        { text: "blah", image: "https://d16ho1g3lqitul.cloudfront.net/3-b-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-2en.mp3" },
+                        { text: "Oh no! New people…", image: "https://d16ho1g3lqitul.cloudfront.net/3-b-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-3en.mp3" },
+                        { text: "Umm… I wish I could sleep more…", image: "https://d16ho1g3lqitul.cloudfront.net/3-b-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-4en.mp3" },
                       ],
                       hi: [
                         { text: "वाह! मैं नए लोगों से मिलूंगा..." , audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-1.mp3"},
-                        { text: "ब्लाह", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-2.mp3"},
+                        { text: "ब्लाह", image: "https://d16ho1g3lqitul.cloudfront.net/3-b-D.jpg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-2.mp3"},
                         { text: "ओह नहीं! नए लोग...", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-3.mp3" },
                         { text: "उम्म... काश मैं और सो पाता...", audio: "https://d16ho1g3lqitul.cloudfront.net/q-11-4.mp3" },
                       ],
@@ -429,13 +566,14 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What feelings would you associate with the first day of school?", hi: "स्कूल के पहले दिन से आप किन भावनाओं को जोड़ते हैं?" },
                     options: {
                       en: [
-                        { text: "sad" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-1en.mp3"},
-                        { text: "happy", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-2en.mp3" },
-                        { text: "fearful", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-3en.mp3" },
-                        { text: "angry", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-4en.mp3" },
+                        { text: "sad" , image: "https://d16ho1g3lqitul.cloudfront.net/3-c-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-1en.mp3"},
+                        { text: "happy", image: "https://d16ho1g3lqitul.cloudfront.net/3-c-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-2en.mp3" },
+                        { text: "fearful", image: "https://d16ho1g3lqitul.cloudfront.net/3-c-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-3en.mp3" },
+                        { text: "angry", image: "https://d16ho1g3lqitul.cloudfront.net/3-c-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-4en.mp3" },
                       ],
                       hi: [
                         { text: "दुखी" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-12-1.mp3"},
@@ -448,6 +586,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Have you ever been late to school?", hi: "क्या आप कभी स्कूल में देर से पहुंचे हैं?" },
                     options: {
                       en: [
@@ -467,6 +606,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What happens when you are late to school?", hi: "जब आप स्कूल में देर से पहुंचते हैं तो क्या होता है?" },
                     options: {
                       en: [
@@ -486,6 +626,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "How do you feel when you are late to school?", hi: "जब आप स्कूल में देर से पहुंचते हैं तो कैसा महसूस करते हैं?" },
                     options: {
                       en: [
@@ -512,13 +653,14 @@ mongoose
                 questions: [
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Why do you go to school?", hi: "आप स्कूल क्यों जाते हैं?" },
                     options: {
                       en: [
-                        { text: "to read!", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-1en.mp3" },
-                        { text: "To play", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-2en.mp3" },
-                        { text: "To get out of the house.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-3en.mp3" },
-                        { text: "To get an education that will help me realize my full potential.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-4en.mp3" },
+                        { text: "to read!", image: "https://d16ho1g3lqitul.cloudfront.net/4-a-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-1en.mp3" },
+                        { text: "To play", image: "https://d16ho1g3lqitul.cloudfront.net/4-a-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-2en.mp3" },
+                        { text: "To get out of the house.", image: "https://d16ho1g3lqitul.cloudfront.net/4-a-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-3en.mp3" },
+                        { text: "To get an education that will help me realize my full potential.", image: "https://d16ho1g3lqitul.cloudfront.net/4-a-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-4en.mp3" },
                       ],
                       hi: [
                         { text: "पढ़ाई!" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-16-1.mp3"},
@@ -531,6 +673,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What do you look forward to on the first day of school?", hi: "स्कूल के पहले दिन आप किस बात की प्रतीक्षा करते हैं?" },
                     options: {
                       en: [
@@ -554,15 +697,16 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What feelings would you associate with the first day of school?", hi: "स्कूल के पहले दिन से आप किन भावनाओं को जोड़ते हैं?" },
                     options: {
                       en: [
-                        { text: "Excited" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-1en.mp3"},
-                        { text: "Disgusted", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-2en.mp3" },
-                        { text: "Angry" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-3en.mp3"},
-                        { text: "Happy" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-4en.mp3"},
-                        { text: "Fearful" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-5en.mp3"},
-                        { text: "Sad" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-6en.mp3"},
+                        { text: "Excited" , image: "https://d16ho1g3lqitul.cloudfront.net/4-c-E.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-1en.mp3"},
+                        // { text: "Disgusted", image: "https://d16ho1g3lqitul.cloudfront.net/4-C-F.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-2en.mp3" },
+                        { text: "Angry" , image: "https://d16ho1g3lqitul.cloudfront.net/4-c-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-3en.mp3"},
+                        { text: "Happy" , image: "https://d16ho1g3lqitul.cloudfront.net/4-c-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-4en.mp3"},
+                        // { text: "Fearful" , image: "https://d16ho1g3lqitul.cloudfront.net/4-c-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-5en.mp3"},
+                        { text: "Sad" , image: "https://d16ho1g3lqitul.cloudfront.net/4-c-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-18-6en.mp3"},
 
 
                       ],
@@ -579,13 +723,14 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Are you afraid of anything at school?", hi: "क्या आपको स्कूल में किसी चीज से डर लगता है?" },
                     options: {
                       en: [
-                        { text: "I don’t know" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-1en.mp3"},
-                        { text: "Not at all!", audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-2en.mp3" },
-                        { text: "Yes" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-3en.mp3"},
-                        { text: "Maybe" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-4en.mp3"},
+                        { text: "I don’t know" , image: "https://d16ho1g3lqitul.cloudfront.net/4-d-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-1en.mp3"},
+                        { text: "Not at all!", image: "https://d16ho1g3lqitul.cloudfront.net/4-d-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-2en.mp3" },
+                        { text: "Yes" , image: "https://d16ho1g3lqitul.cloudfront.net/4-d-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-3en.mp3"},
+                        { text: "Maybe"  , image: "https://d16ho1g3lqitul.cloudfront.net/4-d-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-4en.mp3"},
                       ],
                       hi: [
                         { text: "मुझे नहीं पता" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-19-1.mp3"},
@@ -598,6 +743,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Who do you talk to about any of your fears?", hi: "अपने किसी डर के बारे में आप किससे बात करते हैं?" },
                     options: {
                       en: [
@@ -629,6 +775,7 @@ mongoose
                 questions: [
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What questions would you like to ask your friends at school?", hi: "आप अपने स्कूल के दोस्तों से कौन से सवाल पूछना चाहेंगे?" },
                     options: {
                       en: [
@@ -648,6 +795,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What do you want to know about your teacher? What questions will you ask them?", hi: "आप अपने शिक्षक के बारे में क्या जानना चाहते हैं? आप उनसे कौन से सवाल पूछेंगे?" },
                     options: {
                       en: [
@@ -668,13 +816,14 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What do you like about your favorite teacher?", hi: "आपको अपने पसंदीदा शिक्षक में क्या पसंद है?" },
                     options: {
                       en: [
-                        { text: "Kindness and Patience" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-1en.mp3"},
-                        { text: "Encouragement and Support", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-2en.mp3" },
-                        { text: "Engaging Teaching Style", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-3en.mp3" },
-                        { text: "Sense of Humor", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-4en.mp3" },
+                        { text: "Kindness and Patience" , image: "https://d16ho1g3lqitul.cloudfront.net/5-c-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-1en.mp3"},
+                        { text: "Encouragement and Support", image: "https://d16ho1g3lqitul.cloudfront.net/5-c-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-2en.mp3" },
+                        { text: "Engaging Teaching Style", image: "https://d16ho1g3lqitul.cloudfront.net/5-c-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-3en.mp3" },
+                        { text: "Sense of Humor", image: "https://d16ho1g3lqitul.cloudfront.net/5-c-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-4en.mp3" },
                        
 
 
@@ -690,13 +839,14 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Do you feel a sense of freedom in your classroom?", hi: "क्या आपको अपनी कक्षा में स्वतंत्रता का अहसास होता है?" },
                     options: {
                       en: [
-                        { text: "I don’t know" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-1en.mp3"},
-                        { text: "Yes", audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-2en.mp3" },
-                        { text: "Sometimes", audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-3en.mp3" },
-                        { text: "No", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-4en.mp3" },
+                        { text: "I don’t know" , image: "https://d16ho1g3lqitul.cloudfront.net/5-d-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-1en.mp3"},
+                        { text: "Yes", image: "https://d16ho1g3lqitul.cloudfront.net/5-d-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-2en.mp3" },
+                        { text: "Sometimes", image: "https://d16ho1g3lqitul.cloudfront.net/5-d-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-3en.mp3" },
+                        { text: "No", image: "https://d16ho1g3lqitul.cloudfront.net/5-d-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-23-4en.mp3" },
                       ],
                       hi: [
                         { text: "मुझे नहीं पता" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-24-1.mp3"},
@@ -709,13 +859,14 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What would make you feel free in your classroom?", hi: "क्या चीज आपको कक्षा में स्वतंत्र महसूस कराएगी?" },
                     options: {
                       en: [
                         { text: "I wish there were more kids in my class" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-25-1en.mp3"},
                         { text: "I wish there were fewer kids in my class.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-25-3en.mp3" },
                         { text: "I wish my teachers were less strict" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-25-3en.mp3"},
-                        { text: "I wish we didn’t have marks or exams." , audio: "https://d16ho1g3lqitul.cloudfront.net/q-25-4en.mp3"},
+                        { text: "I wish we didn’t have marks or exams." ,  audio: "https://d16ho1g3lqitul.cloudfront.net/q-25-4en.mp3"},
                         
 
                       ],
@@ -737,13 +888,14 @@ mongoose
                 questions: [
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What do you think you’re good at in school?", hi: "आपको स्कूल में किस चीज में अच्छा लगता है?" },
                     options: {
                       en: [
-                        { text: "Reading" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-1en.mp3"},
-                        { text: "Art and Creativity", audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-2en.mp3" },
-                        { text: "Science" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-3en.mp3"},
-                        { text: "Maths" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-4en.mp3"},
+                        { text: "Reading" , image: "https://d16ho1g3lqitul.cloudfront.net/6-a-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-1en.mp3"},
+                        { text: "Art and Creativity", image: "https://d16ho1g3lqitul.cloudfront.net/6-a-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-2en.mp3" },
+                        { text: "Science" , image: "https://d16ho1g3lqitul.cloudfront.net/6-a-E.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-3en.mp3"},
+                        { text: "Maths" , image: "https://d16ho1g3lqitul.cloudfront.net/6-a-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-4en.mp3"},
                       ],
                       hi: [
                         { text: "पढ़ाई" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-26-1.mp3"},
@@ -756,13 +908,14 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "How many friends have you made in school?", hi: "आपने स्कूल में कितने दोस्त बनाए हैं?" },
                     options: {
                       en: [
-                        { text: "None" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-1en.mp3"},
-                        { text: "Many", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-2en.mp3" },
-                        { text: "Few good friends", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-3en.mp3" },
-                        { text: "I feel like I’m alone", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-4en.mp3" },
+                        { text: "None" , image: "https://d16ho1g3lqitul.cloudfront.net/6-b-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-1en.mp3"},
+                        { text: "Many", image: "https://d16ho1g3lqitul.cloudfront.net/6-b-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-2en.mp3" },
+                        { text: "Few good friends", image: "https://d16ho1g3lqitul.cloudfront.net/6-b-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-3en.mp3" },
+                        { text: "I feel like I’m alone", image: "https://d16ho1g3lqitul.cloudfront.net/6-b-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-27-4en.mp3" },
                         
                       ],
                       hi: [
@@ -776,6 +929,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "When do you know you have made a friend?", hi: "आपको कब पता चलता है कि आपने एक दोस्त बना लिया है?" },
                     options: {
                       en: [
@@ -801,6 +955,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Do you make new friends easily?", hi: "क्या आप आसानी से नए दोस्त बना लेते हैं?" },
                     options: {
                       en: [
@@ -818,15 +973,16 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "How do you feel about making new friends?", hi: "नए दोस्त बनाने के बारे में आप कैसा महसूस करते हैं?" },
                     options: {
                       en: [
-                        { text: "Happy" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-1en.mp3"},
-                        { text: "Excited", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-2en.mp3" },
-                        { text: "Angry" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-3en.mp3"},
-                        { text: "Fearful" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-4en.mp3"},
-                        { text: "Sad" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-5en.mp3"},
-                        { text: "Disgusted" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-6en.mp3"},
+                        { text: "Happy" , image: "https://d16ho1g3lqitul.cloudfront.net/6-e-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-1en.mp3"},
+                        { text: "Excited", image: "https://d16ho1g3lqitul.cloudfront.net/6-e-E.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-2en.mp3" },
+                        { text: "Angry" , image: "https://d16ho1g3lqitul.cloudfront.net/6-e-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-3en.mp3"},
+                        { text: "Fearful" , image: "https://d16ho1g3lqitul.cloudfront.net/6-e-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-4en.mp3"},
+                        // { text: "Sad" , image: "https://d16ho1g3lqitul.cloudfront.net/6-e-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-5en.mp3"},
+                        // { text: "Disgusted" , image: "https://d16ho1g3lqitul.cloudfront.net/6-e-F.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-30-6en.mp3"},
                         
 
                       ],
@@ -844,6 +1000,7 @@ mongoose
 
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "How can you go about making new friends?", hi: "आप नए दोस्त कैसे बना सकते हैं?" },
                     options: {
                       en: [
@@ -875,13 +1032,14 @@ mongoose
                 questions: [
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Do you notice boxes in your life?", hi: "क्या आप अपने जीवन में बक्सों को देखते हैं?" },
                     options: {
                       en: [
-                        { text: "None", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-1en.mp3" },
-                        { text: "Yes many!", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-2en.mp3" },
-                        { text: "Everything is a box!", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-3en.mp3" },
-                        { text: "A few maybe", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-4en.mp3" },
+                        { text: "None", image: "https://d16ho1g3lqitul.cloudfront.net/7-a-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-1en.mp3" },
+                        { text: "Yes many!", image: "https://d16ho1g3lqitul.cloudfront.net/7-a-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-2en.mp3" },
+                        { text: "Everything is a box!", image: "https://d16ho1g3lqitul.cloudfront.net/7-a-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-3en.mp3" },
+                        { text: "A few maybe", image: "https://d16ho1g3lqitul.cloudfront.net/7-a-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-4en.mp3" },
                       ],
                       hi: [
                         { text: "कोई नहीं" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-32-1.mp3"},
@@ -894,6 +1052,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "Have you been out in nature in the last three months?", hi: "क्या आप पिछले तीन महीनों में प्रकृति में बाहर गए हैं?" },
                     options: {
                       en: [
@@ -911,6 +1070,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What does it feel like when are out in nature?", hi: "प्रकृति में बाहर होने पर कैसा महसूस होता है?" },
                     options: {
                       en: [
@@ -936,14 +1096,15 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "How could you ask an adult to take you out into nature?", hi: "आप एक वयस्क से प्रकृति में बाहर ले जाने के लिए कैसे कह सकते हैं?" },
                     options: {
                       en: [
                         
-                        { text: "Just ask nicely.", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-1en.mp3" },
-                        { text: "Suggest activities like hiking or a picnic", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-2en.mp3" },
-                        { text: "Express interest about wanting to go into nature." , audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-3en.mp3"},
-                        { text: "Demand it!" , audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-4en.mp3"},
+                        { text: "Just ask nicely.", image: "https://d16ho1g3lqitul.cloudfront.net/7-d-A.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-1en.mp3" },
+                        { text: "Suggest activities like hiking or a picnic", image: "https://d16ho1g3lqitul.cloudfront.net/7-d-C.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-2en.mp3" },
+                        { text: "Express interest about wanting to go into nature." , image: "https://d16ho1g3lqitul.cloudfront.net/7-d-B.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-3en.mp3"},
+                        { text: "Demand it!" , image: "https://d16ho1g3lqitul.cloudfront.net/7-d-D.svg", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-4en.mp3"},
                       ],
                       hi: [
                         { text: "बस विनम्रता से पूछें।", audio: "https://d16ho1g3lqitul.cloudfront.net/q-35-1.mp3" },
@@ -955,6 +1116,7 @@ mongoose
                   },
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What are some things you can do to feel alive and energized when you’re not in nature?", hi: "जब आप प्रकृति में नहीं होते हैं, तो जीवंत और ऊर्जावान महसूस करने के लिए आप क्या कर सकते हैं?" },
                     options: {
                       en: [
@@ -981,6 +1143,7 @@ mongoose
 
                   {
                     type: "mcq",
+                    anyOptionCorrect: true,
                     question: { en: "What feelings are associated with Sochu stories?", hi: "सोचू की कहानियों से कौन सी भावनाएँ जुड़ी होती हैं?" },
                     options: {
                       en: [
@@ -1131,48 +1294,102 @@ mongoose
 
     const broadcastData = [
       {
-        name: "Sochu - Pune",
+        name: "Exploring Curiosity",
         slug: "sochu-pune",
         description: "Pune users ke liye special updates and inspiration",
         posts: [
           {
-            title: "🌄 Good Morning Pune!",
-            content: "Aaj ka mantra: Breathe deeply and stay calm 🙏",
+            title: "What if your dreams aren’t theirs? Parenting experts remind us: our job isn’t to script our child’s future, but to support the authoring of their own. When we let go of the outcomes we imagined, we make space for motivation that truly lasts. 👉 What’s one expectation you can loosen to let your child lead?",
+            content: "#sochuseries #mindfulparenting #letthemlead #parentingwisdom #raisingthinkers",
             images: [
-              "http://localhost:3001/uploads/pune-morning1.jpg",
-              "http://localhost:3001/uploads/pune-morning2.jpg",
+              "https://d16ho1g3lqitul.cloudfront.net/p-4-1.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-4-2.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-4-3.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-4-4.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-4-5.png",
             ],
           },
           {
-            title: "🧘 Soothing Sound",
-            content: "Try our 3-minute breathing session today!",
+            title: "Experts say: children don’t learn to listen by being told — they learn by being heard. When we pause to truly listen (without jumping in to correct), we model the very behavior we want to see. Cooperation starts with connection. 👉 Where can you simply listen today?",
+            content: "#SochuSeries #ParentingTips #MindfulParenting #ActiveListening #ConnectedParenting #RaisingThinkers",
             images: [
-              "http://localhost:3001/uploads/soothing-sound1.jpg",
-              "http://localhost:3001/uploads/soothing-sound2.jpg",
+              "https://d16ho1g3lqitul.cloudfront.net/p-5-1.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-5-2.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-5-3.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-5-4.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-5-5.png",
             ],
+          },
+          {
+            title: "Because routines don’t stick through reminders — they stick through shared rituals. If your child resists small tasks like folding clothes, maybe it’s not the task — it’s the approach. So here’s your challenge this week: Pick one task and turn it into a shared ritual. Let learning flow through togetherness.",
+            content: "#SochuSeries #ParentingTips #MindfulParenting #ActiveListening #ConnectedParenting #RaisingThinkers",
+            images: [
+              "https://d16ho1g3lqitul.cloudfront.net/p-6-1.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-6-2.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-6-3.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-6-4.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-6-5.png",
+            ],
+          },
+          {
+            title: "Do you feel like a bad parent when your child misbehaves? But what if we told you — it’s not about being perfect, it’s about being present? Misbehavior isn’t always defiance. Sometimes, it’s a cry for connection. And your self-blame? It deserves a little compassion too. Let’s replace shame with curiosity. Because kids don’t need perfect parents — they need safe ones.",
+            content: "#SochuSeries #ParentingTips #MindfulParenting #ActiveListening #ConnectedParenting #RaisingThinkers",
+            images: [
+              "https://d16ho1g3lqitul.cloudfront.net/p-8-1.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-8-2.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-8-3.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-8-4.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-8-5.png",
+            ],
+          },
+          {
+            title: "We often think control = results. But research—and experience—says otherwise. Children respond not to power, but to presence. Not to enforcement, but to empowerment. When we invite them into decisions with empathy and understanding, the change we seek comes from within, not fear. 👉 Where can you offer choice instead of control this week?",
+            content: "#sochuseries #mindfulparenting #emotionalintelligence #parentingtips #gentleparenting #positiveparenting #exploringcuriosity #empowermentovercontrol.",
+            images: [
+              "https://d16ho1g3lqitul.cloudfront.net/p-2-1.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-2-2.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-2-3.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-2-4.png",
+              "https://d16ho1g3lqitul.cloudfront.net/p-2-5.png",
+            ],
+          },
+          {
+            title: "Hello Test!",
+            content: "#sochuseries #mindfulparenting #emotionalintelligence #parentingtips #gentleparenting #positiveparenting #exploringcuriosity #empowermentovercontrol.",
+            images: [
+              "https://d16ho1g3lqitul.cloudfront.net/p-2-5.png",
+              
+            ],
+            videos:["https://d16ho1g3lqitul.cloudfront.net/a1.mp4"]
           },
         ],
       },
       {
-        name: "Sochu - Mumbai",
+        name: "ASMR",
         slug: "sochu-mumbai",
-        description: "Mumbai users ke liye special updates and inspiration",
+        description: "ASMR For You",
         posts: [
+          
           {
-            title: "🌅 Good Morning Mumbai!",
-            content: "Stay positive and spread joy 😇",
+            title: "You’re not failing. You’re learning—through the mess, the missteps, the long days. Every tough moment is part of the growth. Breathe. You’re doing more than you know. And that… is enough. Take a few minutes quiet break. Listen to this audio and indulge in the calm, soothing vibe you truly deserve.",
+            content: "#ParentingPause #YouAreEnough #GentleParenting #SochuSeries #MindfulParenting",
             images: [
-              "http://localhost:3001/uploads/mumbai-morning1.jpg",
-              "http://localhost:3001/uploads/mumbai-morning2.jpg",
             ],
+            videos:["https://d16ho1g3lqitul.cloudfront.net/a1.mp4"]
           },
           {
-            title: "🌊 Beach Meditation",
-            content: "Relax your mind by the serene waves of Mumbai.",
+            title: "Your joy matters too. Not just your responsibilities. Not just your strength. But your laughter, your ease, your quiet delight— they deserve space too. Close your eyes for a moment… Let your desires rise without guilt. You are allowed to want more than just enough. You are allowed to feel joy—deeply, fully, freely. Take 3 minutes. Listen to this audio and let your joy breathe again.",
+            content: "#JoyIsEssential #ParentWithPresence #YouMatterToo #SochuSeries #GentlePause",
             images: [
-              "http://localhost:3001/uploads/beach-meditation1.jpg",
-              "http://localhost:3001/uploads/beach-meditation2.jpg",
             ],
+            videos: ["https://d16ho1g3lqitul.cloudfront.net/a2.mp4"]
+          },
+          {
+            title: "You’re allowed to dream again. Not just survive, not just get through the day—but to want more. To imagine beauty, ease, and moments that are just for you. Close your eyes for a moment… Let your desires rise without guilt. You are allowed to want more than just enough. Feel the softness of your own longing— and know that it matters. Press play, Take 3 quiet minutes and drift into this calming audio. Let yourself feel the dream again.",
+            content: "#DreamAgain #ParentingPause #YouDeserveMore #SochuSeries #mindfulmoments",
+            images: [
+            ],
+            videos: ["https://d16ho1g3lqitul.cloudfront.net/a3.mp4"]
           },
         ],
       },

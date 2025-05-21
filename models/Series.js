@@ -2,8 +2,9 @@ import mongoose from "mongoose";
 
 const questionSchema = new mongoose.Schema({
   type: { type: String, default: "mcq" },
-  allowCustomAnswer: {type: Boolean, default: false},
-  image: {type: String},
+  allowCustomAnswer: { type: Boolean, default: false },
+  anyOptionCorrect: { type: Boolean, default: false }, // ✅ New field for any correct option
+  image: { type: String },
   question: {
     en: { type: String },
     hi: { type: String },
@@ -29,14 +30,27 @@ const questionSchema = new mongoose.Schema({
     hi: { type: String },
   },
   pages: {
-    en: [{ type: String }], // Book reading pages
-    hi: [{ type: String }],
+    en: [
+      {
+        image: { type: String },
+        audio: { type: String }, // Added audio field for each page
+        hardWords: [{ type: String }],
+        speakText: { type: String }, // ✅ Added for voice recognition
+        
+      },
+    ],
+    hi: [
+      {
+        image: { type: String },
+        audio: { type: String }, // Added audio field for each page
+        hardWords: [{ type: String }],
+      },
+    ],
   },
-
   readAloudText: {
     en: { type: String },
     hi: { type: String },
-  }
+  },
 });
 
 const lessonSchema = new mongoose.Schema({

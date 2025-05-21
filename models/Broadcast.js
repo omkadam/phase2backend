@@ -25,6 +25,7 @@ const broadcastSchema = new mongoose.Schema({
       title: String,
       content: String,
       images: [String], // Array to store image URLs
+      videos: [String],
       date: { type: Date, default: Date.now },
       likes: [likeSchema], // Array of users who liked this post
       comments: [commentSchema] // Array of comments on this post
