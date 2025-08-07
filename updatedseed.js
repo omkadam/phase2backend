@@ -45,10 +45,6 @@ mongoose
               en: "Science shows that nature has a powerful impact on our brains—it reduces stress, boosts creativity, sharpens focus, and strengthens our connections with others. Whether it’s a walk in the park or gazing at the sky, nature grounds us and enriches our thinking. Join Sochu and his friends in celebrating the joy of curiosity and discovery!",
               hi: "विज्ञान दिखाता है कि प्रकृति का हमारे दिमाग पर बहुत गहरा प्रभाव होता है—यह तनाव कम करती है, रचनात्मकता बढ़ाती है, एकाग्रता तेज करती है, और दूसरों के साथ हमारे रिश्तों को मजबूत बनाती है। चाहे वो पार्क में टहलना हो या आसमान को निहारना, प्रकृति हमें स्थिर रखती है और हमारी सोच को समृद्ध बनाती है। सोचू और उसके दोस्तों के साथ जुड़िए जिज्ञासा और खोज की खुशी मनाने में!"
             },
-            riveAnimations: {
-              en: ["/sochu_foottab.riv", "/sochu_box.riv"],
-              hi: ["/sochu_foottab.riv", "/sochu_box.riv"]
-            },
             themeColor: "#00CD9C",
             borderBottomColor: "#00A07D",
             steps: 11,
@@ -334,12 +330,6 @@ mongoose
                     },
                     correct: { en: "Happy", hi: "खुश" },
                   },
-
-                  // {
-                  //   type: "review",
-                  //   image: "https://d16ho1g3lqitul.cloudfront.net/b1s1.png",
-                    
-                  // },
                 ],
               },
               // lesson 2
@@ -1692,10 +1682,6 @@ mongoose
               en: "Some of us, sometimes, know exactly what we want to be when we grow up! And some of us have no idea at all. We believe the most important part about growing up is to keep the curious inner child alive within us!",
               hi: "हम में से कुछ लोग, कभी-कभी, बिल्कुल सही जानते हैं कि बड़े होकर क्या बनना चाहते हैं! और हम में से कुछ को बिल्कुल भी पता नहीं होता। हमारा मानना है कि बड़े होने का सबसे महत्वपूर्ण हिस्सा यह है कि अपने अंदर के जिज्ञासु बच्चे को जिंदा रखा जाए!"
             },
-            riveAnimations: {
-              en: ["/raju_bee.riv", "/raju_shock.riv"],
-              hi: ["/raju_bee.riv", "/raju_shock.riv"]
-            },
             themeColor: "#CE82FF",
             borderBottomColor: "#A347E6",
             steps: 8,
@@ -2837,10 +2823,6 @@ mongoose
               en: "Global Warming is one of the biggest challenges that the current and next-generation will have to face. Almost everything that we do impacts the planet, and we need to alter our ways of living as soon as possible!",
               hi: "ग्लोबल वार्मिंग वर्तमान और आने वाली पीढ़ी के लिए सबसे बड़ी चुनौतियों में से एक है। हम जो भी करते हैं, लगभग सब कुछ ग्रह को प्रभावित करता है, और हमें जल्द से जल्द अपने जीने के तरीकों को बदलना होगा!"
             },
-            riveAnimations: {
-              en: ["/anju_&_earth.riv", "/anju.riv"],
-              hi: ["/anju_&_earth.riv", "/anju.riv"]
-            },
             themeColor: "#58CC02",
             borderBottomColor: "#46A302",
             steps: 8,
@@ -3858,10 +3840,6 @@ mongoose
             particularUnitDesc: {
               en: "Anger is a completely natural and human emotion! Most of the times, we either suppress it or act it out. But we would be so much better off if we learn how to express it in a nonviolent way. Nonviolent Communciation is an approach to communication based on principles of nonviolence developed by Marshall B. Rosenberg.",
               hi: "गुस्सा एक बिल्कुल प्राकृतिक और मानवीय भावना है! ज्यादातर समय, हम इसे या तो दबा देते हैं या इसे बाहर निकालते हैं। लेकिन अगर हम सीख जाएं कि इसे अहिंसक तरीके से कैसे व्यक्त करना है, तो हमारा बहुत भला होगा। अहिंसक संवाद एक ऐसा संचार दृष्टिकोण है जो मार्शल बी. रोसेनबर्ग द्वारा विकसित अहिंसा के सिद्धांतों पर आधारित है।"
-            },
-            riveAnimations: {
-              en: ["/manju_&_board.riv", "/manju_angry.riv"],
-              hi: ["/manju_&_board.riv", "/manju_angry.riv"]
             },
             themeColor: "#1CB0F6",
             borderBottomColor: "#168BC4",
@@ -4882,10 +4860,6 @@ mongoose
               en: "Everybody has their own understanding of GOD! NATURE | LOVE | ENERGY INTERCONNECTEDNESS | SPIRITUAL HUMANISM",
               hi: "हर किसी की भगवान की अपनी समझ होती है! प्रकृति | प्रेम | ऊर्जा | परस्पर जुड़ाव | आध्यात्मिक मानवतावाद"
             },
-            riveAnimations: {
-              en: ["/raju__drinking.riv", "/raju_searching.riv"],
-              hi: ["/raju__drinking.riv", "/raju_searching.riv"]
-            },
             themeColor: "#FF86D0",
             borderBottomColor: "#E650B8",
             steps: 8,
@@ -5903,10 +5877,6 @@ mongoose
             particularUnitDesc: {
               en: "While having the freedom of choice is vital for our individual freedom, too much choice in anything almost always leads to anxiety, dilemma and dissatisfaction! How can we make a decision and be happy, when we have SO MUCH choice?",
               hi: "जबकि विकल्प की स्वतंत्रता हमारी व्यक्तिगत आजादी के लिए महत्वपूर्ण है, किसी भी चीज में बहुत ज्यादा विकल्प लगभग हमेशा चिंता, दुविधा और असंतुष्टि की ओर ले जाते हैं! जब हमारे पास इतने सारे विकल्प हों तो हम कैसे निर्णय लें और खुश रहें?"
-            },
-            riveAnimations: {
-              en: ["/anju_thinking.riv", "/anju_sleeping.riv"],
-              hi: ["/anju_thinking.riv", "/anju_sleeping.riv"]
             },
             themeColor: "#FF9600",
             borderBottomColor: "#CC7700",
@@ -6926,10 +6896,6 @@ mongoose
               en: "In our extremely fast-paced and demanding world, to save time, our mind tries to do many things at the same time. This practice often yields disastrous results. Our attention spans are getting shorter and shorter by the day, and it is becoming impossible to stay focused on what we really want to do!",
               hi: "हमारी बेहद तेज़-रफ़्तार और मांग भरी दुनिया में, समय बचाने के लिए, हमारा मन एक ही समय में कई काम करने की कोशिश करता है। यह प्रथा अक्सर विनाशकारी परिणाम देती है। हमारे ध्यान की अवधि दिन-प्रतिदिन छोटी होती जा रही है, और जो हम वास्तव में करना चाहते हैं उस पर केंद्रित रहना असंभव होता जा रहा है!"
             },
-            riveAnimations: {
-              en: ["/manju__walk.riv", "/manju_vrikshashan.riv"],
-              hi: ["/manju__walk.riv", "/manju_vrikshashan.riv"]
-            },
             themeColor: "#FF4B4B",
             borderBottomColor: "#CC1515",
             steps: 8,
@@ -7947,10 +7913,6 @@ mongoose
             particularUnitDesc: {
               en: "We live in the age of information bombardment! While information can be an excellent tool to grow and prosper, we can also quickly lose ourselves and unknowingly become a part of the herd mentality! By ignoring our own craziness to be just like everyone else, we lose the ability to be truly happy!",
               hi: "हम सूचनाओं की बमबारी के युग में रह रहे हैं! जबकि जानकारी बढ़ने और फलने-फूलने का एक बेहतरीन साधन हो सकती है, हम जल्दी ही खुद को खो भी सकते हैं और अनजाने में भेड़चाल की मानसिकता का हिस्सा बन सकते हैं! बाकी सबकी तरह बनने के लिए अपनी खुद की विचित्रता को नज़रअंदाज़ करके, हम सच में खुश रहने की क्षमता खो देते हैं!"
-            },
-            riveAnimations: {
-              en: ["/raju_dance_1.riv", "/anju_dance_1.riv"],
-              hi: ["/raju_dance_1.riv", "/anju_dance_1.riv"]
             },
             themeColor: "#CC348D",
             borderBottomColor: "#A30A6F",
@@ -8970,10 +8932,6 @@ mongoose
               en: "In our extremely fast-paced and demanding world, to save time, our mind tries to do many things at the same time. This practice often yields disastrous results. Our attention spans are getting shorter and shorter by the day, and it is becoming impossible to stay focused on what we really want to do!",
               hi: "हमारी बेहद तेज़-रफ़्तार और मांग भरी दुनिया में, समय बचाने के लिए, हमारा मन एक ही समय में कई काम करने की कोशिश करता है। यह प्रथा अक्सर विनाशकारी परिणाम देती है। हमारे ध्यान की अवधि दिन-प्रतिदिन छोटी होती जा रही है, और जो हम वास्तव में करना चाहते हैं उस पर केंद्रित रहना असंभव होता जा रहा है!"
             },
-            riveAnimations: {
-              en: ["/sochu_painting.riv", "/sochu_painting.riv"],
-              hi: ["/sochu_painting.riv", "/sochu_painting.riv"]
-            },
             themeColor: "#DC8F47",
             borderBottomColor: "#B06921",
             steps: 8,
@@ -9991,10 +9949,6 @@ mongoose
             particularUnitDesc: {
               en: "We aren't born with a craving for junk food!  This conditioning happens over time as we get exposed to more and more unhealthy food choices through advertisements and peer pressure. Reprograming our food preferences can have a profound effect on our physical, emotional and mental well being.",
               hi: "हम जंक फूड की लालसा के साथ पैदा नहीं होते! यह कंडीशनिंग समय के साथ होती है जब हम विज्ञापनों और साथियों के दबाव के जरिए अधिक से अधिक अस्वस्थ खाने के विकल्पों के संपर्क में आते हैं। अपनी खाने की पसंद को दोबारा प्रोग्राम करना हमारी शारीरिक, भावनात्मक और मानसिक स्वास्थ्य पर गहरा प्रभाव डाल सकता है।"
-            },
-            riveAnimations: {
-              en: ["/sochu_burger_cola.riv", "/sochu__yoga.riv"],
-              hi: ["/sochu_burger_cola.riv", "/sochu__yoga.riv"]
             },
             themeColor: "#58CC02",
             borderBottomColor: "#46A302",
@@ -11014,10 +10968,6 @@ mongoose
               en: "When we hear the word gift, we immediately start thinking about things that we have to buy!  Things do give us happiness for some time, but are they the most valuable gifts that you can give someone?",
               hi: "जब हम उपहार शब्द सुनते हैं, तो हम तुरंत उन चीजों के बारे में सोचने लगते हैं जिन्हें हमें खरीदना होता है! चीजें हमें कुछ समय के लिए खुशी देती हैं, लेकिन क्या वे सबसे कीमती उपहार हैं जो आप किसी को दे सकते हैं?"
             },
-            riveAnimations: {
-              en: ["/mummy_papa.riv", "/mr_williams.riv"],
-              hi: ["/mummy_papa.riv", "/mr_williams.riv"]
-            },
             themeColor: "#1CB0F6",
             borderBottomColor: "#168BC4",
             steps: 8,
@@ -12036,10 +11986,6 @@ mongoose
             particularUnitDesc: {
               en: "NORMAL means the average or common! In our plight to fit into society, we often let go of ourselves. But how can we create an environment where we feel safe to be who we truly are? Remember: It is NORMAL to be yourself!",
               hi: "सामान्य का मतलब है औसत या आम! समाज में फिट इन होने की अपनी कोशिश में, हम अक्सर खुद को छोड़ देते हैं। लेकिन हम ऐसा माहौल कैसे बना सकते हैं जहाँ हम वो बनने के लिए सुरक्षित महसूस करें जो हम वास्तव में हैं? याद रखें: खुद होना सामान्य है!"
-            },
-            riveAnimations: {
-              en: ["/raju_joker.riv", "/raju__acting.riv"],
-              hi: ["/raju_joker.riv", "/raju__acting.riv"]
             },
             themeColor: "#FF86D0",
             borderBottomColor: "#E650B8",

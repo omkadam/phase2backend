@@ -9,16 +9,20 @@ const userProgressSchema = new mongoose.Schema({
   lessonProgress: { type: Map, of: Number, default: {} },
   isSubscribed: { type: Boolean, default: false },
 
-  // ✅ Naya field added to track subscribed broadcast channels
+  // ✅ Broadcast subscriptions
   broadcastSubscriptions: { type: [String], default: [] },
 
-  // ✅ Add this to track user answers per lesson
+  // ✅ User answers per lesson
   lessons: [
     {
       lessonId: String,
       answers: [String], // answer per question index
     }
   ],
+
+  // ✅ NEW: Episode tracking fields
+  unlockedEpisodes: { type: [Number], default: [1] }, // Episode 1 is always unlocked
+  completedEpisodes: { type: [Number], default: [] },
 });
 
 export default mongoose.model("UserProgress", userProgressSchema);

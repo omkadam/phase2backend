@@ -19,11 +19,13 @@ const likeSchema = new mongoose.Schema({
 const broadcastSchema = new mongoose.Schema({
   name: String,
   slug: { type: String, unique: true },
+  channelIcon: {type: String, required: true},
   description: String,
   posts: [
     {
       title: String,
       content: String,
+      profilePicture: {type: String, required: true},
       images: [String], // Array to store image URLs
       videos: [String],
       date: { type: Date, default: Date.now },

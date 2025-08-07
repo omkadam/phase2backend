@@ -5,9 +5,10 @@ import Broadcast from "../models/Broadcast.js";
 
 const router = express.Router();
 
-// ✅ Get all broadcast channels
+// ✅ Get all broadcast channels - FIXED to include channelIcon
 router.get("/", async (req, res) => {
-  const channels = await Broadcast.find({}, "name slug description");
+  // Add channelIcon to the selected fields
+  const channels = await Broadcast.find({}, "name slug description channelIcon");
   res.json(channels);
 });
 
@@ -44,12 +45,11 @@ router.get("/user/:userId/posts", async (req, res) => {
   
     const posts = await Broadcast.find(
       { slug: { $in: progress.broadcastSubscriptions } },
-      { posts: 1, slug: 1, name: 1, _id: 0 }
+      { posts: 1, slug: 1, name: 1, channelIcon: 1, _id: 0 } // Added channelIcon here too
     );
   
     res.json(posts);
   });
-
 
 // Like a post
 router.post('/:slug/posts/:postId/like', async (req, res) => {

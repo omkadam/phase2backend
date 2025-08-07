@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/your-db-name");
+mongoose.connect("mongodb+srv://Karu13AWSec2:Karu13AWSec2@cluster0.h0fpy5z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 // ✅ API routes
 app.use("/uploads", express.static("uploads"));

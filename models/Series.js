@@ -9,6 +9,10 @@ const questionSchema = new mongoose.Schema({
     en: { type: String },
     hi: { type: String },
   },
+  questionAudio: {
+    en: { type: String },
+    hi: { type: String },
+  },
   options: {
     en: [
       {
@@ -68,6 +72,22 @@ const unitSchema = new mongoose.Schema({
     hi: { type: String },
   },
   image: { type: String, required: true },
+  particularUnitImage: {type: String, required: true},
+  particularUnitImageTest: {
+    en: {type: String},
+    hi: {type: String}
+  },
+  
+  particularUnitDesc: {
+    en: {type: String},
+    hi: {type: String}
+  },
+  riveAnimations: {
+    en: [{ type: String }],
+    hi: [{ type: String }]
+  },
+  themeColor: {type: String},
+  borderBottomColor: {type: String},
   steps: { type: Number, default: 0 },
   lessons: [lessonSchema],
 });

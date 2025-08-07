@@ -7,6 +7,11 @@ const userProfileSchema = new mongoose.Schema({
   username: String,
   dob: Date,
   profileImage: String, // New field for base64 image
+
+  profilePopupShown: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 export default mongoose.model("UserProfile", userProfileSchema);
