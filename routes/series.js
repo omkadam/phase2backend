@@ -4,178 +4,205 @@ import UserProgress from "../models/UserProgress.js";
 import Broadcast from "../models/Broadcast.js";
 import Parent from "../models/Parent.js";
 import Idea from "../models/Idea.js";
+import BedtimeStory from "../models/BedtimeStory.js"; // ✅ NEW - Add this import
+
 const router = express.Router();
 
-// Get series data
-router.get("/:slug", async (req, res) => {
-  const { slug } = req.params;
-  const series = await Series.findOne({ slug });
-  if (!series) return res.status(404).json({ error: "Series not found" });
-  res.json(series);
-});
+// ====================================
+// ✅ BEDTIME STORIES ROUTES - MUST BE BEFORE DYNAMIC ROUTES
+// ====================================
 
-// Get lesson by series and lessonId
-router.get("/:slug/lesson/:lessonId", async (req, res) => {
-  const { slug, lessonId } = req.params;
-  console.log("Received slug:", slug);
-  console.log("Received lessonId:", lessonId);
-
-  const series = await Series.findOne({ slug });
-  if (!series) {
-    console.log("Series not found");
-    return res.status(404).json({ error: "Series not found" });
-  }
-
-  const [unitPart, lessonPart] = lessonId.replace("lesson-", "").split("-");
-  const unitIndex = parseInt(unitPart, 10) - 1;
-  const lessonIndex = parseInt(lessonPart, 10) - 1;
-
-  console.log("Unit Index:", unitIndex);
-  console.log("Lesson Index:", lessonIndex);
-
-  const unit = series.units?.[unitIndex];
-  if (!unit) {
-    console.log("Unit not found");
-    return res.status(404).json({ error: "Unit not found" });
-  }
-
-  const lesson = unit?.lessons?.[lessonIndex];
-  if (!lesson) {
-    console.log("Lesson not found");
-    return res.status(404).json({ error: "Lesson not found" });
-  }
-
-  console.log("Retrieved Lesson:", JSON.stringify(lesson, null, 2));
-  res.json(lesson);
-});
-
-// Get user progress
-router.get("/:slug/progress/:userId", async (req, res) => {
-  const { slug, userId } = req.params;
-  const series = await Series.findOne({ slug });
-  if (!series) return res.status(404).json({ error: "Series not found" });
-
-  let progress = await UserProgress.findOne({ userId, seriesSlug: slug });
-  if (!progress) {
-    progress = await UserProgress.create({
-      userId,
-      seriesSlug: slug,
-      unlockedLessons: [0],
-      isSubscribed: false,
-    });
-  }
-
-  if (progress.isSubscribed) {
-    const newUnlocks = [];
-    series.units.forEach((unit, unitIndex) => {
-      const firstLessonGlobalIndex = unitIndex * 100;
-      if (!progress.unlockedLessons.includes(firstLessonGlobalIndex)) {
-        newUnlocks.push(firstLessonGlobalIndex);
-      }
-    });
-    if (newUnlocks.length > 0) {
-      progress.unlockedLessons.push(...newUnlocks);
-      await progress.save();
-    }
-  }
-
-  res.json({
-    unlockedLessons: progress.unlockedLessons ?? [],
-    isSubscribed: progress.isSubscribed,
-    xp: progress.xp,
-    hearts: progress.hearts,
-    lessonProgress: progress.lessonProgress || {},
-    broadcastSubscriptions: progress.broadcastSubscriptions || [],
-  });
-});
-
-// Unlock next lesson
-router.post("/:slug/progress/:userId", async (req, res) => {
-  const { slug, userId } = req.params;
-  const { nextLessonGlobalIndex } = req.body;
-
-  let progress = await UserProgress.findOne({ userId, seriesSlug: slug });
-  if (!progress) {
-    progress = await UserProgress.create({
-      userId,
-      seriesSlug: slug,
-      unlockedLessons: [0],
-    });
-  }
-
-  if (!progress.unlockedLessons.includes(nextLessonGlobalIndex)) {
-    progress.unlockedLessons.push(nextLessonGlobalIndex);
-  }
-
-  await progress.save();
-
-  res.json({
-    unlockedLessons: progress.unlockedLessons,
-    xp: progress.xp,
-    hearts: progress.hearts,
-  });
-});
-
-// ✅ PATCH XP/Hearts + Custom Answer Tracking
-router.patch("/:slug/progress/:userId", async (req, res) => {
+// GET all bedtime stories
+router.get("/bedtime-stories", async (req, res) => {
   try {
-    const { slug, userId } = req.params;
-    const {
-      xpChange = 0,
-      heartChange = 0,
-      lessonId,
-      userAnswer,
-      questionIndex = 0,
-      lastCompletedQuestionIndex,
-    } = req.body;
+    const stories = await BedtimeStory.find({ isActive: true }).sort({ createdAt: -1 });
+    res.json(stories);
+  } catch (error) {
+    console.error("Error fetching bedtime stories:", error);
+    res.status(500).json({ error: "Failed to fetch bedtime stories" });
+  }
+});
 
-    console.log("👉 Received userAnswer:", userAnswer);
-    console.log("👉 Lesson ID:", lessonId);
+// GET single bedtime story by ID
+router.get("/bedtime-stories/:storyId", async (req, res) => {
+  try {
+    const { storyId } = req.params;
+    const story = await BedtimeStory.findOne({ storyId, isActive: true });
+    
+    if (!story) {
+      return res.status(404).json({ error: "Story not found" });
+    }
+    
+    res.json(story);
+  } catch (error) {
+    console.error("Error fetching bedtime story:", error);
+    res.status(500).json({ error: "Failed to fetch bedtime story" });
+  }
+});
 
-    let progress = await UserProgress.findOne({ userId, seriesSlug: slug });
+// POST create new bedtime story (admin route)
+router.post("/bedtime-stories", async (req, res) => {
+  try {
+    const newStory = new BedtimeStory(req.body);
+    const savedStory = await newStory.save();
+    res.status(201).json(savedStory);
+  } catch (error) {
+    console.error("Error creating bedtime story:", error);
+    res.status(500).json({ error: "Failed to create bedtime story" });
+  }
+});
 
+// PUT update bedtime story (admin route)
+router.put("/bedtime-stories/:storyId", async (req, res) => {
+  try {
+    const { storyId } = req.params;
+    const updatedStory = await BedtimeStory.findOneAndUpdate(
+      { storyId },
+      { ...req.body, updatedAt: new Date() },
+      { new: true }
+    );
+    
+    if (!updatedStory) {
+      return res.status(404).json({ error: "Story not found" });
+    }
+    
+    res.json(updatedStory);
+  } catch (error) {
+    console.error("Error updating bedtime story:", error);
+    res.status(500).json({ error: "Failed to update bedtime story" });
+  }
+});
+
+// DELETE bedtime story (soft delete)
+router.delete("/bedtime-stories/:storyId", async (req, res) => {
+  try {
+    const { storyId } = req.params;
+    const deletedStory = await BedtimeStory.findOneAndUpdate(
+      { storyId },
+      { isActive: false, updatedAt: new Date() },
+      { new: true }
+    );
+    
+    if (!deletedStory) {
+      return res.status(404).json({ error: "Story not found" });
+    }
+    
+    res.json({ message: "Story deleted successfully" });
+  } catch (error) {
+    console.error("Error deleting bedtime story:", error);
+    res.status(500).json({ error: "Failed to delete bedtime story" });
+  }
+});
+
+// GET bedtime story listening progress for user
+router.get("/bedtime-stories/:storyId/progress/:userId", async (req, res) => {
+  try {
+    const { storyId, userId } = req.params;
+    
+    let progress = await UserProgress.findOne({ userId });
+    
+    if (!progress || !progress.bedtimeStoryProgress) {
+      return res.json({
+        success: true,
+        currentTime: 0,
+        completed: false,
+        lastPlayed: null
+      });
+    }
+    
+    const storyProgress = progress.bedtimeStoryProgress.get(storyId);
+    
+    if (!storyProgress) {
+      return res.json({
+        success: true,
+        currentTime: 0,
+        completed: false,
+        lastPlayed: null
+      });
+    }
+    
+    res.json({
+      success: true,
+      currentTime: storyProgress.currentTime || 0,
+      completed: storyProgress.completed || false,
+      lastPlayed: storyProgress.lastPlayed || null
+    });
+  } catch (error) {
+    console.error("Error fetching story progress:", error);
+    res.status(500).json({ error: "Failed to fetch story progress" });
+  }
+});
+
+// POST update bedtime story listening progress
+router.post("/bedtime-stories/:storyId/progress/:userId", async (req, res) => {
+  try {
+    const { storyId, userId } = req.params;
+    const { currentTime, completed = false } = req.body;
+    
+    let progress = await UserProgress.findOne({ userId });
+    
     if (!progress) {
-      progress = new UserProgress({ userId, seriesSlug: slug });
+      progress = new UserProgress({ userId });
     }
-
-    // XP / Hearts update
-    progress.xp = Math.max(0, (progress.xp || 0) + xpChange);
-    if (req.body.setHearts !== undefined) {
-      progress.hearts = Math.min(5, req.body.setHearts); // clamp max to 5
-    } else {
-      progress.hearts = Math.max(0, (progress.hearts || 5) + heartChange);
+    
+    if (!progress.bedtimeStoryProgress) {
+      progress.bedtimeStoryProgress = new Map();
     }
-
-    // ✅ Save lesson progress
-    if (lessonId && lastCompletedQuestionIndex !== undefined) {
-      progress.lessonProgress.set(lessonId, lastCompletedQuestionIndex);
-    }
-
-    // ✅ Save user custom answer
-    if (lessonId && userAnswer !== undefined) {
-      if (!progress.lessons) progress.lessons = [];
-
-      let lessonProgress = progress.lessons.find(
-        (l) => l.lessonId === lessonId
-      );
-
-      if (!lessonProgress) {
-        lessonProgress = { lessonId, answers: [] };
-        progress.lessons.push(lessonProgress);
-      }
-
-      while (lessonProgress.answers.length <= questionIndex) {
-        lessonProgress.answers.push("");
-      }
-
-      lessonProgress.answers[questionIndex] = userAnswer;
-    }
-
+    
+    const storyProgress = {
+      currentTime: currentTime || 0,
+      completed,
+      lastPlayed: new Date()
+    };
+    
+    progress.bedtimeStoryProgress.set(storyId, storyProgress);
     await progress.save();
-    res.status(200).json(progress);
-  } catch (err) {
-    console.error("❌ Error updating user progress:", err);
-    res.status(500).json({ error: "Server error" });
+    
+    res.json({
+      success: true,
+      message: "Story progress updated",
+      progress: storyProgress
+    });
+  } catch (error) {
+    console.error("Error updating story progress:", error);
+    res.status(500).json({ error: "Failed to update story progress" });
+  }
+});
+
+// GET user's bedtime story statistics
+router.get("/bedtime-stories/stats/:userId", async (req, res) => {
+  try {
+    const { userId } = req.params;
+    
+    const totalStories = await BedtimeStory.countDocuments({ isActive: true });
+    
+    let progress = await UserProgress.findOne({ userId });
+    let completedStories = 0;
+    let listeningTime = 0;
+    
+    if (progress && progress.bedtimeStoryProgress) {
+      progress.bedtimeStoryProgress.forEach((storyProgress) => {
+        if (storyProgress.completed) {
+          completedStories++;
+        }
+        listeningTime += storyProgress.currentTime || 0;
+      });
+    }
+    
+    const completionRate = totalStories > 0 ? (completedStories / totalStories * 100).toFixed(1) : 0;
+    
+    res.json({
+      success: true,
+      stats: {
+        totalStories,
+        completedStories,
+        listeningTime: Math.floor(listeningTime / 60), // Convert to minutes
+        completionRate: parseFloat(completionRate)
+      }
+    });
+  } catch (error) {
+    console.error("Error fetching bedtime story stats:", error);
+    res.status(500).json({ error: "Failed to fetch bedtime story statistics" });
   }
 });
 
@@ -202,112 +229,6 @@ router.get("/broadcasts/:slug/posts", async (req, res) => {
   const channel = await Broadcast.findOne({ slug });
   if (!channel) return res.status(404).json({ error: "Channel not found" });
   res.json(channel.posts);
-});
-
-router.post("/", async (req, res) => {
-  console.log("👉 Received data:", req.body);
-  const newSeries = new Series(req.body);
-  try {
-    const savedSeries = await newSeries.save();
-    res.status(200).json(savedSeries);
-  } catch (err) {
-    console.error("❌ Error:", err);
-    res.status(500).json({ message: "Failed to add series", error: err });
-  }
-});
-
-// ✅ Save MBTI Parenting Response
-router.post("/parents/save", async (req, res) => {
-  const { userId, questionId, questionType, answer } = req.body;
-
-  if (!userId || !questionId || !questionType || !answer) {
-    return res.status(400).json({ error: "Missing required fields" });
-  }
-
-  try {
-    let parent = await Parent.findOne({ userId });
-
-    const newResponse = {
-      questionId,
-      questionType,
-      answer,
-      timestamp: new Date(),
-    };
-
-    if (!parent) {
-      parent = new Parent({
-        userId,
-        responses: [newResponse],
-      });
-    } else {
-      parent.responses.push(newResponse);
-    }
-
-    await parent.save();
-    res.status(200).json({ success: true, message: "Response saved", parent });
-  } catch (error) {
-    console.error("❌ Error saving parenting response:", error);
-    res.status(500).json({ error: "Internal server error" });
-  }
-});
-
-// ✅ Save MBTI + Parenting Style Results
-router.patch("/mbti-result/:userId", async (req, res) => {
-  const { userId } = req.params;
-  const { mbtiResult } = req.body;
-
-  if (!mbtiResult || typeof mbtiResult !== "object") {
-    return res.status(400).json({ error: "Invalid MBTI result format" });
-  }
-
-  const {
-    mbti,
-    parentType,
-    dominantStyle,
-    dominantTA,
-    dominantTAChild,
-    unmetNeedsResults,
-    attachmentStyles,
-    dominantAttachment,
-    familySystemTheory,
-    dominantFamilySystem,
-    familyLegacyThemes,
-    dominantFamilyLegacyTheme,
-    familySystemTheoryGrowing,
-    dominantGrowingRole,
-  } = mbtiResult;
-
-  if (!mbti || !parentType || !dominantStyle) {
-    return res.status(400).json({ error: "Missing MBTI or parenting data" });
-  }
-
-  try {
-    const parent = await Parent.findOneAndUpdate(
-      { userId },
-      {
-        mbtiResult: mbti,
-        parentingStyle: dominantStyle,
-        parentingScores: parentType,
-        dominantTA: dominantTA,
-        dominantTAChild: dominantTAChild,
-        unmetNeeds: unmetNeedsResults,
-        attachmentStyles: attachmentStyles,
-        dominantAttachment: dominantAttachment,
-        familySystemTheory: familySystemTheory,
-        dominantFamilySystem: dominantFamilySystem,
-        familyLegacyThemes: familyLegacyThemes,
-        dominantFamilyLegacyTheme: dominantFamilyLegacyTheme,
-        familySystemTheoryGrowing: familySystemTheoryGrowing,
-        dominantGrowingRole: dominantGrowingRole,
-      },
-      { new: true, upsert: true }
-    );
-
-    res.json({ success: true, parent });
-  } catch (err) {
-    console.error("❌ Error saving MBTI result:", err);
-    res.status(500).json({ error: "Failed to save MBTI result" });
-  }
 });
 
 // ====================================
@@ -658,6 +579,287 @@ router.get("/episodes/:userId/stats", async (req, res) => {
   }
 });
 
+// ====================================
+// ✅ DYNAMIC SERIES ROUTES - MUST BE AFTER SPECIFIC ROUTES
+// ====================================
 
+// Get series data
+router.get("/:slug", async (req, res) => {
+  const { slug } = req.params;
+  const series = await Series.findOne({ slug });
+  if (!series) return res.status(404).json({ error: "Series not found" });
+  res.json(series);
+});
+
+// Get lesson by series and lessonId
+router.get("/:slug/lesson/:lessonId", async (req, res) => {
+  const { slug, lessonId } = req.params;
+  console.log("Received slug:", slug);
+  console.log("Received lessonId:", lessonId);
+
+  const series = await Series.findOne({ slug });
+  if (!series) {
+    console.log("Series not found");
+    return res.status(404).json({ error: "Series not found" });
+  }
+
+  const [unitPart, lessonPart] = lessonId.replace("lesson-", "").split("-");
+  const unitIndex = parseInt(unitPart, 10) - 1;
+  const lessonIndex = parseInt(lessonPart, 10) - 1;
+
+  console.log("Unit Index:", unitIndex);
+  console.log("Lesson Index:", lessonIndex);
+
+  const unit = series.units?.[unitIndex];
+  if (!unit) {
+    console.log("Unit not found");
+    return res.status(404).json({ error: "Unit not found" });
+  }
+
+  const lesson = unit?.lessons?.[lessonIndex];
+  if (!lesson) {
+    console.log("Lesson not found");
+    return res.status(404).json({ error: "Lesson not found" });
+  }
+
+  console.log("Retrieved Lesson:", JSON.stringify(lesson, null, 2));
+  res.json(lesson);
+});
+
+// Get user progress
+router.get("/:slug/progress/:userId", async (req, res) => {
+  const { slug, userId } = req.params;
+  const series = await Series.findOne({ slug });
+  if (!series) return res.status(404).json({ error: "Series not found" });
+
+  let progress = await UserProgress.findOne({ userId, seriesSlug: slug });
+  if (!progress) {
+    progress = await UserProgress.create({
+      userId,
+      seriesSlug: slug,
+      unlockedLessons: [0],
+      isSubscribed: false,
+    });
+  }
+
+  if (progress.isSubscribed) {
+    const newUnlocks = [];
+    series.units.forEach((unit, unitIndex) => {
+      const firstLessonGlobalIndex = unitIndex * 100;
+      if (!progress.unlockedLessons.includes(firstLessonGlobalIndex)) {
+        newUnlocks.push(firstLessonGlobalIndex);
+      }
+    });
+    if (newUnlocks.length > 0) {
+      progress.unlockedLessons.push(...newUnlocks);
+      await progress.save();
+    }
+  }
+
+  res.json({
+    unlockedLessons: progress.unlockedLessons ?? [],
+    isSubscribed: progress.isSubscribed,
+    xp: progress.xp,
+    hearts: progress.hearts,
+    lessonProgress: progress.lessonProgress || {},
+    broadcastSubscriptions: progress.broadcastSubscriptions || [],
+  });
+});
+
+// Unlock next lesson
+router.post("/:slug/progress/:userId", async (req, res) => {
+  const { slug, userId } = req.params;
+  const { nextLessonGlobalIndex } = req.body;
+
+  let progress = await UserProgress.findOne({ userId, seriesSlug: slug });
+  if (!progress) {
+    progress = await UserProgress.create({
+      userId,
+      seriesSlug: slug,
+      unlockedLessons: [0],
+    });
+  }
+
+  if (!progress.unlockedLessons.includes(nextLessonGlobalIndex)) {
+    progress.unlockedLessons.push(nextLessonGlobalIndex);
+  }
+
+  await progress.save();
+
+  res.json({
+    unlockedLessons: progress.unlockedLessons,
+    xp: progress.xp,
+    hearts: progress.hearts,
+  });
+});
+
+// ✅ PATCH XP/Hearts + Custom Answer Tracking
+router.patch("/:slug/progress/:userId", async (req, res) => {
+  try {
+    const { slug, userId } = req.params;
+    const {
+      xpChange = 0,
+      heartChange = 0,
+      lessonId,
+      userAnswer,
+      questionIndex = 0,
+      lastCompletedQuestionIndex,
+    } = req.body;
+
+    console.log("👉 Received userAnswer:", userAnswer);
+    console.log("👉 Lesson ID:", lessonId);
+
+    let progress = await UserProgress.findOne({ userId, seriesSlug: slug });
+
+    if (!progress) {
+      progress = new UserProgress({ userId, seriesSlug: slug });
+    }
+
+    // XP / Hearts update
+    progress.xp = Math.max(0, (progress.xp || 0) + xpChange);
+    if (req.body.setHearts !== undefined) {
+      progress.hearts = Math.min(5, req.body.setHearts); // clamp max to 5
+    } else {
+      progress.hearts = Math.max(0, (progress.hearts || 5) + heartChange);
+    }
+
+    // ✅ Save lesson progress
+    if (lessonId && lastCompletedQuestionIndex !== undefined) {
+      progress.lessonProgress.set(lessonId, lastCompletedQuestionIndex);
+    }
+
+    // ✅ Save user custom answer
+    if (lessonId && userAnswer !== undefined) {
+      if (!progress.lessons) progress.lessons = [];
+
+      let lessonProgress = progress.lessons.find(
+        (l) => l.lessonId === lessonId
+      );
+
+      if (!lessonProgress) {
+        lessonProgress = { lessonId, answers: [] };
+        progress.lessons.push(lessonProgress);
+      }
+
+      while (lessonProgress.answers.length <= questionIndex) {
+        lessonProgress.answers.push("");
+      }
+
+      lessonProgress.answers[questionIndex] = userAnswer;
+    }
+
+    await progress.save();
+    res.status(200).json(progress);
+  } catch (err) {
+    console.error("❌ Error updating user progress:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
+router.post("/", async (req, res) => {
+  console.log("👉 Received data:", req.body);
+  const newSeries = new Series(req.body);
+  try {
+    const savedSeries = await newSeries.save();
+    res.status(200).json(savedSeries);
+  } catch (err) {
+    console.error("❌ Error:", err);
+    res.status(500).json({ message: "Failed to add series", error: err });
+  }
+});
+
+// ✅ Save MBTI Parenting Response
+router.post("/parents/save", async (req, res) => {
+  const { userId, questionId, questionType, answer } = req.body;
+
+  if (!userId || !questionId || !questionType || !answer) {
+    return res.status(400).json({ error: "Missing required fields" });
+  }
+
+  try {
+    let parent = await Parent.findOne({ userId });
+
+    const newResponse = {
+      questionId,
+      questionType,
+      answer,
+      timestamp: new Date(),
+    };
+
+    if (!parent) {
+      parent = new Parent({
+        userId,
+        responses: [newResponse],
+      });
+    } else {
+      parent.responses.push(newResponse);
+    }
+
+    await parent.save();
+    res.status(200).json({ success: true, message: "Response saved", parent });
+  } catch (error) {
+    console.error("❌ Error saving parenting response:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+// ✅ Save MBTI + Parenting Style Results
+router.patch("/mbti-result/:userId", async (req, res) => {
+  const { userId } = req.params;
+  const { mbtiResult } = req.body;
+
+  if (!mbtiResult || typeof mbtiResult !== "object") {
+    return res.status(400).json({ error: "Invalid MBTI result format" });
+  }
+
+  const {
+    mbti,
+    parentType,
+    dominantStyle,
+    dominantTA,
+    dominantTAChild,
+    unmetNeedsResults,
+    attachmentStyles,
+    dominantAttachment,
+    familySystemTheory,
+    dominantFamilySystem,
+    familyLegacyThemes,
+    dominantFamilyLegacyTheme,
+    familySystemTheoryGrowing,
+    dominantGrowingRole,
+  } = mbtiResult;
+
+  if (!mbti || !parentType || !dominantStyle) {
+    return res.status(400).json({ error: "Missing MBTI or parenting data" });
+  }
+
+  try {
+    const parent = await Parent.findOneAndUpdate(
+      { userId },
+      {
+        mbtiResult: mbti,
+        parentingStyle: dominantStyle,
+        parentingScores: parentType,
+        dominantTA: dominantTA,
+        dominantTAChild: dominantTAChild,
+        unmetNeeds: unmetNeedsResults,
+        attachmentStyles: attachmentStyles,
+        dominantAttachment: dominantAttachment,
+        familySystemTheory: familySystemTheory,
+        dominantFamilySystem: dominantFamilySystem,
+        familyLegacyThemes: familyLegacyThemes,
+        dominantFamilyLegacyTheme: dominantFamilyLegacyTheme,
+        familySystemTheoryGrowing: familySystemTheoryGrowing,
+        dominantGrowingRole: dominantGrowingRole,
+      },
+      { new: true, upsert: true }
+    );
+
+    res.json({ success: true, parent });
+  } catch (err) {
+    console.error("❌ Error saving MBTI result:", err);
+    res.status(500).json({ error: "Failed to save MBTI result" });
+  }
+});
 
 export default router;
