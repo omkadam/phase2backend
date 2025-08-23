@@ -180,1428 +180,453 @@ mongoose
               },
               // lesson 2
               {
-                lessonId: "lesson-2",
-                questions: [
-                  {
-                    type: "mcq",
-                    allowCustomAnswer: false,
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_1.1.png",
-                    question: {
-                      en: "Why was Sochu running?",
-                      hi: "सोचू क्यों दौड़ रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/gqn1.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q1hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "he was hungry",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_1.mp3",
-                        },
-                        {
-                          text: "he was scared ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_2.mp3",
-                        },
-                        {
-                          text: "he was late ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_3.mp3",
-                        },
-                        {
-                          text: "he was chasing a cat",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_4.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "उसे भूख लगी थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q1o1hn.mp3",
-                        },
-                        {
-                          text: "वह डरा हुआ था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q1o2hn.mp3",
-                        },
-                        {
-                          text: "उसे देर हो रही थी ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q1o3hn.mp3",
-                        },
-                        {
-                          text: "वह बिल्ली के पीछे भाग रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q1o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "he was late", hi: "उसे देर हो रही थी" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.02.svg",
-                    question: {
-                      en: "What did Sochu do before entering the class?",
-                      hi: "कक्षा में प्रवेश करने से पहले सोचू ने क्या किया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_1.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q2hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "took a deep breath ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_5.mp3",
-                        },
-                        {
-                          text: " looked back ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_6.mp3",
-                        },
-                        {
-                          text: "shouted  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_7.mp3",
-                        },
-                        {
-                          text: "peeked inside",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_8.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "गहरी साँस ली ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q2o1hn.mp3",
-                        },
-                        {
-                          text: "पीछे मुड़कर देखा ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q2o2hn.mp3",
-                        },
-                        {
-                          text: "चिल्लाया ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q2o3hn.mp3",
-                        },
-                        {
-                          text: "अंदर झाँका",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q2o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "took a deep breath", hi: "गहरी साँस ली" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.03.svg",
-                    question: {
-                      en: "Who was playing tabla on the desk?",
-                      hi: "डेस्क पर तबला कौन बजा रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_2.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q3hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Sochu ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_9.mp3",
-                        },
-                        {
-                          text: "Rehman ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_10.mp3",
-                        },
-                        {
-                          text: "Sher Singh ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_11.mp3",
-                        },
-                        {
-                          text: "Raju",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_12.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "सोचू  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q3o1hn.mp3",
-                        },
-                        {
-                          text: "रहमान ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q3o2hn.mp3",
-                        },
-                        {
-                          text: "शेर सिंह ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q3o3hn.mp3",
-                        },
-                        {
-                          text: "राजू",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q3o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "Rehman", hi: "रहमान" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.04.svg",
-                    question: {
-                      en: "What was Anju doing in class?",
-                      hi: "अंजू कक्षा में क्या कर रही थी?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_3.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "dancing ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_13.mp3",
-                        },
-                        {
-                          text: "crying ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_14.mp3",
-                        },
-                        {
-                          text: "engrossed in reading ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_15.mp3",
-                        },
-                        {
-                          text: "throwing paper balls",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_16.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "नाच रही थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "रो रही थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "पढ़ने में मग्न थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "कागज़ की गोलियाँ फेंक रही थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: {
-                      en: "engrossed in reading",
-                      hi: "पढ़ने में मग्न थी",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.05.svg",
-                    question: {
-                      en: "What does 'engrossed' mean?",
-                      hi: "मग्न' का क्या मतलब होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_4.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "sleepy  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_17.mp3",
-                        },
-                        {
-                          text: "scared  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_18.mp3",
-                        },
-                        {
-                          text: "focused or lost in an activity",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_19.mp3",
-                        },
-                        {
-                          text: "angry",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_20.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "नींद में",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "डरी हुई",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "पूरी तरह ध्यान केंद्रित",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "गुस्से में",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: {
-                      en: "focused or lost in an activity",
-                      hi: "पूरी तरह ध्यान केंद्रित",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.06.svg",
-                    question: {
-                      en: "What was Julie doing?",
-                      hi: "जूली क्या कर रही थी?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_5.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "laughing",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_21.mp3",
-                        },
-                        {
-                          text: "drawing   ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_22.mp3",
-                        },
-                        {
-                          text: " biting her nails because of jitters",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_23.mp3",
-                        },
-                        {
-                          text: "reading a book",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_24.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "हँस रही थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "चित्र बना रही थी ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "घबराहट के कारण नाखून चबा रही थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "किताब पढ़ रही थी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: {
-                      en: "biting her nails because of jitters",
-                      hi: "घबराहट के कारण नाखून चबा रही थी",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.07.svg",
-                    question: {
-                      en: "What does 'jitters' mean?",
-                      hi: "घबराहट' का क्या मतलब है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_6.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "loud laughter  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_25.mp3",
-                        },
-                        {
-                          text: "sleepiness   ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_26.mp3",
-                        },
-                        {
-                          text: "slight irregular movement",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_27.mp3",
-                        },
-                        {
-                          text: "complete silence",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_28.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "ज़ोर से हँसी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "नींद ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "हल्का-सा डर लगना",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "पूरी चुप्पी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: {
-                      en: "slight irregular movement",
-                      hi: "हल्का-सा डर लगना",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.08.svg",
-                    question: {
-                      en: "Who was trying to catch a paper ball upside down?",
-                      hi: "उल्टा होकर कागज़ की गेंद कौन पकड़ने की कोशिश कर रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_7.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Robert   ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_29.mp3",
-                        },
-                        {
-                          text: "Manju ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_30.mp3",
-                        },
-                        {
-                          text: "Julie",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_31.mp3",
-                        },
-                        {
-                          text: "Raju",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_32.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "रॉबर्ट ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "मंजू",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "जूली ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "राजू",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "Manju", hi: "मंजू" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.09.svg",
-                    question: {
-                      en: "What was Raju doing in class?",
-                      hi: "राजू कक्षा में क्या कर रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_8.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "reading   ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_33.mp3",
-                        },
-                        {
-                          text: "shaking like an alarm clock  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_34.mp3",
-                        },
-                        {
-                          text: "drawing ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_35.mp3",
-                        },
-                        {
-                          text: "laughing",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_36.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "पढ़ रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "अलार्म घड़ी की तरह काँप रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "चित्र बना रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "हँस रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: {
-                      en: "shaking like an alarm clock",
-                      hi: "अलार्म घड़ी की तरह काँप रहा था",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.10.svg",
-                    question: {
-                      en: "Who was snoring in class?",
-                      hi: "कक्षा में कौन खर्राटे ले रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_9.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Sochu  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_37.mp3",
-                        },
-                        {
-                          text: "Robert  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_38.mp3",
-                        },
-                        {
-                          text: "Sher Singh",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_39.mp3",
-                        },
-                        {
-                          text: "Rehman",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_40.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "सोचू ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "रॉबर्ट ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "शेर सिंह",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "रहमान",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "Robert", hi: "रॉबर्ट" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_1.11.svg",
-                    question: {
-                      en: "What was Sher Singh doing?",
-                      hi: "शेर सिंह क्या कर रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_10.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q4hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "singing   ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_41.mp3",
-                        },
-                        {
-                          text: "throwing paper balls  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_42.mp3",
-                        },
-                        {
-                          text: "clapping ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_43.mp3",
-                        },
-                        {
-                          text: "meditating",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_44.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "गा रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o1hn.mp3",
-                        },
-                        {
-                          text: "कागज़ के गोले फेंक रहा था ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o2hn.mp3",
-                        },
-                        {
-                          text: "ताली बजा रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o3hn.mp3",
-                        },
-                        {
-                          text: "ध्यान कर रहा था",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q4o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: {
-                      en: "throwing paper balls",
-                      hi: "कागज़ के गोले फेंक रहा था ",
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-2",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_1_1.01.svg",
+      question: {
+        en: "Why was Sochu running to class?",
+        hi: "सोचू कक्षा की ओर दौड़ता हुआ क्यों जा रहा था?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_1.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_1.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "he wanted to be early",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_1.mp3",
+          },
+          {
+            text: "he was scared",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_2.mp3",
+          },
+          {
+            text: "he was late",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_3.mp3",
+          },
+          {
+            text: "he likes running",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_4.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "वह जल्दी पहुँचना चाहता था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_1.mp3",
+          },
+          {
+            text: "वह डरा हुआ था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_2.mp3",
+          },
+          {
+            text: "उसे देर हो रही थी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_3.mp3",
+          },
+          {
+            text: "उसे दौड़ना पसंद है",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_4.mp3",
+          },
+        ],
+      },
+      correct: { en: "he was late", hi: "उसे देर हो रही थी" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_1_1.02.svg",
+      question: {
+        en: "What did Sochu feel when he realised he reached class on time?",
+        hi: "समय पर क्लास पहुँचने पर सोचू को कैसा महसूस हुआ?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_2.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_2.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "happy",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_5.mp3",
+          },
+          {
+            text: "relief",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_6.mp3",
+          },
+          {
+            text: "tired",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_7.mp3",
+          },
+          {
+            text: "bored",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_8.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "खुशी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_5.mp3",
+          },
+          {
+            text: "राहत",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_6.mp3",
+          },
+          {
+            text: "थका हुआ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_7.mp3",
+          },
+          {
+            text: "कुछ और",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_8.mp3",
+          },
+        ],
+      },
+      correct: { en: "relief", hi: "राहत" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_1_1.03.svg",
+      question: {
+        en: "Why was Julie biting her nails off?",
+        hi: "जूली अपने नाखून क्यों चबा रही थी?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_3.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_3.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "she was suffering from the jitters",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_9.mp3",
+          },
+          {
+            text: "she was hungry",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_10.mp3",
+          },
+          {
+            text: "she was excited",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_11.mp3",
+          },
+          {
+            text: "to calm down",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_12.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "उसे घबराहट हो रही थी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_9.mp3",
+          },
+          {
+            text: "उसे भूख लगी थी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_10.mp3",
+          },
+          {
+            text: "वह उत्साहित थी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_11.mp3",
+          },
+          {
+            text: "खुद को शांत करने के लिए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_12.mp3",
+          },
+        ],
+      },
+      correct: { en: "she was suffering from the jitters", hi: "उसे घबराहट हो रही थी" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_1_1.04.svg",
+      question: {
+        en: "Anju was engrossed in her book. What does 'engrossed' mean?",
+        hi: "अंजू अपनी किताब में मग्न थी. 'मग्न' का क्या मतलब है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_4.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_4.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "half-asleep",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_13.mp3",
+          },
+          {
+            text: "focused or lost in an activity",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_14.mp3",
+          },
+          {
+            text: "bored",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_15.mp3",
+          },
+          {
+            text: "confused",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_16.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "आधी सोई हुई",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_13.mp3",
+          },
+          {
+            text: "पूरी तरह ध्यान केंद्रित",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_14.mp3",
+          },
+          {
+            text: "उब गई",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_15.mp3",
+          },
+          {
+            text: "उलझन में",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_16.mp3",
+          },
+        ],
+      },
+      correct: { en: "focused or lost in an activity", hi: "पूरी तरह ध्यान केंद्रित" },
+    },
+  ],
+},,
               // lesson 3
-              {
-                lessonId: "lesson-3",
-                questions: [
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "How did you feel on your first day of school?",
-                      hi: "स्कूल के पहले दिन आपको कैसा महसूस हुआ?",
-                    },
-                    allowCustomAnswer: true,
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_11.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q5hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "happy ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_47.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.01_1.svg",
-                        },
-                        {
-                          text: "nervous ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_46.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.01_2.svg",
-                        },
-                        {
-                          text: "excited ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_45.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.01_3.svg",
-                        },
-                        {
-                          text: "scared ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_48.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.01_4.svg",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "खुशी ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q5o1hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.1.1.png",
-                        },
-                        {
-                          text: "घबराहट ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q5o2hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.1.2.png",
-                        },
-                        {
-                          text: "उत्साहित ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q5o3hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.1.3.png",
-                        },
-                        {
-                          text: "डर ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q5o4hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.1.4.png",
-                        },
-                      ],
-                    },
-                    correct: { en: "happy", hi: "बंधन" },
-                  },
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "What do you do when you're late to school?",
-                      hi: "जब आप देर से स्कूल पहुँचते हैं तो आप क्या करते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_12.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q6hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "panic ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_49.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.02_1.svg",
-                        },
-                        {
-                          text: "freeze ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_50.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.02_2.svg",
-                        },
-                        {
-                          text: "breathe deeply",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_51.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.02_3.svg",
-                        },
-                        {
-                          text: "give up",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_52.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.02_4.svg",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "घबरा जाते हैं",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q6o1hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.2.1.png",
-                        },
-                        {
-                          text: "बर्फ की तरह जम जाते हैं ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q6o2hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.2.2.png",
-                        },
-                        {
-                          text: " गहरी साँस लेते हैं  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q6o3hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.2.3.png",
-                        },
-                        {
-                          text: " हार मान लेते हैं",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q6o4hn.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_PNG_2.2.4.png",
-                        },
-                      ],
-                    },
-                    correct: { en: "contagious", hi: "संक्रामक" },
-                  },
-                  {
-                    type: "mcq",
-
-                    question: {
-                      en: "Have you ever noticed how others in class are feeling?",
-                      hi: "क्या आपने कभी किसी और की भावनाएँ पहचानी हैं?",
-                    },
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_2.03.png",
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_13.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q7hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_53.mp3",
-                        },
-                        {
-                          text: "No",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_54.mp3",
-                        },
-                        {
-                          text: "Sometimes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_55.mp3",
-                        },
-                        {
-                          text: " I can't know how others are feeling",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_56.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "हाँ ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q7o1hn.mp3",
-                        },
-                        {
-                          text: "नहीं  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q7o2hn.mp3",
-                        },
-                        {
-                          text: " कभी-कभी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q7o3hn.mp3",
-                        },
-                        {
-                          text: "दूसरे की भावना समझना नामुमकिन है",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q7o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "strict", hi: "कठोर" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_2.04.svg",
-                    question: {
-                      en: "If someone in class looks very nervous, what would you do?",
-                      hi: "अगर कक्षा में कोई बहुत घबराया हुआ दिखे, तो आप क्या करेंगे?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_14.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "ignore",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_57.mp3",
-                        },
-                        {
-                          text: "tease",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_58.mp3",
-                        },
-                        {
-                          text: "check on them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_59.mp3",
-                        },
-                        {
-                          text: "feel confused",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_60.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "अनदेखा करेंगे ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "चिढ़ाएँगे ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: "पूछेंगे कि सब ठीक है क्या",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: " उलझन में पड़ेंगे",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                  {
-                    type: "mcq",
-
-                    question: {
-                      en: "Which character are you most like right now?",
-                      hi: "इस समय आप किस बच्चे जैसे हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_15.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "Julie (nervous)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_61.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_1.svg",
-                        },
-                        {
-                          text: "Anju (focused)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_62.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_2.svg",
-                        },
-                        {
-                          text: "Raju (shaky)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_63.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_3.svg",
-                        },
-                        {
-                          text: "Sochu (thoughtful)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_64.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_4.svg",
-                        },
-                        {
-                          text: "Manju (excited)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_65.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_5.svg",
-                        },
-                        {
-                          text: "Sher Singh (mischievous)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_66.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_6.svg",
-                        },
-                        {
-                          text: "Robert (calm)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_67.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_7.svg",
-                        },
-                        {
-                          text: "Rehman (playful)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_68.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.05_8.svg",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "जूली (घबराई हुई)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "अंजू (ध्यान केंद्रित) ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: "राजू (अलार्म घड़ी की तरह काँपता हुआ)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: " सोचू (सोच में डूबा हुआ) ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                        {
-                          text: " मंजू (उत्साहित) ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                        {
-                          text: "  शेर सिंह (शरारती)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-
-                        {
-                          text: " रॉबर्ट (शांत)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                        {
-                          text: "रहमान (रोमांचित)",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                  {
-                    type: "mcq",
-
-                    question: {
-                      en: "What helps you feel calm when you're anxious?",
-                      hi: "जब आप चिंतित होते हैं, तो आपको शांति कैसे मिलती है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_16.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "deep breaths",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_69.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.06_1.svg",
-                        },
-                        {
-                          text: "music ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_70.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.06_2.svg",
-                        },
-                        {
-                          text: "reading ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_71.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.06_3.svg",
-                        },
-                        {
-                          text: "nothing helps",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_72.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_2.06_4.svg",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "गहरी साँस लेने से ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "संगीत से  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: " किताब पढ़ने से ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: " शांती नहीं मिलती",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_2.07.png",
-                    question: {
-                      en: "Do you think other kids feel nervous even when they look fine?",
-                      hi: "क्या ऐसा हो सकता है कि कोई मुस्कुरा रहा हो, लेकिन अंदर से डरा हुआ हो?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_17.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_73.mp3",
-                        },
-                        {
-                          text: "No",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_74.mp3",
-                        },
-                        {
-                          text: "sometimes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_75.mp3",
-                        },
-                        {
-                          text: "I don't know",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_76.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "हाँ ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "नहीं  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: "कभी-कभी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: " मुझे नहीं पता",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_2.08.svg",
-                    question: {
-                      en: "What would be a good way to welcome someone on their first day?",
-                      hi: "पहले दिन किसी का स्वागत करने का अच्छा तरीका क्या हो सकता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_18.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "smile at them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_77.mp3",
-                        },
-                        {
-                          text: "ask them to sit with you ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_78.mp3",
-                        },
-                        {
-                          text: " ignore them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_79.mp3",
-                        },
-                        {
-                          text: " tease them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_80.mp3",
-                        },
-                        {
-                          text: "inviting them to play with you",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_81.mp3",
-                        },
-                        {
-                          text: " sharing your food with them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_82.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "उन्हें देखकर मुस्कुराना ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "उन्हें अपने साथ बैठाना ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: "अनदेखा करना",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: " उलझन में पड़ेंगे",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                        {
-                          text: " उन्हें अपने साथ खेलने के लिए बुलाना",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                        {
-                          text: "उनके साथ अपना खाना बाँटना",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_2.09.svg",
-                    question: {
-                      en: "What makes you feel included in class?",
-                      hi: "कक्षा में आपको कब लगता है कि आप शामिल हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_19.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "being listened to",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_83.mp3",
-                        },
-                        {
-                          text: "group activities",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_84.mp3",
-                        },
-                        {
-                          text: " teachers noticing you",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_85.mp3",
-                        },
-                        {
-                          text: " friends talking to you",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_86.mp3",
-                        },
-                        {
-                          text: "  all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_87.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "जब लोग आपकी बात सुनें ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "जब सभी मिलकर साथ में कुछ करें  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: "जब शिक्षक ध्यान दें",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: "जब दोस्त बात करें",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                        {
-                          text: "ऊपर दिए गए सभी",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_2.10.svg",
-                    question: {
-                      en: "Have you ever felt like hiding when nervous, like Julie?",
-                      hi: "क्या आपने कभी जूली की तरह घबराहट में छुपने जैसा महसूस किया है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_20.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    anyOptionCorrect: true,
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_88.mp3",
-                        },
-                        {
-                          text: "NO",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_89.mp3",
-                        },
-                        {
-                          text: "Maybe",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_90.mp3",
-                        },
-                        {
-                          text: "I Don't Remember",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_91.mp3",
-                        },
-                      ],
-                      hi: [
-                        {
-                          text: "हाँ  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o1hn.mp3",
-                        },
-                        {
-                          text: "नहीं  ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o2hn.mp3",
-                        },
-                        {
-                          text: "शायद ",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o3hn.mp3",
-                        },
-                        {
-                          text: " मुझे याद नहीं",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/b1s1q8o4hn.mp3",
-                        },
-                      ],
-                    },
-                    correct: { en: "confused", hi: "उलझन में" },
-                  },
-                ],
-              },
+              // lesson 3
+{
+  lessonId: "lesson-3",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_2_2.01.svg",
+      question: {
+        en: "How did you feel on your first day of school?",
+        hi: "स्कूल के पहले दिन आपको कैसा महसूस हुआ?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_5.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_5.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "happy",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_17.mp3",
+          },
+          {
+            text: "nervous",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_18.mp3",
+          },
+          {
+            text: "excited",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_19.mp3",
+          },
+          {
+            text: "scared",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_20.mp3",
+          },
+          {
+            text: "angry",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_21.mp3",
+          },
+          {
+            text: "sad",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_22.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "खुशी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_17.mp3",
+          },
+          {
+            text: "घबराहट",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_18.mp3",
+          },
+          {
+            text: "उत्साहित",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_19.mp3",
+          },
+          {
+            text: "डर",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_20.mp3",
+          },
+          {
+            text: "गुस्सा",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_21.mp3",
+          },
+          {
+            text: "उदासी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_22.mp3",
+          },
+        ],
+      },
+      correct: { en: "excited", hi: "उत्साहित" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_2_2.02.svg",
+      question: {
+        en: "Who helps you feel better when you are scared?",
+        hi: "जब आप को डर लगता हैं, तो आपको बेहतर महसूस करने मे कौन मदद करता हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_6.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_6.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "parent",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_23.mp3",
+          },
+          {
+            text: "teacher",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_24.mp3",
+          },
+          {
+            text: "friend",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_25.mp3",
+          },
+          {
+            text: "no one",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_26.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "माता-पिता",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_23.mp3",
+          },
+          {
+            text: "शिक्षक",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_24.mp3",
+          },
+          {
+            text: "दोस्त",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_25.mp3",
+          },
+          {
+            text: "कोई नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_26.mp3",
+          },
+        ],
+      },
+      correct: { en: "parent", hi: "माता-पिता" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_2_2.03.svg",
+      question: {
+        en: "What do you usually do when you feel nervous?",
+        hi: "जब आप घबराए हुए होते हैं तो आप आमतौर पर क्या करते हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_7.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_7.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "hide",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_27.mp3",
+          },
+          {
+            text: "ask for help",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_28.mp3",
+          },
+          {
+            text: "deep breaths",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_29.mp3",
+          },
+          {
+            text: "stay quiet",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_30.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "छिप जाते हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_27.mp3",
+          },
+          {
+            text: "मदद माँगते हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_28.mp3",
+          },
+          {
+            text: "गहरी साँस लेते हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_29.mp3",
+          },
+          {
+            text: "चुप रहते हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_30.mp3",
+          },
+        ],
+      },
+      correct: { en: "deep breaths", hi: "गहरी साँस लेते हैं" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_2_2.04.svg",
+      question: {
+        en: "What does fear feel like in your body?",
+        hi: "डर आपके शरीर में कैसा महसूस होता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_8.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_8.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "fast heartbeat",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_31.mp3",
+          },
+          {
+            text: "sweaty hands",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_32.mp3",
+          },
+          {
+            text: "shaky legs",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_33.mp3",
+          },
+          {
+            text: "I don't know",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_34.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "तेज़ धड़कन",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_31.mp3",
+          },
+          {
+            text: "पसीने वाले हाथ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_32.mp3",
+          },
+          {
+            text: "कांपती टाँगें",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_33.mp3",
+          },
+          {
+            text: "कुछ और",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_34.mp3",
+          },
+        ],
+      },
+      correct: { en: "fast heartbeat", hi: "तेज़ धड़कन" },
+    },
+  ],
+},,
               // lesson 4
               {
                 lessonId: "lesson-4",
@@ -1691,742 +716,436 @@ mongoose
               },
               //lesson 5
               {
-                lessonId: "lesson-5",
-                questions: [
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_3.01.svg",
-                    question: {
-                      en: "What made the children suddenly sit straight?",
-                      hi: "बच्चों ने अचानक सीधे बैठना क्यों शुरू कर दिया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_21.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "loud music",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_92.mp3",
-                        },
-                        {
-                          text: "loud footsteps",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_93.mp3",
-                        },
-                        {
-                          text: "a school bell",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_94.mp3",
-                        },
-                        {
-                          text: "a teacher shouting",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_95.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "तेज़ संगीत" },
-                        { text: "तेज़ कदमों की आवाज़" },
-                        { text: "स्कूल की घंटी" },
-                        { text: "शिक्षक की चिल्लाहट" },
-                      ],
-                    },
-                    correct: {
-                      en: "loud footsteps",
-                      hi: "तेज़ कदमों की आवाज़",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_3.02.svg",
-                    question: {
-                      en: "Who said 'I didn't throw the paper balls!'?",
-                      hi: "'मैंने कागज़ की गोलियाँ नहीं फेंकी!' ये किसने कहा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_22.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Sochu",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_96.mp3",
-                        },
-                        {
-                          text: "Raju",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_97.mp3",
-                        },
-                        {
-                          text: "Sher Singh",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_98.mp3",
-                        },
-                        {
-                          text: "not clear",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_99.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "सोचू" },
-                        { text: "राजू" },
-                        { text: "शेर सिंह" },
-                        { text: "स्पष्ट नहीं" },
-                      ],
-                    },
-                    correct: { en: "Sher Singh", hi: "शेर सिंह" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_3.03.svg",
-                    question: {
-                      en: "What emotion did Sochu observe in all the children?",
-                      hi: "सोचू ने सभी बच्चों में कौन-सी भावना देखी?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_23.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "joy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_100.mp3",
-                        },
-                        {
-                          text: "sleepiness",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_101.mp3",
-                        },
-                        {
-                          text: "fear",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_102.mp3",
-                        },
-                        {
-                          text: "excitement",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_103.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "खुशी" },
-                        { text: "नींद" },
-                        { text: "डर" },
-                        { text: "उत्साह" },
-                      ],
-                    },
-                    correct: { en: "fear", hi: "डर" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_3.04.svg",
-                    question: {
-                      en: "What did Anju think about fear?",
-                      hi: "अंजू ने डर के बारे मे क्या सोचा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_24.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "fear can be visible",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_104.mp3",
-                        },
-                        {
-                          text: "fear is contagious",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_105.mp3",
-                        },
-                        {
-                          text: "fear is invisible",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_106.mp3",
-                        },
-                        {
-                          text: "fear is tasty",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_107.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "डर दिख जाता है" },
-                        { text: "डर आसानी से फैलता है" },
-                        { text: "डर छिपा रहता है" },
-                        { text: "डर स्वादिष्ट है" },
-                      ],
-                    },
-                    correct: {
-                      en: "fear is contagious",
-                      hi: "डर आसानी से फैलता है",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_3.05.svg",
-                    question: {
-                      en: "How did the kids imagine their class teacher to be?",
-                      hi: "बच्चों ने अपने नए अध्यापक के बारे में क्या सोचा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_25.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "kind",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_108.mp3",
-                        },
-                        {
-                          text: "silent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_109.mp3",
-                        },
-                        {
-                          text: "strict",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_110.mp3",
-                        },
-                        {
-                          text: "happy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_111.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "वह बहुत दयालु होंगे" },
-                        { text: "वह बहुत शांत होंगे" },
-                        { text: "वह बहुत सख्त होंगे" },
-                        { text: "वह बहुत खुशमिजाज होंगे" },
-                      ],
-                    },
-                    correct: { en: "strict", hi: "वह बहुत सख्त होंगे" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_3.06.svg",
-                    question: {
-                      en: "What line shows that Raju was scared?",
-                      hi: "कौन सी पंक्ति दिखाती है कि राजू डर गया था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_26.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "I'm sleepy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_112.mp3",
-                        },
-                        {
-                          text: "I'm awake",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_113.mp3",
-                        },
-                        {
-                          text: "I can't stop shaking",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_114.mp3",
-                        },
-                        {
-                          text: "let me out",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_115.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "मुझे नींद आ रही है" },
-                        { text: "मैं जाग रहा हूँ" },
-                        { text: "ये झटके बंद क्यों नहीं हो रहा है?" },
-                        { text: "मुझे बाहर निकालो" },
-                      ],
-                    },
-                    correct: {
-                      en: "I can't stop shaking",
-                      hi: "ये झटके बंद क्यों नहीं हो रहा है?",
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-5",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_3_3.01.svg",
+      question: {
+        en: "Why was Rehman banging the desk?",
+        hi: "रहमान डेस्क पर क्यों थपथपा रहा था?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_9.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_9.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "he was angry",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_35.mp3",
+          },
+          {
+            text: "he was playing the tabla",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_36.mp3",
+          },
+          {
+            text: "he was trying to make noise",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_37.mp3",
+          },
+          {
+            text: "he was playing the flute",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_38.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "वह गुस्से में था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_35.mp3",
+          },
+          {
+            text: "वह तबला बजा रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_36.mp3",
+          },
+          {
+            text: "वह शोर मचाने की कोशिश कर रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_37.mp3",
+          },
+          {
+            text: "वह बाँसुरी बजा रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_38.mp3",
+          },
+        ],
+      },
+      correct: { en: "he was playing the tabla", hi: "वह तबला बजा रहा था" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_3_3.02.svg",
+      question: {
+        en: "What was Sher Singh doing with the paperballs?",
+        hi: "शेर सिंह कागज़ की गोलियों के साथ क्या कर रहा था?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_10.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_10.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "catching",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_39.mp3",
+          },
+          {
+            text: "folding",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_40.mp3",
+          },
+          {
+            text: "throwing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_41.mp3",
+          },
+          {
+            text: "eating",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_42.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "पकड़ रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_39.mp3",
+          },
+          {
+            text: "मोड़ रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_40.mp3",
+          },
+          {
+            text: "फेंक रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_41.mp3",
+          },
+          {
+            text: "खा रहा था",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_42.mp3",
+          },
+        ],
+      },
+      correct: { en: "throwing", hi: "फेंक रहा था" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_3_3.03.svg",
+      question: {
+        en: "What does 'snoring' mean when we say Robert is snoring in his sleep?",
+        hi: "रॉबर्ट सोते समय खर्राटे ले रहा था। 'खर्राटे' का मतलब क्या है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_11.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_11.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "whistling",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_43.mp3",
+          },
+          {
+            text: "laughing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_44.mp3",
+          },
+          {
+            text: "talking",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_45.mp3",
+          },
+          {
+            text: "breathing noisily while asleep",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_46.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "सीटी बजाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_43.mp3",
+          },
+          {
+            text: "हँसना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_44.mp3",
+          },
+          {
+            text: "बात करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_45.mp3",
+          },
+          {
+            text: "सोते समय तेज़ साँस लेना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_46.mp3",
+          },
+        ],
+      },
+      correct: { en: "breathing noisily while asleep", hi: "सोते समय तेज़ साँस लेना" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_3_3.04.svg",
+      question: {
+        en: "What did the children do when Mr Williams danced into class?",
+        hi: "जब मिस्टर विलियम्स ने डांस करते हुए क्लास में एंट्री ली, तो बच्चों ने क्या किया?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_12.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_12.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "got scared",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_47.mp3",
+          },
+          {
+            text: "laughed",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_48.mp3",
+          },
+          {
+            text: "stayed quiet",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_49.mp3",
+          },
+          {
+            text: "felt confused",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_50.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "डर गए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_47.mp3",
+          },
+          {
+            text: "हँसे",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_48.mp3",
+          },
+          {
+            text: "चुप हो गए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_49.mp3",
+          },
+          {
+            text: "भ्रमित हुए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_50.mp3",
+          },
+        ],
+      },
+      correct: { en: "laughed", hi: "हँसे" },
+    },
+  ],
+},,
               // lesson 6
               {
-                lessonId: "lesson-6",
-
-                questions: [
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.01.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Have you ever felt nervous before a teacher walked in?",
-                      hi: "क्या आपने कभी किसी शिक्षक के आने से पहले घबराहट महसूस की है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_27.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_116.mp3",
-                        },
-                        {
-                          text: "NO",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_117.mp3",
-                        },
-                        {
-                          text: "sometimes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_118.mp3",
-                        },
-                        {
-                          text: "I don't remember",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_119.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "हाँ" },
-                        { text: "नहीं" },
-                        { text: "कभी-कभी" },
-                        { text: "मुझे याद नहीं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.02.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What do you do when you feel scared?",
-                      hi: "जब आपको डर लगे, तो आप क्या करते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_28.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "stay silent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_120.mp3",
-                        },
-                        {
-                          text: "talk to a friend",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_121.mp3",
-                        },
-                        {
-                          text: "hide",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_122.mp3",
-                        },
-                        {
-                          text: "take deep breaths",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_123.mp3",
-                        },
-                        {
-                          text: "talk to my parent or guardian",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_124.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "चुप हो जाते हैं" },
-                        { text: "दोस्त से बात करते हैं" },
-                        { text: "छिप जाते हैं" },
-                        { text: "गहरी साँस लेते हैं" },
-                        { text: "माता-पिता से बात करते हैं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.03.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "How can you tell someone else in class is feeling scared?",
-                      hi: "आप कैसे जान सकते हैं कि कोई डर रहा है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_29.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "they look stiff",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_125.mp3",
-                        },
-                        {
-                          text: "they talk less",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_126.mp3",
-                        },
-                        {
-                          text: "they fidget",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_127.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_128.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "वह एकदम बर्फ की तरह जम जाए" },
-                        { text: "वह कम बोले" },
-                        { text: "वह बेचैन रहे" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What would you do if everyone around you was feeling afraid?",
-                      hi: "अगर आपके आसपास सभी डर रहे हों, तो आप क्या करेंगे?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_30.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "join the panic",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_129.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_4.04_1.svg",
-                        },
-                        {
-                          text: "try to calm them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_130.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_4.04_2.svg",
-                        },
-                        {
-                          text: "stay quiet",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_131.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_4.04_3.svg",
-                        },
-                        {
-                          text: "make a joke",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_132.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_4.04_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "घबराहट में शामिल हो जाएंगे" },
-                        { text: "उन्हें शांत करने की कोशिश करेंगे" },
-                        { text: "चुप रहेंगे" },
-                        { text: "मज़ाक करेंगे" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.05.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "When you're scared, what happens in your body?",
-                      hi: "जब आप डरते हैं तो आपके शरीर में क्या होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_31.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "fast heartbeat",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_133.mp3",
-                        },
-                        {
-                          text: "shaky hands",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_134.mp3",
-                        },
-                        {
-                          text: "sweating",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_135.mp3",
-                        },
-                        {
-                          text: "I don't know",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_136.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "दिल तेज़ धड़कता है" },
-                        { text: "हाथ काँपते हैं" },
-                        { text: "पसीना आता है" },
-                        { text: "पता नहीं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.06.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Do you think fear can spread from one person to another?",
-                      hi: "क्या आपको लगता है कि डर एक इंसान से दूसरे में फैल सकता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_32.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_137.mp3",
-                        },
-                        {
-                          text: "NO",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_138.mp3",
-                        },
-                        {
-                          text: "maybe",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_139.mp3",
-                        },
-                        {
-                          text: "not sure",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_140.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "हाँ" },
-                        { text: "नहीं" },
-                        { text: "शायद" },
-                        { text: "निश्चित नहीं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.07.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What is a good thing to do when someone else is nervous or scared?",
-                      hi: "जब कोई घबराया हुआ हो, तो हम उसकी मदद कैसे कर सकते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_33.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "speak kindly to them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_141.mp3",
-                        },
-                        {
-                          text: "help them take deep breaths",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_142.mp3",
-                        },
-                        {
-                          text: "help them feel safe",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_143.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_144.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "उनसे प्यार से बात करें" },
-                        { text: "उन्हें गहरी साँस लेने में मदद करें" },
-                        { text: "उन्हें सुरक्षित महसूस कराएँ" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.08.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "How does your face or voice change when you're scared?",
-                      hi: "जब आप डरते हैं, तो आपके चेहरे या आवाज़ में क्या बदल जाता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_34.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "quiet voice",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_145.mp3",
-                        },
-                        {
-                          text: "frowning",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_146.mp3",
-                        },
-                        {
-                          text: "fast talking",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_147.mp3",
-                        },
-                        {
-                          text: "I smile instead",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_148.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "आवाज़ धीमी हो जाती है" },
-                        { text: "चेहरा सिकुड़ जाता है" },
-                        { text: "तेज़-तेज़ बोलते हैं" },
-                        { text: "हम मुस्कुरा देते हैं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.09.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What can help you stay calm before meeting someone new or strict?",
-                      hi: "किसी नए या सख्त इंसान से मिलने से पहले शांत रहने के लिए आप क्या कर सकते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_35.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "deep breathing",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_149.mp3",
-                        },
-                        {
-                          text: "positive thoughts",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_150.mp3",
-                        },
-                        {
-                          text: "staying silent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_151.mp3",
-                        },
-                        {
-                          text: "letting a friend know",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_152.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "गहरी साँस लेना" },
-                        { text: "अच्छे विचार लाना" },
-                        { text: "चुप रहना" },
-                        { text: "दोस्त को बताना" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_4.10.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What would you say to a friend who's really scared in class?",
-                      hi: "अगर आपका दोस्त डरा हुआ हो, तो आप क्या कहेंगे?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_36.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "don't be scared",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_153.mp3",
-                        },
-                        {
-                          text: "I'm here for you",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_154.mp3",
-                        },
-                        {
-                          text: "it's okay to be nervous",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_155.mp3",
-                        },
-                        {
-                          text: "let's breathe together",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_156.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "डर मत" },
-                        { text: "मैं तुम्हारे साथ हूँ" },
-                        { text: "घबराना ठीक है" },
-                        { text: "चलो साथ में गहरी साँस लें" },
-                      ],
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-6",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_4_4.01.svg",
+      question: {
+        en: "Have you ever felt scared of a teacher before meeting them?",
+        hi: "क्या आपने कभी किसी शिक्षक से मिलने से पहले डर महसूस किया है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_13.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_13.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "YES",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_51.mp3",
+          },
+          {
+            text: "NO",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_52.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "हाँ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_51.mp3",
+          },
+          {
+            text: "नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_52.mp3",
+          },
+        ],
+      },
+      correct: { en: "YES", hi: "हाँ" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_4_4.02.svg",
+      question: {
+        en: "What helps you feel better when you are scared?",
+        hi: "जब आप डरे हुए होते हैं, तो आपको बेहतर महसूस कराने में क्या मदद करता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_14.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_14.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "talking",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_53.mp3",
+          },
+          {
+            text: "breathing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_54.mp3",
+          },
+          {
+            text: "laughing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_55.mp3",
+          },
+          {
+            text: "nothing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_56.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "बात करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_53.mp3",
+          },
+          {
+            text: "साँस लेना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_54.mp3",
+          },
+          {
+            text: "हँसना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_55.mp3",
+          },
+          {
+            text: "कुछ नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_56.mp3",
+          },
+        ],
+      },
+      correct: { en: "breathing", hi: "साँस लेना" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_4_4.03.svg",
+      question: {
+        en: "What feelings do you associate with before meeting a new teacher?",
+        hi: "किसी नए शिक्षक से मिलने से पहले, आप कौन-सी भावनाएँ महसूस करते हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_15.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_15.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "happy",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_57.mp3",
+          },
+          {
+            text: "nervous",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_58.mp3",
+          },
+          {
+            text: "excited",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_59.mp3",
+          },
+          {
+            text: "scared",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_60.mp3",
+          },
+          {
+            text: "angry",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_61.mp3",
+          },
+          {
+            text: "sad",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_62.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "खुशी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_57.mp3",
+          },
+          {
+            text: "घबराहट",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_58.mp3",
+          },
+          {
+            text: "उत्साहित",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_59.mp3",
+          },
+          {
+            text: "डर",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_60.mp3",
+          },
+          {
+            text: "गुस्सा",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_61.mp3",
+          },
+          {
+            text: "उदासी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_62.mp3",
+          },
+        ],
+      },
+      correct: { en: "nervous", hi: "घबराहट" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_4_4.04.svg",
+      question: {
+        en: "Why did the kids laugh when Mr Williams danced in?",
+        hi: "जब मिस्टर विलियम्स नाचते हुए अंदर आए तो बच्चे हँस क्यों पड़े?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_16.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_16.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "it was funny",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_63.mp3",
+          },
+          {
+            text: "they felt relaxed",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_64.mp3",
+          },
+          {
+            text: "it broke their fear",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_65.mp3",
+          },
+          {
+            text: "all of the above",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_66.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "उन्हें मज़ा आया",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_63.mp3",
+          },
+          {
+            text: "उन्हें आराम महसूस हुआ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_64.mp3",
+          },
+          {
+            text: "उनका डर दूर हो गया",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_65.mp3",
+          },
+          {
+            text: "उपरोक्त सभी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_66.mp3",
+          },
+        ],
+      },
+      correct: { en: "all of the above", hi: "उपरोक्त सभी" },
+    },
+  ],
+},,
               // lesson 7
               {
                 lessonId: "lesson-7",
@@ -2534,992 +1253,517 @@ mongoose
               },
               // lesson 8
               {
-                lessonId: "lesson-8",
-                questions: [
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.01.svg",
-                    question: {
-                      en: "Who entered the classroom dancing?",
-                      hi: "कक्षा में नाचते हुए कौन आया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_37.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Mr Kumar",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_157.mp3",
-                        },
-                        {
-                          text: "Mr Williams",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_158.mp3",
-                        },
-                        {
-                          text: "Sochu",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_159.mp3",
-                        },
-                        {
-                          text: "The principal",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_160.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "मिस्टर कुमार" },
-                        { text: "मिस्टर विलियम्स" },
-                        { text: "सोचू" },
-                        { text: "प्रिंसिपल" },
-                      ],
-                    },
-                    correct: { en: "Mr Williams", hi: "मिस्टर विलियम्स" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.02.svg",
-                    question: {
-                      en: "How old is Mr Williams?",
-                      hi: "मिस्टर विलियम्स की उम्र कितनी है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_38.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "60 years",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_161.mp3",
-                        },
-                        {
-                          text: "70 years",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_162.mp3",
-                        },
-                        {
-                          text: "80 years",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_163.mp3",
-                        },
-                        {
-                          text: "90 years",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_164.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "६० साल" },
-                        { text: "७० साल" },
-                        { text: "८० साल" },
-                        { text: "९० साल" },
-                      ],
-                    },
-                    correct: { en: "80 years", hi: "८० साल" },
-                  },
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "How did the children react to Mr Williams dancing?",
-                      hi: "बच्चों ने मिस्टर विलियम्स के नाचने पर क्या किया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_39.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "they screamed",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_165.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.03_1.svg",
-                        },
-                        {
-                          text: "they laughed",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_166.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.03_2.svg",
-                        },
-                        {
-                          text: "they ran",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_167.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.03_3.svg",
-                        },
-                        {
-                          text: "they got scared",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_168.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.03_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "उन्होंने चिल्लाया" },
-                        { text: "वे हँस पड़े" },
-                        { text: "वे भाग गए" },
-                        { text: "वे डर गए" },
-                      ],
-                    },
-                    correct: { en: "they laughed", hi: "वे हँस पड़े" },
-                  },
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "What word describes Mr Williams in the story?",
-                      hi: "कहानी में मिस्टर विलियम्स को किस शब्द से बताया गया है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_40.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "sleepy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_169.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.04_1.svg",
-                        },
-                        {
-                          text: "nervous",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_170.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.04_2.svg",
-                        },
-                        {
-                          text: "jolly",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_171.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.04_3.svg",
-                        },
-                        {
-                          text: "strict",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_172.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.04_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "उनींदा" },
-                        { text: "घबराया हुआ" },
-                        { text: "खुशमिजाज" },
-                        { text: "सख्त" },
-                      ],
-                    },
-                    correct: { en: "jolly", hi: "खुशमिजाज" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.05.svg",
-                    question: {
-                      en: "What does the word 'jolly' mean?",
-                      hi: "'खुशमिजाज' का क्या मतलब होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_41.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "serious",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_173.mp3",
-                        },
-                        {
-                          text: "angry",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_174.mp3",
-                        },
-                        {
-                          text: "cheerful and happy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_175.mp3",
-                        },
-                        {
-                          text: "boring",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_176.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "गंभीर" },
-                        { text: "गुस्सैल" },
-                        { text: "हमेशा मुस्कुराते हुए" },
-                        { text: "उबाऊ" },
-                      ],
-                    },
-                    correct: {
-                      en: "cheerful and happy",
-                      hi: "हमेशा मुस्कुराते हुए",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.06.svg",
-                    question: {
-                      en: "What question did Mr Williams ask the class?",
-                      hi: "मिस्टर विलियम्स ने बच्चों से कौन सा सवाल पूछा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_42.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Why do we play?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_177.mp3",
-                        },
-                        {
-                          text: "Who is your best friend?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_178.mp3",
-                        },
-                        {
-                          text: "Why do we come to school?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_179.mp3",
-                        },
-                        {
-                          text: "What is your name?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_180.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "हम खेलते क्यों हैं?" },
-                        { text: "तुम्हारा सबसे अच्छा दोस्त कौन है?" },
-                        { text: "हम स्कूल क्यों आते हैं?" },
-                        { text: "तुम्हारा नाम क्या है?" },
-                      ],
-                    },
-                    correct: {
-                      en: "Why do we come to school?",
-                      hi: "हम स्कूल क्यों आते हैं?",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "Which of these was NOT an answer the kids gave?",
-                      hi: "नीचे में से कौन-सा उत्तर बच्चों ने नहीं दिया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_43.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "to play",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_181.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.07_1.svg",
-                        },
-                        {
-                          text: "to get out of the house",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_182.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.07_2.svg",
-                        },
-                        {
-                          text: "to eat food",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_183.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.07_3.svg",
-                        },
-                        {
-                          text: "because our parents send us to school",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_184.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_5.07_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "खेलने के लिए" },
-                        { text: "घर से बाहर निकलने के लिए" },
-                        { text: "खाना खाने के लिए" },
-                        {
-                          text: "क्योंकि हमारे मम्मी-पापा हमें स्कूल भेजते हैं",
-                        },
-                      ],
-                    },
-                    correct: { en: "to eat food", hi: "खाना खाने के लिए" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.08.svg",
-                    question: {
-                      en: "What phrase did Mr Williams say to inspire the kids?",
-                      hi: "बच्चों को प्रेरित करने के लिए मिस्टर विलियम्स ने क्या कहा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_44.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "stay quiet",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_185.mp3",
-                        },
-                        {
-                          text: "follow rules",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_186.mp3",
-                        },
-                        {
-                          text: "think outside the box",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_187.mp3",
-                        },
-                        {
-                          text: "do your homework",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_188.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "चुप रहो" },
-                        { text: "नियम मानो" },
-                        { text: "बॉक्स के बाहर सोचो" },
-                        { text: "होमवर्क करो" },
-                      ],
-                    },
-                    correct: {
-                      en: "think outside the box",
-                      hi: "बॉक्स के बाहर सोचो",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.09.svg",
-                    question: {
-                      en: "What was Mr Williams' favourite reason to come to school?",
-                      hi: "मिस्टर विलियम्स का स्कूल आने का सबसे महत्वपूर्ण उद्देश्य क्या था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_45.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "to teach",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_189.mp3",
-                        },
-                        {
-                          text: "to eat",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_190.mp3",
-                        },
-                        {
-                          text: "to make friends",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_191.mp3",
-                        },
-                        {
-                          text: "to play games",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_192.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "पढ़ाने के लिए" },
-                        { text: "खाने के लिए" },
-                        { text: "दोस्त बनाने के लिए" },
-                        { text: "खेल खेलने के लिए" },
-                      ],
-                    },
-                    correct: {
-                      en: "to make friends",
-                      hi: "दोस्त बनाने के लिए",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.10.svg",
-                    question: {
-                      en: "What formed between the children at that moment?",
-                      hi: "उस पल सभी बच्चों के बीच क्या महसूस हुआ?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_46.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "a team",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_193.mp3",
-                        },
-                        {
-                          text: "a joke",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_194.mp3",
-                        },
-                        {
-                          text: "a bond",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_195.mp3",
-                        },
-                        {
-                          text: "a silence",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_196.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "एक टीम" },
-                        { text: "एक मज़ाक" },
-                        { text: "एक खास अपनापन" },
-                        { text: "एक चुप्पी" },
-                      ],
-                    },
-                    correct: { en: "a bond", hi: "एक खास अपनापन" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_5.11.svg",
-                    question: {
-                      en: "What does the word 'bond' mean?",
-                      hi: "'एक खास अपनापन' का क्या मतलब है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_47.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "to draw",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_197.mp3",
-                        },
-                        {
-                          text: "to connect with someone",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_198.mp3",
-                        },
-                        {
-                          text: "to compete",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_199.mp3",
-                        },
-                        {
-                          text: "to escape",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_200.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "चित्र बनाना" },
-                        { text: "जब कोई अपना जैसा लगे" },
-                        { text: "प्रतिस्पर्धा करना" },
-                        { text: "भाग जाना" },
-                      ],
-                    },
-                    correct: {
-                      en: "to connect with someone",
-                      hi: "जब कोई अपना जैसा लगे",
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-8",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_5_5.01.svg",
+      question: {
+        en: "What does 'Think Outside the Box' mean in the story?",
+        hi: "इस कहानी में 'बॉक्स के बाहर सोचो' का क्या मतलब है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_17.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_17.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "stay in line",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_67.mp3",
+          },
+          {
+            text: "break rules",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_68.mp3",
+          },
+          {
+            text: "to come up with new and creative ideas",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_69.mp3",
+          },
+          {
+            text: "draw a square",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_70.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "लाइन में रहना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_67.mp3",
+          },
+          {
+            text: "नियम तोड़ना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_68.mp3",
+          },
+          {
+            text: "अपनी कल्पना का उपयोग करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_69.mp3",
+          },
+          {
+            text: "एक वर्ग बनाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_70.mp3",
+          },
+        ],
+      },
+      correct: { en: "to come up with new and creative ideas", hi: "अपनी कल्पना का उपयोग करना" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_5_5.02.svg",
+      question: {
+        en: "What is Mr Williams' favourite reason to come to school?",
+        hi: "मिस्टर विलियम्स का स्कूल आने का पसंदीदा कारण क्या है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_18.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_18.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "to make friends",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_71.mp3",
+          },
+          {
+            text: "to make money",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_72.mp3",
+          },
+          {
+            text: "to make noise",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_73.mp3",
+          },
+          {
+            text: "to make art",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_74.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "दोस्त बनाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_71.mp3",
+          },
+          {
+            text: "शिक्षा पाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_72.mp3",
+          },
+          {
+            text: "खेल खेलना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_73.mp3",
+          },
+          {
+            text: "नियमों का पालन करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_74.mp3",
+          },
+        ],
+      },
+      correct: { en: "to make friends", hi: "दोस्त बनाना" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_5_5.03.svg",
+      question: {
+        en: "What does the word 'curious' mean?",
+        hi: "'उत्सुक' शब्द का क्या अर्थ होता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_19.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_19.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "tired",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_75.mp3",
+          },
+          {
+            text: "angry",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_76.mp3",
+          },
+          {
+            text: "eager to know more",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_77.mp3",
+          },
+          {
+            text: "bored",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_78.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "थका हुआ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_75.mp3",
+          },
+          {
+            text: "ग़ुस्सा",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_76.mp3",
+          },
+          {
+            text: "नई चीजें जानने की इच्छा",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_77.mp3",
+          },
+          {
+            text: "उब गया",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_78.mp3",
+          },
+        ],
+      },
+      correct: { en: "eager to know more", hi: "नई चीजें जानने की इच्छा" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_5_5.04.svg",
+      question: {
+        en: "What did the kids do when their 80-year-old class teacher entered class, jumping around like an 8-year-old kid?",
+        hi: "अपने 80 साल के क्लास टीचर को 8 साल के बच्चे की तरह उछलते हुए देखकर, बच्चों ने क्या किया?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_20.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_20.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "cried",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_79.mp3",
+          },
+          {
+            text: "erupted into laughter",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_80.mp3",
+          },
+          {
+            text: "acted naughty",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_81.mp3",
+          },
+          {
+            text: "whispered",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_82.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "वे डर गए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_79.mp3",
+          },
+          {
+            text: "वे हँसने लगे",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_80.mp3",
+          },
+          {
+            text: "वे बाहर भाग गए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_81.mp3",
+          },
+          {
+            text: "वे चुपचाप बैठ गए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_82.mp3",
+          },
+        ],
+      },
+      correct: { en: "erupted into laughter", hi: "वे हँसने लगे" },
+    },
+  ],
+},
               // lesson 9
               {
-                lessonId: "lesson-9",
-                questions: [
-                  {
-                    type: "mcq",
-                    image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6.01",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Have you ever been surprised by someone acting differently from what you expected?",
-                      hi: "किसी का व्यवहार अचानक बदलने पर, क्या आप कभी चौंक गए हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_48.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_201.mp3",
-                        },
-                        {
-                          text: "NO",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_202.mp3",
-                        },
-                        {
-                          text: "sometimes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_203.mp3",
-                        },
-                        {
-                          text: "I don't remember",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_204.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "हाँ" },
-                        { text: "नहीं" },
-                        { text: "कभी-कभी" },
-                        { text: "मुझे याद नहीं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What do you do when someone surprises you in a good way?",
-                      hi: "खुश होने पर आप क्या करते है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_49.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "smile",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_205.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.02_1.svg",
-                        },
-                        {
-                          text: "feel shy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_206.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.02_2.svg",
-                        },
-                        {
-                          text: "stay silent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_207.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.02_3.svg",
-                        },
-                        {
-                          text: "laugh out loud",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_208.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.02_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "मुस्कुराते हैं" },
-                        { text: "शर्माते हैं" },
-                        { text: "चुप रहते हैं" },
-                        { text: "ज़ोर से हँसते हैं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.03.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Why do you think everyone laughed when Mr Williams danced?",
-                      hi: "मिस्टर विलियम्स को नाचता देख सब हँस क्यों पड़े?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_50.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "it was unexpected",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_209.mp3",
-                        },
-                        {
-                          text: "they felt happy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_210.mp3",
-                        },
-                        {
-                          text: "he looked funny",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_211.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_212.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "यह अचरज भरा था" },
-                        { text: "वे खुश हो गए" },
-                        { text: "वह मज़ेदार लगे" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.04.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What makes someone a good friend?",
-                      hi: "एक अच्छा दोस्त बनने के लिए क्या ज़रूरी है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_51.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "play",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_213.mp3",
-                        },
-                        {
-                          text: "fun",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_214.mp3",
-                        },
-                        {
-                          text: "honesty",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_215.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_216.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "खेल-कूद" },
-                        { text: "मज़ा" },
-                        { text: "ईमानदारी" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.05.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "How can you make friends in school?",
-                      hi: "स्कूल में दोस्त कैसे बनाए जा सकते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_52.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "say hello to them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_217.mp3",
-                        },
-                        {
-                          text: "be curious about them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_218.mp3",
-                        },
-                        {
-                          text: "ignore them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_219.mp3",
-                        },
-                        {
-                          text: "talk behind their back",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_220.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "उन्हें नमस्ते कहें" },
-                        { text: "उनके बारे में जिज्ञासा रखें" },
-                        { text: "उन्हें नज़रअंदाज़ करें" },
-                        { text: "उनकी पीठ पीछे बातें करें" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.06.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Have you ever felt nervous?",
-                      hi: "क्या आपने कभी घबराहट महसूस की है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_53.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_221.mp3",
-                        },
-                        {
-                          text: "NO",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_222.mp3",
-                        },
-                        {
-                          text: "sometimes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_223.mp3",
-                        },
-                        {
-                          text: "I don't remember",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_224.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "हाँ" },
-                        { text: "नहीं" },
-                        { text: "कभी-कभी" },
-                        { text: "मुझे याद नहीं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "How do you feel when you make a new friend?",
-                      hi: "जब आप कोई नया दोस्त बनाते हैं तो कैसा महसूस होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_54.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "excited",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_225.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.07_1.svg",
-                        },
-                        {
-                          text: "nervous",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_226.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.07_2.svg",
-                        },
-                        {
-                          text: "happy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_227.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.07_3.svg",
-                        },
-                        {
-                          text: "unsure",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_228.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_6.07_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "उत्साहित" },
-                        { text: "घबराए हुए" },
-                        { text: "खुश" },
-                        { text: "उलझन में" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.08.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Why do you think Mr Williams said 'The friends you make today will be your friends for life'?",
-                      hi: "मिस्टर विलियम्स ने 'जो दोस्त तुम आज बनाओगे, वो ज़िंदगी भर तुम्हारे साथ रहेंगे...' ऐसा क्यों कहा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_55.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "because friends matter",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_229.mp3",
-                        },
-                        {
-                          text: "to sound wise",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_230.mp3",
-                        },
-                        {
-                          text: "to scare them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_231.mp3",
-                        },
-                        {
-                          text: "to make them laugh",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_232.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "क्योंकि दोस्त ज़रूरी होते हैं" },
-                        { text: "समझदार लगने के लिए" },
-                        { text: "डराने के लिए" },
-                        { text: "हँसाने के लिए" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.09.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What helps you feel less scared when meeting someone new?",
-                      hi: "जब आप किसी नए व्यक्ति से मिलते हैं तो डर कम करने में क्या मदद करता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_56.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "a smile",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_233.mp3",
-                        },
-                        {
-                          text: "kind words",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_234.mp3",
-                        },
-                        {
-                          text: "deep breaths",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_235.mp3",
-                        },
-                        {
-                          text: "talking to someone",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_236.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_237.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "मुस्कान" },
-                        { text: "प्यारी बातें" },
-                        { text: "गहरी साँस" },
-                        { text: "किसी से बात करना" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_6.10.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "If someone looks lonely in class, what could you do?",
-                      hi: "अगर कोई कक्षा में अकेले बैठे हो, तो आप क्या कर सकते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_57.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "talk to them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_238.mp3",
-                        },
-                        {
-                          text: "ignore them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_239.mp3",
-                        },
-                        {
-                          text: "point it out",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_240.mp3",
-                        },
-                        {
-                          text: "laugh at them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_241.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "उनसे बात करें" },
-                        { text: "अनदेखा करें" },
-                        { text: "दूसरों को बताएं" },
-                        { text: "हँसी उड़ाएं" },
-                      ],
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-6",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6_6.01.svg",
+      question: {
+        en: "Why do you go to school?",
+        hi: "आप स्कूल क्यों जाते हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_21.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_21.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "to learn",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_83.mp3",
+          },
+          {
+            text: "to play",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_84.mp3",
+          },
+          {
+            text: "to meet friends",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_85.mp3",
+          },
+          {
+            text: "because I have to",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_86.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "सीखने के लिए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_83.mp3",
+          },
+          {
+            text: "खेलने के लिए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_84.mp3",
+          },
+          {
+            text: "दोस्तों से मिलने के लिए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_85.mp3",
+          },
+          {
+            text: "क्योंकि मुझे जाना पड़ता है",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_86.mp3",
+          },
+        ],
+      },
+      correct: { en: "to learn", hi: "सीखने के लिए" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6_6.02.svg",
+      question: {
+        en: "Do you like making friends?",
+        hi: "क्या आपको दोस्त बनाना पसंद है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_22.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_22.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "YES",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_87.mp3",
+          },
+          {
+            text: "NO",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_88.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "हाँ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_87.mp3",
+          },
+          {
+            text: "नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_88.mp3",
+          },
+        ],
+      },
+      correct: { en: "YES", hi: "हाँ" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6_6.03.svg",
+      question: {
+        en: "What feelings can you associate with making new friends?",
+        hi: "नए दोस्त बनाने से आपको कौन-कौन सी भावनाएँ महसूस होती हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_23.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_23.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "happy",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_89.mp3",
+          },
+          {
+            text: "nervous",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_90.mp3",
+          },
+          {
+            text: "excited",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_91.mp3",
+          },
+          {
+            text: "scared",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_92.mp3",
+          },
+          {
+            text: "angry",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_93.mp3",
+          },
+          {
+            text: "sad",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_94.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "खुशी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_89.mp3",
+          },
+          {
+            text: "घबराहट",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_90.mp3",
+          },
+          {
+            text: "उत्साहित",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_91.mp3",
+          },
+          {
+            text: "डर",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_92.mp3",
+          },
+          {
+            text: "गुस्सा",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_93.mp3",
+          },
+          {
+            text: "उदासी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_94.mp3",
+          },
+        ],
+      },
+      correct: { en: "happy", hi: "खुशी" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6_6.04.svg",
+      question: {
+        en: "Do you think friendship is important?",
+        hi: "क्या आपको लगता है कि दोस्ती ज़रूरी है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_24.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_24.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "YES",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_95.mp3",
+          },
+          {
+            text: "NO",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_96.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "हाँ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_95.mp3",
+          },
+          {
+            text: "नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_96.mp3",
+          },
+        ],
+      },
+      correct: { en: "YES", hi: "हाँ" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6_6.05.svg",
+      question: {
+        en: "Do you have friends that you like spending time with?",
+        hi: "क्या आपके ऐसे दोस्त हैं जिनके साथ समय बिताना आपको अच्छा लगता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_25.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_25.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "YES",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_97.mp3",
+          },
+          {
+            text: "NO",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_98.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "हाँ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_97.mp3",
+          },
+          {
+            text: "नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_98.mp3",
+          },
+        ],
+      },
+      correct: { en: "YES", hi: "हाँ" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_6_6.06.svg",
+      question: {
+        en: "What makes someone a good friend?",
+        hi: "एक अच्छा दोस्त कौन-सी बातों से बनता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_26.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_26.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "kindness",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_99.mp3",
+          },
+          {
+            text: "sharing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_100.mp3",
+          },
+          {
+            text: "laughing",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_101.mp3",
+          },
+          {
+            text: "playing together",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_102.mp3",
+          },
+          {
+            text: "all of the above",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_103.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "मदद करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_99.mp3",
+          },
+          {
+            text: "साझा करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_100.mp3",
+          },
+          {
+            text: "हँसी-मज़ाक",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_101.mp3",
+          },
+          {
+            text: "साथ में खेलना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_102.mp3",
+          },
+          {
+            text: "उपरोक्त सभी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_103.mp3",
+          },
+        ],
+      },
+      correct: { en: "all of the above", hi: "उपरोक्त सभी" },
+    },
+  ],
+},
               // lesson 10
               {
                 lessonId: "lesson-10",
@@ -3657,929 +1901,472 @@ mongoose
               },
               // lesson 11
               {
-                lessonId: "lesson-11",
-                questions: [
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.01.svg",
-                    question: {
-                      en: "What kind of book did Sochu and Raju find in the library?",
-                      hi: "सोचू और राजू ने श्री कुमार के पुस्तकालय में किस तरह की किताब पाई?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_58.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "a comic book",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_242.mp3",
-                        },
-                        {
-                          text: "a storybook",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_243.mp3",
-                        },
-                        {
-                          text: "a book about thinking",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_244.mp3",
-                        },
-                        {
-                          text: "a joke book",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_245.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "कॉमिक बुक" },
-                        { text: "कहानी की किताब" },
-                        { text: "बॉक्स के बाहर सोचने की किताब" },
-                        { text: "चुटकुलों की किताब" },
-                      ],
-                    },
-                    correct: {
-                      en: "a book about thinking",
-                      hi: "सोचने वाली किताब",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.02.svg",
-                    question: {
-                      en: "What was the title of the book they found?",
-                      hi: "उन्होंने जो किताब निकाली उसका नाम क्या था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_59.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "The Inventors Who Changed the World",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_246.mp3",
-                        },
-                        {
-                          text: "The Inventors Who Thought Outside the Box",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_247.mp3",
-                        },
-                        {
-                          text: "The Story of Great Scientists",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_248.mp3",
-                        },
-                        {
-                          text: "Thinking is Fun",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_249.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "दुनिया बदलने वाले आविष्कारक" },
-                        { text: "'बॉक्स के बाहर सोचने वाले आविष्कारक'" },
-                        { text: "महान वैज्ञानिकों की कहानी" },
-                        { text: "सोचो तो मज़ा आए" },
-                      ],
-                    },
-                    correct: {
-                      en: "The Inventors Who Thought Outside the Box",
-                      hi: "बॉक्स के बाहर सोचने की किताब",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.03.svg",
-                    question: {
-                      en: "How long was the Wright Brothers' first flight?",
-                      hi: "राइट ब्रदर्स की पहली उड़ान कितनी लंबी थी?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_60.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "2 minutes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_250.mp3",
-                        },
-                        {
-                          text: "1 minute",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_251.mp3",
-                        },
-                        {
-                          text: "12 seconds",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_252.mp3",
-                        },
-                        {
-                          text: "60 seconds",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_253.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "२ मिनट" },
-                        { text: "१ मिनट" },
-                        { text: "१२ सेकंड" },
-                        { text: "६० सेकंड" },
-                      ],
-                    },
-                    correct: { en: "12 seconds", hi: "१२ सेकंड" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.04.svg",
-                    question: {
-                      en: "Who were the two inventors related to electricity in the book?",
-                      hi: "किताब में बिजली से जुड़े दो आविष्कारक कौन थे?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_61.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Newton and Galileo",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_254.mp3",
-                        },
-                        {
-                          text: "Jobs and Gates",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_255.mp3",
-                        },
-                        {
-                          text: "Edison and Tesla",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_256.mp3",
-                        },
-                        {
-                          text: "Wright Brothers",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_257.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "न्यूटन और गैलिलियो" },
-                        { text: "जॉब्स और गेट्स" },
-                        { text: "एडिसन और टेस्ला" },
-                        { text: "राइट ब्रदर्स" },
-                      ],
-                    },
-                    correct: { en: "Edison and Tesla", hi: "एडिसन और टेस्ला" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.05.svg",
-                    question: {
-                      en: "According to Tesla, what was the difference between Direct Current and Alternating Current?",
-                      hi: "टेस्ला के मुताबिक, डायरेक्ट करंट और अल्टरनेटिंग करंट में क्या फर्क था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_62.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "one was for phones, the other for planes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_258.mp3",
-                        },
-                        {
-                          text: "one was old, one was going to be the future",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_259.mp3",
-                        },
-                        {
-                          text: "they were the same",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_260.mp3",
-                        },
-                        {
-                          text: "electricity was not real",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_261.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "एक फोन के लिए था, एक विमान के लिए" },
-                        { text: "एक पुराना था, एक भविष्य बनने वाला था" },
-                        { text: "दोनों एक जैसे थे" },
-                        { text: "बिजली असली नहीं थी" },
-                      ],
-                    },
-                    correct: {
-                      en: "one was old, one was going to be the future",
-                      hi: "एक पुराना है, एक भविष्य है",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.06.svg",
-                    question: {
-                      en: "What did Jobs and Gates do with the computer?",
-                      hi: "जॉब्स और गेट्स ने कंप्यूटर के साथ क्या किया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_63.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "made it smaller",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_262.mp3",
-                        },
-                        {
-                          text: "made it faster",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_263.mp3",
-                        },
-                        {
-                          text: "made it personal",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_264.mp3",
-                        },
-                        {
-                          text: "made it vanish",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_265.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "उसे छोटा बना दिया" },
-                        { text: "उसे तेज़ बना दिया" },
-                        { text: "उसे पर्सनल कंप्यूटर बना दिया" },
-                        { text: "उसे गायब कर दिया" },
-                      ],
-                    },
-                    correct: {
-                      en: "made it personal",
-                      hi: "उसे पर्सनल कंप्यूटर बना दिया",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.07.svg",
-                    question: {
-                      en: "What happened when Sochu and Raju read the book?",
-                      hi: "किताब पढ़ते समय सोचू और राजू का क्या हाल हुआ?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_64.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "they fell asleep",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_266.mp3",
-                        },
-                        {
-                          text: "their eyes sparkled",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_267.mp3",
-                        },
-                        {
-                          text: "they got confused",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_268.mp3",
-                        },
-                        {
-                          text: "they tore the pages",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_269.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "वे सो गए" },
-                        { text: "उनकी आँखें चमक उठीं" },
-                        { text: "वे उलझन में पड़ गए" },
-                        { text: "उन्होंने पन्ने फाड़ दिए" },
-                      ],
-                    },
-                    correct: {
-                      en: "their eyes sparkled",
-                      hi: "उनकी आँखें चमक उठीं",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.08.svg",
-                    question: {
-                      en: "What question did Sochu ask his dad?",
-                      hi: "सोचू ने अपने पापा से क्या पूछा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_65.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "What is electricity?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_270.mp3",
-                        },
-                        {
-                          text: "Where is the box?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_271.mp3",
-                        },
-                        {
-                          text: "Who is Tesla?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_272.mp3",
-                        },
-                        {
-                          text: "Why do we think?",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_273.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "बिजली क्या है?" },
-                        { text: "बॉक्स कहाँ है?" },
-                        { text: "टेस्ला कौन है?" },
-                        { text: "हम क्यों सोचते हैं?" },
-                      ],
-                    },
-                    correct: { en: "Where is the box?", hi: "बॉक्स कहाँ है?" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.019svg",
-                    question: {
-                      en: "What did Sochu's dad say about the box?",
-                      hi: "सोचू के पापा ने बॉक्स के बारे में क्या कहा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_66.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "it's in the attic",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_274.mp3",
-                        },
-                        {
-                          text: "it's lost",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_275.mp3",
-                        },
-                        {
-                          text: "it's in your mind",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_276.mp3",
-                        },
-                        {
-                          text: "it doesn't exist",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_277.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "वह अटारी में है" },
-                        { text: "वह खो गया है" },
-                        { text: "वह तुम्हारे दिमाग में है" },
-                        { text: "ऐसा कोई बॉक्स नहीं है" },
-                      ],
-                    },
-                    correct: {
-                      en: "it's in your mind",
-                      hi: "वह तुम्हारे दिमाग में है",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_7.10.svg",
-                    question: {
-                      en: "What was Sochu's reaction when he heard the box is in the mind?",
-                      hi: "जब सोचू ने सुना कि बॉक्स दिमाग में है, तो उसने क्या कीया?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_67.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "he laughed",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_278.mp3",
-                        },
-                        {
-                          text: "he got scared",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_279.mp3",
-                        },
-                        {
-                          text: "he got angry",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_280.mp3",
-                        },
-                        {
-                          text: "he took a deep breath",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_281.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "वह हँसा" },
-                        { text: "वह डर गया" },
-                        { text: "वह गुस्सा हुआ" },
-                        { text: "एक गहरी साँस ली" },
-                      ],
-                    },
-                    correct: {
-                      en: "he took a deep breath",
-                      hi: "एक गहरी साँस ली",
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-11",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_7_7.01.svg",
+      question: {
+        en: "How many seconds long was the maiden flight by the Wright Brothers?",
+        hi: "राइट ब्रदर्स की पहली उड़ान कितने सेकंड लंबी थी?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_27.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_27.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "twelve",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_104.mp3",
+          },
+          {
+            text: "fifty",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_105.mp3",
+          },
+          {
+            text: "ten",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_106.mp3",
+          },
+          {
+            text: "sixty",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_107.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "बारह",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_104.mp3",
+          },
+          {
+            text: "पचास",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_105.mp3",
+          },
+          {
+            text: "दस",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_106.mp3",
+          },
+          {
+            text: "साठ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_107.mp3",
+          },
+        ],
+      },
+      correct: { en: "twelve", hi: "बारह" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_7_7.02.svg",
+      question: {
+        en: "What does maiden mean?",
+        hi: "राइट ब्रदर्स की कौन-सी उड़ान केवल 12 सेकंड लंबी थी?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_28.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_28.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "early",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_108.mp3",
+          },
+          {
+            text: "first",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_109.mp3",
+          },
+          {
+            text: "only",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_110.mp3",
+          },
+          {
+            text: "none of the above",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_111.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "जल्दी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_108.mp3",
+          },
+          {
+            text: "पहली",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_109.mp3",
+          },
+          {
+            text: "केवल",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_110.mp3",
+          },
+          {
+            text: "उपरोक्त में से कोई नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_111.mp3",
+          },
+        ],
+      },
+      correct: { en: "first", hi: "पहली" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_7_7.03.svg",
+      question: {
+        en: "What does 'inventor' mean?",
+        hi: "'आविष्कारक' शब्द का क्या अर्थ होता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_29.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_29.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "dreamer",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_112.mp3",
+          },
+          {
+            text: "thinker",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_113.mp3",
+          },
+          {
+            text: "person who creates something new",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_114.mp3",
+          },
+          {
+            text: "friend",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_115.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "एक सपना देखने वाला",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_112.mp3",
+          },
+          {
+            text: "एक विचारक",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_113.mp3",
+          },
+          {
+            text: "जो कुछ नया बनाता है",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_114.mp3",
+          },
+          {
+            text: "एक दोस्त",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_115.mp3",
+          },
+        ],
+      },
+      correct: { en: "person who creates something new", hi: "जो कुछ नया बनाता है" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_7_7.04.svg",
+      question: {
+        en: "What invention did Edison and Tesla work on?",
+        hi: "एडिसन और टेस्ला ने किस आविष्कार पर काम किया?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_30.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_30.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "water",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_116.mp3",
+          },
+          {
+            text: "food",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_117.mp3",
+          },
+          {
+            text: "electricity",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_118.mp3",
+          },
+          {
+            text: "games",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_119.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "पानी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_116.mp3",
+          },
+          {
+            text: "भोजन",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_117.mp3",
+          },
+          {
+            text: "बिजली",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_118.mp3",
+          },
+          {
+            text: "खेल",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_119.mp3",
+          },
+        ],
+      },
+      correct: { en: "electricity", hi: "बिजली" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_7_7.05.svg",
+      question: {
+        en: "What does 'sparkle with excitement' mean?",
+        hi: "'आँखें चमक उठना' का क्या मतलब होता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_31.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_31.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "jump with anger",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_120.mp3",
+          },
+          {
+            text: "cry loudly",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_121.mp3",
+          },
+          {
+            text: "to be full of joy",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_122.mp3",
+          },
+          {
+            text: "be bored",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_123.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "डर जाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_120.mp3",
+          },
+          {
+            text: "ग़ुस्सा आना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_121.mp3",
+          },
+          {
+            text: "उत्साह और खुशी दिखाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_122.mp3",
+          },
+          {
+            text: "थक जाना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_123.mp3",
+          },
+        ],
+      },
+      correct: { en: "to be full of joy", hi: "उत्साह और खुशी दिखाना" },
+    },
+  ],
+},
               //lesson 12
               {
-                lessonId: "lesson-12",
-                questions: [
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.01.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Have you ever imagined being an inventor?",
-                      hi: "क्या आपने कभी एक आविष्कारक बनने की कल्पना की है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_68.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "YES",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_282.mp3",
-                        },
-                        {
-                          text: "NO",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_283.mp3",
-                        },
-                        {
-                          text: "maybe",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_284.mp3",
-                        },
-                        {
-                          text: "never thought of it",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_285.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "हाँ" },
-                        { text: "नहीं" },
-                        { text: "शायद" },
-                        { text: "कभी नहीं सोचा" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "How do you feel when you learn about someone who created something amazing?",
-                      hi: "जब आप किसी अद्भुत आविष्कारक के बारे में सुनते हैं तो आपको कैसा लगता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_69.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "amazed",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_286.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.02_1.svg",
-                        },
-                        {
-                          text: "inspired",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_287.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.02_2.svg",
-                        },
-                        {
-                          text: "confused",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_288.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.02_3.svg",
-                        },
-                        {
-                          text: "bored",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_289.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.02_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "हैरानी" },
-                        { text: "प्रेरणा" },
-                        { text: "उलझन" },
-                        { text: "बोरियत" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.03.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What can you do when you want to understand how something works?",
-                      hi: "जब आप किसी चीज़ को समझना चाहते हैं तो आप क्या कर सकते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_70.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "ask questions",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_290.mp3",
-                        },
-                        {
-                          text: "read a book",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_291.mp3",
-                        },
-                        {
-                          text: "explore",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_292.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_293.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "सवाल पूछें" },
-                        { text: "किताब पढ़ें" },
-                        { text: "खुद से खोजें" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.04.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What kind of things excite your mind the most?",
-                      hi: "कौन-सी बातें आपके मन को सबसे ज़्यादा रोमांचित करती हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_71.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "new ideas",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_294.mp3",
-                        },
-                        {
-                          text: "making things",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_295.mp3",
-                        },
-                        {
-                          text: "helping others",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_296.mp3",
-                        },
-                        {
-                          text: "solving puzzles",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_297.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "नए विचार" },
-                        { text: "कुछ बनाना" },
-                        { text: "दूसरों की मदद" },
-                        { text: "पहेलियाँ सुलझाना" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.05.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What do you do when you read or learn something really exciting?",
-                      hi: "जब आप कुछ बहुत रोचक पढ़ते या सीखते हैं तो आप क्या करते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_72.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "tell someone",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_298.mp3",
-                        },
-                        {
-                          text: "write about it",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_299.mp3",
-                        },
-                        {
-                          text: "draw it",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_300.mp3",
-                        },
-                        {
-                          text: "do nothing",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_301.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "किसी को बताते हैं" },
-                        { text: "उसे लिखते हैं" },
-                        { text: "उसका चित्र बनाते हैं" },
-                        { text: "कुछ नही करते हैं" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.06.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Who in your life encourages you to think differently?",
-                      hi: "आपके जीवन में कौन है जो आपको अलग सोचने के लिए प्रेरित करता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_73.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "parent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_302.mp3",
-                        },
-                        {
-                          text: "teacher",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_303.mp3",
-                        },
-                        {
-                          text: "friend",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_304.mp3",
-                        },
-                        {
-                          text: "all of them",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_305.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "माता-पिता" },
-                        { text: "शिक्षक" },
-                        { text: "दोस्त" },
-                        { text: "सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "Why do you think Sochu and Raju's eyes sparkled after reading about inventors?",
-                      hi: "सोचू और राजू की आँखें आविष्कारकों के बारे में पढ़कर क्यों चमक उठीं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_74.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "they were bored",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_306.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.07_1.svg",
-                        },
-                        {
-                          text: "they were scared",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_307.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.07_2.svg",
-                        },
-                        {
-                          text: "they were inspired",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_308.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.07_3.svg",
-                        },
-                        {
-                          text: "they were sleepy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_309.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_8.07_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "वे बोर हो गए थे" },
-                        { text: "वे डर गए थे" },
-                        { text: "उन्हें प्रेरणा मिली" },
-                        { text: "उन्हें नींद आ रही थी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.08.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What could you do today to start thinking 'outside the box'?",
-                      hi: "आप 'बॉक्स के बाहर सोचने' की शुरुआत कैसे कर सकते हैं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_75.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "notice new things",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_310.mp3",
-                        },
-                        {
-                          text: "try a new idea",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_311.mp3",
-                        },
-                        {
-                          text: "talk to someone different",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_312.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_313.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "कुछ नया देखें" },
-                        { text: "नया विचार आज़माएँ" },
-                        { text: "किसी नए व्यक्ती से बात करें" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.09.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "What do you think 'the box in your mind' really means?",
-                      hi: "आपके अनुसार 'दिमाग में बना बॉक्स' किस चीज़ को दर्शाता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_76.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "your limits",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_314.mp3",
-                        },
-                        {
-                          text: "your thoughts",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_315.mp3",
-                        },
-                        {
-                          text: "your fear",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_316.mp3",
-                        },
-                        {
-                          text: "your habits",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_317.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "आपकी सीमाएँ" },
-                        { text: "आपके विचार" },
-                        { text: "आपका डर" },
-                        { text: "आपकी आदतें" },
-                      ],
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_8.10.svg",
-                    anyOptionCorrect: true,
-                    question: {
-                      en: "When someone says 'Think outside the box', what should you try to do?",
-                      hi: "जब कोई कहे 'बॉक्स के बाहर सोचो', तो आपको क्या प्रयास करना चाहिए?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_77.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "ask more questions",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_318.mp3",
-                        },
-                        {
-                          text: "see from a new angle",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_319.mp3",
-                        },
-                        {
-                          text: "be creative",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_320.mp3",
-                        },
-                        {
-                          text: "all of the above",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_321.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "ज़्यादा सवाल पूछें" },
-                        { text: "नए नज़रिए से देखें" },
-                        { text: "रचनात्मक बनें" },
-                        { text: "ऊपर दिए गए सभी" },
-                      ],
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-12",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_8_8.01.svg",
+      question: {
+        en: "What do you do when someone says your ideas are silly?",
+        hi: "जब कोई कहता है कि आपके विचार बेकार हैं, तो आप क्या करते हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_32.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_32.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "ignore them",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_124.mp3",
+          },
+          {
+            text: "feel bad",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_125.mp3",
+          },
+          {
+            text: "try again",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_126.mp3",
+          },
+          {
+            text: "laugh",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_127.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "नज़रअंदाज़ करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_124.mp3",
+          },
+          {
+            text: "बुरा मान लेना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_125.mp3",
+          },
+          {
+            text: "फिर से प्रयास करना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_126.mp3",
+          },
+          {
+            text: "हँस देना",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_127.mp3",
+          },
+        ],
+      },
+      correct: { en: "try again", hi: "फिर से प्रयास करना" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_8_8.02.svg",
+      question: {
+        en: "Do you have a superhero that thinks inside you?",
+        hi: "क्या आपके अंदर भी एक सोचनेवाला सुपरहीरो है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_33.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_33.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "YES",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_128.mp3",
+          },
+          {
+            text: "NO",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_129.mp3",
+          },
+          {
+            text: "MAYBE",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_130.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "हाँ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_128.mp3",
+          },
+          {
+            text: "नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_129.mp3",
+          },
+          {
+            text: "शायद",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_130.mp3",
+          },
+        ],
+      },
+      correct: { en: "YES", hi: "हाँ" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_8_8.03.svg",
+      question: {
+        en: "What helps you think of new ideas?",
+        hi: "नए विचार सोचने में आपको किस चीज़ से मदद मिलती है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_34.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_34.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "quiet time",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_131.mp3",
+          },
+          {
+            text: "nature",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_132.mp3",
+          },
+          {
+            text: "books",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_133.mp3",
+          },
+          {
+            text: "friends",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_134.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "शांत समय",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_131.mp3",
+          },
+          {
+            text: "प्रकृति",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_132.mp3",
+          },
+          {
+            text: "किताबें",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_133.mp3",
+          },
+          {
+            text: "दोस्त",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_134.mp3",
+          },
+        ],
+      },
+      correct: { en: "quiet time", hi: "शांत समय" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: true,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_8_8.04.svg",
+      question: {
+        en: "Have you ever invented something in your mind? What was it?",
+        hi: "क्या आपने कभी अपने मन में कुछ नया आविष्कार किया है? वह क्या था?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_35.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_35.mp3",
+      },
+      anyOptionCorrect: true,
+      options: {
+        en: [
+          {
+            text: "YES",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_135.mp3",
+          },
+          {
+            text: "NO",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_136.mp3",
+          },
+          {
+            text: "MAYBE",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_137.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "हाँ",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_135.mp3",
+          },
+          {
+            text: "नहीं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_136.mp3",
+          },
+          {
+            text: "शायद",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_137.mp3",
+          },
+        ],
+      },
+      correct: { en: "YES", hi: "हाँ" },
+    },
+  ],
+},
               // lesson 13
               {
                 lessonId: "lesson-13",
@@ -4807,655 +2594,218 @@ mongoose
               },
               // lesson 14
               {
-                lessonId: "lesson-14",
-                questions: [
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "What emotion did Raju feel when Sochu entered his mind?",
-                      hi: "जब सोचू ने अपने मन में प्रवेश किया, तब राजू कैसा महसूस कर रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_78.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "excited ",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.01_1.svg",
-                        },
-                        {
-                          text: "bored ",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.01_2.svg",
-                        },
-                        {
-                          text: "baffled ",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.01_3.svg",
-                        },
-                        {
-                          text: "sleepy",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.01_4.svg",
-                        },
-                      ],
-                    },
-                    correct: { en: "baffled", hi: "कुछ समझ न आना" },
-                  },
-
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.02.svg",
-                    question: {
-                      en: "What does 'baffled' mean?",
-                      hi: "'उलझन' का क्या मतलब होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_79.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "angry",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_326.mp3",
-                        },
-                        {
-                          text: "totally confused",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_327.mp3",
-                        },
-                        {
-                          text: "super smart",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_328.mp3",
-                        },
-                        {
-                          text: "bored",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_329.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "गुस्से में" },
-                        { text: "कुछ समझ न आना" },
-                        { text: "बहुत समझदार" },
-                        { text: "ऊबा हुआ" },
-                      ],
-                    },
-                    correct: { en: "totally confused", hi: "कुछ समझ न आना" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.03.svg",
-                    question: {
-                      en: "Who did Sochu meet inside his mind?",
-                      hi: "सोचू को अपने मन के अंदर कौन मिला?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_80.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "Mr Williams",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_330.mp3",
-                        },
-                        {
-                          text: "a superhero",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_331.mp3",
-                        },
-                        {
-                          text: "his dad",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_332.mp3",
-                        },
-                        {
-                          text: "himself",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_333.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "मिस्टर विलियम्स" },
-                        { text: "एक सुपरहीरो" },
-                        { text: "उसके पापा" },
-                        { text: "खुद सोचू" },
-                      ],
-                    },
-                    correct: { en: "a superhero", hi: "एक सुपरहीरो" },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.04.svg",
-                    question: {
-                      en: "What is the superhero a symbol of?",
-                      hi: "वह सुपरहीरो किसका प्रतीक था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_81.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "the sun",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_334.mp3",
-                        },
-                        {
-                          text: "collective thought of the world",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_335.mp3",
-                        },
-                        {
-                          text: "a school teacher",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_336.mp3",
-                        },
-                        {
-                          text: "a robot",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_337.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "सूरज" },
-                        { text: "सारे दुनिया की सम्पूर्ण सोच" },
-                        { text: "एक स्कूल टीचर" },
-                        { text: "एक रोबोट" },
-                      ],
-                    },
-                    correct: {
-                      en: "collective thought of the world",
-                      hi: "सारे दुनिया की सम्पूर्ण सोच",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.05.svg",
-                    question: {
-                      en: "Just before Sochu came back out of his mind, what did the superhero say about inventing?",
-                      hi: "दिमाग से बाहर आने पहले, सुपरहीरो ने आविष्कार करने के बारे में क्या कहा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_82.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "only scientists can invent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_338.mp3",
-                        },
-                        {
-                          text: "anyone can invent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_339.mp3",
-                        },
-                        {
-                          text: "inventing is useless",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_340.mp3",
-                        },
-                        {
-                          text: "kids can't invent",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_341.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "सिर्फ़ वैज्ञानिक आविष्कार कर सकते हैं" },
-                        { text: "कोई भी आविष्कारक बन सकता है" },
-                        { text: "यह बेकार है" },
-                        { text: "बच्चे नहीं कर सकते" },
-                      ],
-                    },
-                    correct: {
-                      en: "anyone can invent",
-                      hi: "कोई भी आविष्कारक बन सकता है",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.06.svg",
-                    question: {
-                      en: "What was Mrs Kumar doing while Sochu and Raju ran through the kitchen?",
-                      hi: "जब सोचू और राजू रसोई में दौड़ रहे थे, तब श्रीमती कुमार क्या कर रही थीं?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_83.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "cooking",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_342.mp3",
-                        },
-                        {
-                          text: "cleaning",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_343.mp3",
-                        },
-                        {
-                          text: "dancing",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_344.mp3",
-                        },
-                        {
-                          text: "practising Vriksha Asana",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_345.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "खाना बना रही थीं" },
-                        { text: "सफ़ाई कर रही थीं" },
-                        { text: "नाच रही थीं" },
-                        { text: "वृक्षासन कर रही थीं" },
-                      ],
-                    },
-                    correct: {
-                      en: "practising Vriksha Asana",
-                      hi: "वृक्षासन कर रही थीं",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.07.svg",
-                    question: {
-                      en: "What does the word 'commotion' mean?",
-                      hi: "'ऊपर-नीचे कर देना' का क्या मतलब होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_84.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "peace and quiet",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_346.mp3",
-                        },
-                        {
-                          text: "a noisy disturbance",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_347.mp3",
-                        },
-                        {
-                          text: "fast movement",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_348.mp3",
-                        },
-                        {
-                          text: "deep thinking",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_349.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "शांति" },
-                        { text: "शोरगुल वाली हलचल" },
-                        { text: "तेज़ दौड़" },
-                        { text: "गहरी सोच" },
-                      ],
-                    },
-                    correct: {
-                      en: "a noisy disturbance",
-                      hi: "शोरगुल वाली हलचल",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.08.svg",
-                    question: {
-                      en: "What was Prem doing in the living room?",
-                      hi: "प्रेम लिविंग रूम में क्या कर रहा था?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_85.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "watching TV",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_350.mp3",
-                        },
-                        {
-                          text: "reading",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_351.mp3",
-                        },
-                        {
-                          text: "engrossed in a detective movie",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_352.mp3",
-                        },
-                        {
-                          text: "dancing",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_353.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "टीवी देख रहा था" },
-                        { text: "पढ़ रहा था" },
-                        { text: "जासूसी फ़िल्म देख रहा था" },
-                        { text: "नाच रहा था" },
-                      ],
-                    },
-                    correct: {
-                      en: "engrossed in a detective movie",
-                      hi: "जासूसी फ़िल्म देख रहा था",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.09.svg",
-                    question: {
-                      en: "What happened to the living room after Sochu and Raju searched for the box?",
-                      hi: "बॉक्स की तलाश करते-करते, लिविंग रूम का क्या हाल हो जाता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_86.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "it got cleaner",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_354.mp3",
-                        },
-                        {
-                          text: "it became a wreck",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_355.mp3",
-                        },
-                        {
-                          text: "they fixed things",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_356.mp3",
-                        },
-                        {
-                          text: "nothing changed",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_357.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "सब साफ़ हो जाता है" },
-                        { text: "सब बिखर जाता है" },
-                        { text: "सब ठीक हो जाता है" },
-                        { text: "सब अस्त-व्यस्त हो जाता है" },
-                      ],
-                    },
-                    correct: {
-                      en: "it became a wreck",
-                      hi: "सब अस्त-व्यस्त हो जाता है",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.10.svg",
-                    question: {
-                      en: "What does 'wreck' mean?",
-                      hi: "'अस्त-व्यस्त' का क्या मतलब है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_87.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "completely spoil",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_358.mp3",
-                        },
-                        {
-                          text: "fix things",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_359.mp3",
-                        },
-                        {
-                          text: "build something",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_360.mp3",
-                        },
-                        {
-                          text: "decorate",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_361.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "पूरी तरह बिगाड़ देना" },
-                        { text: "ठीक करना" },
-                        { text: "बनाना" },
-                        { text: "सजाना" },
-                      ],
-                    },
-                    correct: {
-                      en: "completely spoil",
-                      hi: "पूरी तरह बिगाड़ देना",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.11.svg",
-                    question: {
-                      en: "How did Sochu feel after trying to escape every box?",
-                      hi: "हर बॉक्स से बाहर निकलने की कोशिश के बाद सोचू कैसा महसूस करता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_88.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "excited",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_362.mp3",
-                        },
-                        {
-                          text: "disheartened",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_363.mp3",
-                        },
-                        {
-                          text: "happy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_364.mp3",
-                        },
-                        {
-                          text: "confused",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_365.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "उत्साहित" },
-                        { text: "उदास" },
-                        { text: "खुश" },
-                        { text: "उलझन में" },
-                      ],
-                    },
-                    correct: { en: "disheartened", hi: "उदास" },
-                  },
-                  {
-                    type: "mcq",
-                    question: {
-                      en: "What does 'disheartened' mean?",
-                      hi: "'उदास' का क्या मतलब होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_89.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "very happy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_366.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.12_1.svg",
-                        },
-                        {
-                          text: "scared",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_367.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.12_2.svg",
-                        },
-                        {
-                          text: "lost confidence",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_368.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.12_3.svg",
-                        },
-                        {
-                          text: "very energetic",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_369.mp3",
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB01_9.12_4.svg",
-                        },
-                      ],
-                      hi: [
-                        { text: "बहुत खुश" },
-                        { text: "डरा हुआ" },
-                        { text: "आत्मविश्वास खो देना" },
-                        { text: "निराश या चिंतित होना" },
-                      ],
-                    },
-                    correct: {
-                      en: "lost confidence",
-                      hi: "निराश या चिंतित होना",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.13.svg",
-                    question: {
-                      en: "What did Anju say at the end of this segment?",
-                      hi: "इस हिस्से के अंत में अंजू ने क्या कहा?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_90.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "the box is a toy",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_370.mp3",
-                        },
-                        {
-                          text: "humanity has surrounded itself with boxes",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_371.mp3",
-                        },
-                        {
-                          text: "school is a box",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_372.mp3",
-                        },
-                        {
-                          text: "she has no idea",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_373.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "बॉक्स एक खिलौना है" },
-                        { text: "इंसान ने अपने आप को बॉक्सों से घेर लिया है" },
-                        { text: "स्कूल एक बॉक्स है" },
-                        { text: "उसे कुछ नहीं पता" },
-                      ],
-                    },
-                    correct: {
-                      en: "humanity has surrounded itself with boxes",
-                      hi: "इंसान ने अपने आप को बॉक्सों से घेर लिया है",
-                    },
-                  },
-                  {
-                    type: "mcq",
-                    image:
-                      "https://d16ho1g3lqitul.cloudfront.net/SB01_9.14.svg",
-                    question: {
-                      en: "What does 'humanity' mean?",
-                      hi: "इस वाक्य मे, 'इंसान' का क्या मतलब होता है?",
-                    },
-                    questionAudio: {
-                      en: "https://d16ho1g3lqitul.cloudfront.net/GN_91.mp3",
-                      hi: "https://d16ho1g3lqitul.cloudfront.net/b1s1q8hn.mp3",
-                    },
-                    options: {
-                      en: [
-                        {
-                          text: "human beings as a whole",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_374.mp3",
-                        },
-                        {
-                          text: "a science subject",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_375.mp3",
-                        },
-                        {
-                          text: "an emotion",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_376.mp3",
-                        },
-                        {
-                          text: "technology",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/GO_377.mp3",
-                        },
-                      ],
-                      hi: [
-                        { text: "सभी इंसान मिलाकर - इंसानियत" },
-                        { text: "एक विज्ञान विषय" },
-                        { text: "एक भावना" },
-                        { text: "तकनीक" },
-                      ],
-                    },
-                    correct: {
-                      en: "human beings as a whole",
-                      hi: "सभी इंसान मिलाकर - इंसानियत",
-                    },
-                  },
-                ],
-              },
+  lessonId: "lesson-14",
+  questions: [
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_9_9.01.svg",
+      question: {
+        en: "How did Sochu and Raju feel when they tumbled out of the box and into nature?",
+        hi: "जब सोचू और राजू बॉक्स से बाहर निकलकर प्रकृति में डूब जाते हैं, तो उन्हें क्या महसूस होता है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_36.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_36.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "peace",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_138.mp3",
+          },
+          {
+            text: "freedom",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_139.mp3",
+          },
+          {
+            text: "happiness",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_140.mp3",
+          },
+          {
+            text: "all of the above",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_141.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "शांति",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_138.mp3",
+          },
+          {
+            text: "आज़ादी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_139.mp3",
+          },
+          {
+            text: "खुशी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_140.mp3",
+          },
+          {
+            text: "उपरोक्त सभी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_141.mp3",
+          },
+        ],
+      },
+      correct: { en: "all of the above", hi: "उपरोक्त सभी" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_9_9.02.svg",
+      question: {
+        en: "What does 'helter-skelter' mean?",
+        hi: "बॉक्स के अंदर, अंधेरे में, सोचू और राजू घबराकर कहाँ भागने लगते हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_37.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_37.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "very neat",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_142.mp3",
+          },
+          {
+            text: "in perfect order",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_143.mp3",
+          },
+          {
+            text: "without order",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_144.mp3",
+          },
+          {
+            text: "with a plan",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_145.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "इधर-उधर",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_142.mp3",
+          },
+          {
+            text: "अंधाधुंध",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_143.mp3",
+          },
+          {
+            text: "चुपचाप",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_144.mp3",
+          },
+          {
+            text: "मुस्कुराते हुए",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_145.mp3",
+          },
+        ],
+      },
+      correct: { en: "without order", hi: "इधर-उधर" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_9_9.03.svg",
+      question: {
+        en: "They experience the fragrance of green grass. What does fragrance mean?",
+        hi: "प्रकृति में कौन-सी चीज़ उन्हें सुकूनभरी ताजगी का अहसास कराती है?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_38.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_38.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "color",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_146.mp3",
+          },
+          {
+            text: "smell",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_147.mp3",
+          },
+          {
+            text: "sound",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_148.mp3",
+          },
+          {
+            text: "taste",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_149.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "आकाश के रंग से",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_146.mp3",
+          },
+          {
+            text: "हरी घास की सुगंध से",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_147.mp3",
+          },
+          {
+            text: "पक्षियों की आवाज़ से",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_148.mp3",
+          },
+          {
+            text: "तेज़ हवा से",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_149.mp3",
+          },
+        ],
+      },
+      correct: { en: "smell", hi: "हरी घास की सुगंध से" },
+    },
+    {
+      type: "mcq",
+      allowCustomAnswer: false,
+      image: "https://d16ho1g3lqitul.cloudfront.net/SB01_9_9.04.svg",
+      question: {
+        en: "How did the children feel while reading about the inventors?",
+        hi: "आविष्कारकों के बारे में पढ़कर सोचू और राजू कैसा महसूस करते हैं?",
+      },
+      questionAudio: {
+        en: "https://d16ho1g3lqitul.cloudfront.net/GQBONE_39.mp3",
+        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBONE_39.mp3",
+      },
+      options: {
+        en: [
+          {
+            text: "curious",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_150.mp3",
+          },
+          {
+            text: "bored",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_151.mp3",
+          },
+          {
+            text: "excited",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_152.mp3",
+          },
+          {
+            text: "scared",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBONE_153.mp3",
+          },
+        ],
+        hi: [
+          {
+            text: "उनकी आँखें चमक उठती हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_150.mp3",
+          },
+          {
+            text: "वे ऊब जाते हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_151.mp3",
+          },
+          {
+            text: "उनकी आँखें खुल जाती हैं",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_152.mp3",
+          },
+          {
+            text: "उपरोक्त सभी",
+            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBONE_153.mp3",
+          },
+        ],
+      },
+      correct: { en: "excited", hi: "उनकी आँखें चमक उठती हैं" },
+    },
+  ],
+},
               // lesson 15
               {
                 lessonId: "lesson-15",
@@ -41518,5289 +38868,5289 @@ mongoose
 
           // unit 7
 
-          {
-            title: {
-              en: "The Secret To Success",
-              hi: "बॉक्स के बाहर सोचो",
-            },
-            subtitle: {
-              en: "Series 1 - Book 7",
-              hi: "श्रुंखला 1 - पुस्तक 7",
-            },
-            image: "https://d16ho1g3lqitul.cloudfront.net/whyv2.svg",
-            particularUnitImage:
-              "https://d16ho1g3lqitul.cloudfront.net/mockup-b7s1.jpg",
-            particularUnitImageTest: {
-              en: "https://d16ho1g3lqitul.cloudfront.net/mockup-b7s1.jpg",
-              hi: "https://d16ho1g3lqitul.cloudfront.net/mockup-b4s1.jpg",
-            },
+//           {
+//             title: {
+//               en: "The Secret To Success",
+//               hi: "बॉक्स के बाहर सोचो",
+//             },
+//             subtitle: {
+//               en: "Series 1 - Book 7",
+//               hi: "श्रुंखला 1 - पुस्तक 7",
+//             },
+//             image: "https://d16ho1g3lqitul.cloudfront.net/whyv2.svg",
+//             particularUnitImage:
+//               "https://d16ho1g3lqitul.cloudfront.net/mockup-b7s1.jpg",
+//             particularUnitImageTest: {
+//               en: "https://d16ho1g3lqitul.cloudfront.net/mockup-b7s1.jpg",
+//               hi: "https://d16ho1g3lqitul.cloudfront.net/mockup-b4s1.jpg",
+//             },
 
-            particularUnitDesc: {
-              en: "In our extremely fast-paced and demanding world, to save time, our mind tries to do many things at the same time. This practice often yields disastrous results. Our attention spans are getting shorter and shorter by the day, and it is becoming impossible to stay focused on what we really want to do!",
-              hi: "हमारी बेहद तेज़-रफ़्तार और मांग भरी दुनिया में, समय बचाने के लिए, हमारा मन एक ही समय में कई काम करने की कोशिश करता है। यह प्रथा अक्सर विनाशकारी परिणाम देती है। हमारे ध्यान की अवधि दिन-प्रतिदिन छोटी होती जा रही है, और जो हम वास्तव में करना चाहते हैं उस पर केंद्रित रहना असंभव होता जा रहा है!",
-            },
-            riveAnimations: {
-              en: ["/manju__walk.riv", "/manju_vrikshashan.riv"],
-              hi: ["/manju__walk.riv", "/manju_vrikshashan.riv"],
-            },
-            themeColor: "#FF4B4B",
-            borderBottomColor: "#CC1515",
-            steps: 15,
-            lessons: [
-              // lesson 1 (Book)
+//             particularUnitDesc: {
+//               en: "In our extremely fast-paced and demanding world, to save time, our mind tries to do many things at the same time. This practice often yields disastrous results. Our attention spans are getting shorter and shorter by the day, and it is becoming impossible to stay focused on what we really want to do!",
+//               hi: "हमारी बेहद तेज़-रफ़्तार और मांग भरी दुनिया में, समय बचाने के लिए, हमारा मन एक ही समय में कई काम करने की कोशिश करता है। यह प्रथा अक्सर विनाशकारी परिणाम देती है। हमारे ध्यान की अवधि दिन-प्रतिदिन छोटी होती जा रही है, और जो हम वास्तव में करना चाहते हैं उस पर केंद्रित रहना असंभव होता जा रहा है!",
+//             },
+//             riveAnimations: {
+//               en: ["/manju__walk.riv", "/manju_vrikshashan.riv"],
+//               hi: ["/manju__walk.riv", "/manju_vrikshashan.riv"],
+//             },
+//             themeColor: "#FF4B4B",
+//             borderBottomColor: "#CC1515",
+//             steps: 15,
+//             lessons: [
+//               // lesson 1 (Book)
 
-              {
-                lessonId: "lesson-1",
-                questions: [
-                  {
-                    type: "book",
-                    pages: {
-                      en: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/book2cover.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/booktwocover.mp3",
-                          hardWords: [],
-                          speakText: "Sochu Book 1 - Think Outside The Box ",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_2.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_1.mp3",
-                          hardWords: [],
-                          speakText:
-                            "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_3.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_2.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_4.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_3.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_5.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_4.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                      ],
-                      hi: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/book2coverhindi.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_10.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_2.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_1.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_3.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_2.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_4.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_3.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_5.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_4.mp3",
-                        },
-                      ],
-                    },
-                  },
-                ],
-              },
+//               {
+//                 lessonId: "lesson-1",
+//                 questions: [
+//                   {
+//                     type: "book",
+//                     pages: {
+//                       en: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/book2cover.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/booktwocover.mp3",
+//                           hardWords: [],
+//                           speakText: "Sochu Book 1 - Think Outside The Box ",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_2.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_1.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_3.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_2.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_4.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_3.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_5.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_4.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                       ],
+//                       hi: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/book2coverhindi.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_10.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_2.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_1.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_3.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_2.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_4.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_3.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_5.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_4.mp3",
+//                         },
+//                       ],
+//                     },
+//                   },
+//                 ],
+//               },
 
-              // lesson 2
+//               // lesson 2
 
-              {
-  lessonId: "lesson-2",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the word \"premier\" mean in the sentence: \"Sochu and Raju are watching the premier of the latest hit pop song\"?",
-        hi: "\"प्रीमियर\" शब्द का अर्थ क्या है इस वाक्य में: \"सोचू और राजू टीवी पर नए हिट पॉप गाने का प्रीमियर देख रहे हैं\"?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_1.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_1.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "First showing",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_1.mp3",
-          },
-          {
-            text: "Party",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_2.mp3",
-          },
-          {
-            text: "Music award",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_3.mp3",
-          },
-          {
-            text: "Ad break",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_4.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "पहली बार दिखाया जाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_1.mp3",
-          },
-          {
-            text: "पार्टी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_2.mp3",
-          },
-          {
-            text: "संगीत पुरस्कार",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_3.mp3",
-          },
-          {
-            text: "विज्ञापन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_4.mp3",
-          },
-        ],
-      },
-      correct: { en: "First showing", hi: "पहली बार दिखाया जाना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why is Raju going \"crazy\" while watching Bay-B?",
-        hi: "राजू \"पागल\" क्यों हो रहा है जब वह बे-बि को देख रहा है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_2.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_2.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He hates the song",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_5.mp3",
-          },
-          {
-            text: "He is sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_6.mp3",
-          },
-          {
-            text: "He is very excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_7.mp3",
-          },
-          {
-            text: "He is confused",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_8.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उसे गाना पसंद नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_5.mp3",
-          },
-          {
-            text: "उसे नींद आ रही है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_6.mp3",
-          },
-          {
-            text: "वह बहुत उत्साहित है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_7.mp3",
-          },
-          {
-            text: "वह उलझन में है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_8.mp3",
-          },
-        ],
-      },
-      correct: { en: "He is very excited", hi: "वह बहुत उत्साहित है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does \"Woohoo!\" express in the story?",
-        hi: "कहानी में \"वाह!\" किस भावना को दर्शाता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_3.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_3.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Anger",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_9.mp3",
-          },
-          {
-            text: "Joy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_10.mp3",
-          },
-          {
-            text: "Surprise",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_11.mp3",
-          },
-          {
-            text: "Sadness",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_12.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गुस्सा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_9.mp3",
-          },
-          {
-            text: "खुशी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_10.mp3",
-          },
-          {
-            text: "हैरानी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_11.mp3",
-          },
-          {
-            text: "उदासी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_12.mp3",
-          },
-        ],
-      },
-      correct: { en: "Joy", hi: "खुशी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does Sochu try to do when he hears the song?",
-        hi: "जब सोचू गाना सुनता है तो वह क्या करने का प्रयास करता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_4.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_4.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Memorise it",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_13.mp3",
-          },
-          {
-            text: "Ignore it",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_14.mp3",
-          },
-          {
-            text: "Understand the words",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_15.mp3",
-          },
-          {
-            text: "Change the channel",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_16.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उसे याद करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_13.mp3",
-          },
-          {
-            text: "अनदेखा करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_14.mp3",
-          },
-          {
-            text: "शब्दों को समझना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_15.mp3",
-          },
-          {
-            text: "चैनल बदलना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_16.mp3",
-          },
-        ],
-      },
-      correct: { en: "Understand the words", hi: "शब्दों को समझना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Which word best describes Raju's mood on the bus the next morning?",
-        hi: "अगली सुबह बस में राजू का मूड कैसा था?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_5.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_5.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Cheerful",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_17.mp3",
-          },
-          {
-            text: "Shy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_18.mp3",
-          },
-          {
-            text: "Dejected",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_19.mp3",
-          },
-          {
-            text: "Angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_20.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "खुश",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_17.mp3",
-          },
-          {
-            text: "शर्मीला",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_18.mp3",
-          },
-          {
-            text: "निराश",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_19.mp3",
-          },
-          {
-            text: "गुस्से में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_20.mp3",
-          },
-        ],
-      },
-      correct: { en: "Dejected", hi: "निराश" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What is the meaning of \"dejected\" in the line: \"Raju gets dejected\"?",
-        hi: "\"राजू का निराश हो जाता है\" में \"निराश\" का क्या मतलब है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_6.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_6.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Very happy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_21.mp3",
-          },
-          {
-            text: "Very sad",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_22.mp3",
-          },
-          {
-            text: "Very sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_23.mp3",
-          },
-          {
-            text: "Very noisy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_24.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "बहुत खुश",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_21.mp3",
-          },
-          {
-            text: "बहुत उदास",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_22.mp3",
-          },
-          {
-            text: "बहुत नींद में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_23.mp3",
-          },
-          {
-            text: "बहुत शोरगुल में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_24.mp3",
-          },
-        ],
-      },
-      correct: { en: "Very sad", hi: "बहुत उदास" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Which sentence shows Sochu is confused?",
-        hi: "कौन-सा वाक्य दिखाता है कि सोचू उलझन में है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_7.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_7.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Sochu jumps and dances",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_25.mp3",
-          },
-          {
-            text: "Sochu reads the words in his mind",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_26.mp3",
-          },
-          {
-            text: "Sochu laughs out loud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_27.mp3",
-          },
-          {
-            text: "Sochu sings along",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_28.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "सोचू कूदता और नाचता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_25.mp3",
-          },
-          {
-            text: "सोचू मन ही मन शब्द पढ़ता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_26.mp3",
-          },
-          {
-            text: "सोचू ज़ोर से हँसता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_27.mp3",
-          },
-          {
-            text: "सोचू गाना गाता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_28.mp3",
-          },
-        ],
-      },
-      correct: { en: "Sochu reads the words in his mind", hi: "सोचू मन ही मन शब्द पढ़ता है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the word \"cool\" mean in the line: \"We are going to be the coolest kids in school\"?",
-        hi: "\"हम सबसे COOL बच्चे बनने वाले हैं\" — यहां \"cool\" का क्या अर्थ है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_8.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_8.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Cold",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_29.mp3",
-          },
-          {
-            text: "Angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_30.mp3",
-          },
-          {
-            text: "Popular and stylish",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_31.mp3",
-          },
-          {
-            text: "Quiet",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_32.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "ठंडे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_29.mp3",
-          },
-          {
-            text: "गुस्से में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_30.mp3",
-          },
-          {
-            text: "फैशनेबल और लोकप्रिय",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_31.mp3",
-          },
-          {
-            text: "शांत",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_32.mp3",
-          },
-        ],
-      },
-      correct: { en: "Popular and stylish", hi: "फैशनेबल और लोकप्रिय" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What emotion does Raju feel when he hears everyone already knows the song?",
-        hi: "जब राजू देखता है कि सबको गाना पहले से आता है, तो उसे क्या महसूस होता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_9.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_9.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_33.mp3",
-          },
-          {
-            text: "Nervous",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_34.mp3",
-          },
-          {
-            text: "Jealous",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_35.mp3",
-          },
-          {
-            text: "Disappointed",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_36.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गर्व",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_33.mp3",
-          },
-          {
-            text: "घबराहट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_34.mp3",
-          },
-          {
-            text: "जलन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_35.mp3",
-          },
-          {
-            text: "निराशा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_36.mp3",
-          },
-        ],
-      },
-      correct: { en: "Disappointed", hi: "निराशा" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Which of these is a synonym for \"excitement\"?",
-        hi: "\"उत्तेजना\" का समानार्थी शब्द कौन-सा है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_10.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_10.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Boredom",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_37.mp3",
-          },
-          {
-            text: "Joy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_38.mp3",
-          },
-          {
-            text: "Laziness",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_39.mp3",
-          },
-          {
-            text: "Anger",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_40.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "ऊब",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_37.mp3",
-          },
-          {
-            text: "खुशी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_38.mp3",
-          },
-          {
-            text: "आलस्य",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_39.mp3",
-          },
-          {
-            text: "गुस्सा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_40.mp3",
-          },
-        ],
-      },
-      correct: { en: "Joy", hi: "खुशी" },
-    },
-  ],
-},
-              // lesson 3
-              {
-  lessonId: "lesson-3",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How do you feel when you get to do something before everyone else?",
-        hi: "जब आप कुछ सबसे पहले करते हैं, तो आपको कैसा लगता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_11.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_11.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Proud and excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_41.mp3",
-          },
-          {
-            text: "Nervous",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_42.mp3",
-          },
-          {
-            text: "Bored",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_43.mp3",
-          },
-          {
-            text: "Angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_44.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गर्व और उत्साह",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_41.mp3",
-          },
-          {
-            text: "घबराहट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_42.mp3",
-          },
-          {
-            text: "बोरियत",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_43.mp3",
-          },
-          {
-            text: "गुस्सा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_44.mp3",
-          },
-        ],
-      },
-      correct: { en: "Proud and excited", hi: "गर्व और उत्साह" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you usually do when you're feeling very excited?",
-        hi: "जब आप बहुत उत्साहित होते हैं, तो आप क्या करते हैं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_12.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_12.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Jump and shout",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_45.mp3",
-          },
-          {
-            text: "Stay quiet inside",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_46.mp3",
-          },
-          {
-            text: "Share with friends",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_47.mp3",
-          },
-          {
-            text: "All of the above",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_48.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उछलते-कूदते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_45.mp3",
-          },
-          {
-            text: "चुप रहते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_46.mp3",
-          },
-          {
-            text: "दोस्तों से साझा करते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_47.mp3",
-          },
-          {
-            text: "ऊपर दिए गए सभी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_48.mp3",
-          },
-        ],
-      },
-      correct: { en: "All of the above", hi: "ऊपर दिए गए सभी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How did Raju feel when everyone already knew the song?",
-        hi: "जब सबको गाना पहले से पता था, तो राजू कैसा महसूस कर रहा था?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_13.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_13.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Left out and disappointed",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_49.mp3",
-          },
-          {
-            text: "Proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_50.mp3",
-          },
-          {
-            text: "Calm",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_51.mp3",
-          },
-          {
-            text: "Excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_52.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "अलग-थलग और निराश",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_49.mp3",
-          },
-          {
-            text: "गर्वित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_50.mp3",
-          },
-          {
-            text: "शांत",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_51.mp3",
-          },
-          {
-            text: "उत्साहित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_52.mp3",
-          },
-        ],
-      },
-      correct: { en: "Left out and disappointed", hi: "अलग-थलग और निराश" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What would you say to a friend who feels sad because they didn't feel special anymore?",
-        hi: "जब आपका दोस्त दुखी हो क्योंकि उसे खास महसूस नहीं हो रहा, तो आप क्या कहेंगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_14.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_14.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "You'll always be special to me!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_53.mp3",
-          },
-          {
-            text: "That's not a big deal.",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_54.mp3",
-          },
-          {
-            text: "Ignore it.",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_55.mp3",
-          },
-          {
-            text: "You should've tried harder.",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_56.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "तुम हमेशा मेरे लिए खास हो!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_53.mp3",
-          },
-          {
-            text: "ये कोई बड़ी बात नहीं है।",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_54.mp3",
-          },
-          {
-            text: "इसे नज़रअंदाज़ करो।",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_55.mp3",
-          },
-          {
-            text: "तुम्हें ज़्यादा प्रयास करना चाहिए था।",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_56.mp3",
-          },
-        ],
-      },
-      correct: { en: "You'll always be special to me!", hi: "तुम हमेशा मेरे लिए खास हो!" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "When Sochu tries to understand the lyrics, what skill is he using?",
-        hi: "जब सोचू गाने के शब्दों को समझने का प्रयास करता है, तो वह कौन-सी क्षमता का उपयोग कर रहा है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_15.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_15.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Self-awareness",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_57.mp3",
-          },
-          {
-            text: "Imagination",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_58.mp3",
-          },
-          {
-            text: "Emotional regulation",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_59.mp3",
-          },
-          {
-            text: "Reflection",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_60.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "आत्म-जागरूकता",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_57.mp3",
-          },
-          {
-            text: "कल्पना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_58.mp3",
-          },
-          {
-            text: "भावनात्मक नियंत्रण",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_59.mp3",
-          },
-          {
-            text: "चिंतन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_60.mp3",
-          },
-        ],
-      },
-      correct: { en: "Reflection", hi: "चिंतन" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "If you were Raju, what would you do after finding out everyone already knew the song?",
-        hi: "अगर आप राजू होते और सबको गाना पहले से आता, तो आप क्या करते?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_16.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_16.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Get angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_61.mp3",
-          },
-          {
-            text: "Laugh and join them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_62.mp3",
-          },
-          {
-            text: "Go silent",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_63.mp3",
-          },
-          {
-            text: "Start a new song",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_64.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गुस्सा करते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_61.mp3",
-          },
-          {
-            text: "हँसते और साथ गाते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_62.mp3",
-          },
-          {
-            text: "चुप हो जाते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_63.mp3",
-          },
-          {
-            text: "कोई नया गाना शुरू करते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_64.mp3",
-          },
-        ],
-      },
-      correct: { en: "Laugh and join them", hi: "हँसते और साथ गाते" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What can you do when you feel left out in a group, like Raju did?",
-        hi: "जब आप किसी समूह में अकेले महसूस करें, तो क्या कर सकते हैं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_17.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_17.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Talk to a friend",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_65.mp3",
-          },
-          {
-            text: "Take deep breaths",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_66.mp3",
-          },
-          {
-            text: "Join the fun anyway",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_67.mp3",
-          },
-          {
-            text: "All of the above",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_68.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "किसी दोस्त से बात करें",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_65.mp3",
-          },
-          {
-            text: "गहरी साँस लें",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_66.mp3",
-          },
-          {
-            text: "फिर भी मज़े में शामिल हों",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_67.mp3",
-          },
-          {
-            text: "ऊपर दिए गए सभी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_68.mp3",
-          },
-        ],
-      },
-      correct: { en: "All of the above", hi: "ऊपर दिए गए सभी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why do you think Sochu didn't jump and dance like Raju when the song played?",
-        hi: "जब गाना बजा, तो सोचू राजू की तरह कूद-फांद क्यों नहीं कर रहा था?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_18.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_18.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He was shy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_69.mp3",
-          },
-          {
-            text: "He was confused by the lyrics",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_70.mp3",
-          },
-          {
-            text: "He didn't like music",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_71.mp3",
-          },
-          {
-            text: "He was sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_72.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वह शर्मीला था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_69.mp3",
-          },
-          {
-            text: "उसे शब्द समझ नहीं आ रहे थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_70.mp3",
-          },
-          {
-            text: "उसे संगीत पसंद नहीं था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_71.mp3",
-          },
-          {
-            text: "वह नींद में था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_72.mp3",
-          },
-        ],
-      },
-      correct: { en: "He was confused by the lyrics", hi: "उसे शब्द समझ नहीं आ रहे थे" },
-    },
-  ],
-},
+//               {
+//   lessonId: "lesson-2",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the word \"premier\" mean in the sentence: \"Sochu and Raju are watching the premier of the latest hit pop song\"?",
+//         hi: "\"प्रीमियर\" शब्द का अर्थ क्या है इस वाक्य में: \"सोचू और राजू टीवी पर नए हिट पॉप गाने का प्रीमियर देख रहे हैं\"?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_1.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_1.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "First showing",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_1.mp3",
+//           },
+//           {
+//             text: "Party",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_2.mp3",
+//           },
+//           {
+//             text: "Music award",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_3.mp3",
+//           },
+//           {
+//             text: "Ad break",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_4.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "पहली बार दिखाया जाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_1.mp3",
+//           },
+//           {
+//             text: "पार्टी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_2.mp3",
+//           },
+//           {
+//             text: "संगीत पुरस्कार",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_3.mp3",
+//           },
+//           {
+//             text: "विज्ञापन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_4.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "First showing", hi: "पहली बार दिखाया जाना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why is Raju going \"crazy\" while watching Bay-B?",
+//         hi: "राजू \"पागल\" क्यों हो रहा है जब वह बे-बि को देख रहा है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_2.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_2.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He hates the song",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_5.mp3",
+//           },
+//           {
+//             text: "He is sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_6.mp3",
+//           },
+//           {
+//             text: "He is very excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_7.mp3",
+//           },
+//           {
+//             text: "He is confused",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_8.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उसे गाना पसंद नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_5.mp3",
+//           },
+//           {
+//             text: "उसे नींद आ रही है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_6.mp3",
+//           },
+//           {
+//             text: "वह बहुत उत्साहित है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_7.mp3",
+//           },
+//           {
+//             text: "वह उलझन में है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_8.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He is very excited", hi: "वह बहुत उत्साहित है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does \"Woohoo!\" express in the story?",
+//         hi: "कहानी में \"वाह!\" किस भावना को दर्शाता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_3.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_3.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Anger",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_9.mp3",
+//           },
+//           {
+//             text: "Joy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_10.mp3",
+//           },
+//           {
+//             text: "Surprise",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_11.mp3",
+//           },
+//           {
+//             text: "Sadness",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_12.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गुस्सा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_9.mp3",
+//           },
+//           {
+//             text: "खुशी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_10.mp3",
+//           },
+//           {
+//             text: "हैरानी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_11.mp3",
+//           },
+//           {
+//             text: "उदासी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_12.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Joy", hi: "खुशी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does Sochu try to do when he hears the song?",
+//         hi: "जब सोचू गाना सुनता है तो वह क्या करने का प्रयास करता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_4.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_4.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Memorise it",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_13.mp3",
+//           },
+//           {
+//             text: "Ignore it",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_14.mp3",
+//           },
+//           {
+//             text: "Understand the words",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_15.mp3",
+//           },
+//           {
+//             text: "Change the channel",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_16.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उसे याद करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_13.mp3",
+//           },
+//           {
+//             text: "अनदेखा करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_14.mp3",
+//           },
+//           {
+//             text: "शब्दों को समझना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_15.mp3",
+//           },
+//           {
+//             text: "चैनल बदलना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_16.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Understand the words", hi: "शब्दों को समझना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Which word best describes Raju's mood on the bus the next morning?",
+//         hi: "अगली सुबह बस में राजू का मूड कैसा था?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_5.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_5.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Cheerful",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_17.mp3",
+//           },
+//           {
+//             text: "Shy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_18.mp3",
+//           },
+//           {
+//             text: "Dejected",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_19.mp3",
+//           },
+//           {
+//             text: "Angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_20.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "खुश",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_17.mp3",
+//           },
+//           {
+//             text: "शर्मीला",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_18.mp3",
+//           },
+//           {
+//             text: "निराश",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_19.mp3",
+//           },
+//           {
+//             text: "गुस्से में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_20.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Dejected", hi: "निराश" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What is the meaning of \"dejected\" in the line: \"Raju gets dejected\"?",
+//         hi: "\"राजू का निराश हो जाता है\" में \"निराश\" का क्या मतलब है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_6.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_6.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Very happy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_21.mp3",
+//           },
+//           {
+//             text: "Very sad",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_22.mp3",
+//           },
+//           {
+//             text: "Very sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_23.mp3",
+//           },
+//           {
+//             text: "Very noisy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_24.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "बहुत खुश",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_21.mp3",
+//           },
+//           {
+//             text: "बहुत उदास",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_22.mp3",
+//           },
+//           {
+//             text: "बहुत नींद में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_23.mp3",
+//           },
+//           {
+//             text: "बहुत शोरगुल में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_24.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Very sad", hi: "बहुत उदास" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Which sentence shows Sochu is confused?",
+//         hi: "कौन-सा वाक्य दिखाता है कि सोचू उलझन में है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_7.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_7.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Sochu jumps and dances",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_25.mp3",
+//           },
+//           {
+//             text: "Sochu reads the words in his mind",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_26.mp3",
+//           },
+//           {
+//             text: "Sochu laughs out loud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_27.mp3",
+//           },
+//           {
+//             text: "Sochu sings along",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_28.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "सोचू कूदता और नाचता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_25.mp3",
+//           },
+//           {
+//             text: "सोचू मन ही मन शब्द पढ़ता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_26.mp3",
+//           },
+//           {
+//             text: "सोचू ज़ोर से हँसता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_27.mp3",
+//           },
+//           {
+//             text: "सोचू गाना गाता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_28.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Sochu reads the words in his mind", hi: "सोचू मन ही मन शब्द पढ़ता है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the word \"cool\" mean in the line: \"We are going to be the coolest kids in school\"?",
+//         hi: "\"हम सबसे COOL बच्चे बनने वाले हैं\" — यहां \"cool\" का क्या अर्थ है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_8.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_8.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Cold",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_29.mp3",
+//           },
+//           {
+//             text: "Angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_30.mp3",
+//           },
+//           {
+//             text: "Popular and stylish",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_31.mp3",
+//           },
+//           {
+//             text: "Quiet",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_32.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "ठंडे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_29.mp3",
+//           },
+//           {
+//             text: "गुस्से में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_30.mp3",
+//           },
+//           {
+//             text: "फैशनेबल और लोकप्रिय",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_31.mp3",
+//           },
+//           {
+//             text: "शांत",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_32.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Popular and stylish", hi: "फैशनेबल और लोकप्रिय" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What emotion does Raju feel when he hears everyone already knows the song?",
+//         hi: "जब राजू देखता है कि सबको गाना पहले से आता है, तो उसे क्या महसूस होता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_9.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_9.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_33.mp3",
+//           },
+//           {
+//             text: "Nervous",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_34.mp3",
+//           },
+//           {
+//             text: "Jealous",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_35.mp3",
+//           },
+//           {
+//             text: "Disappointed",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_36.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गर्व",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_33.mp3",
+//           },
+//           {
+//             text: "घबराहट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_34.mp3",
+//           },
+//           {
+//             text: "जलन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_35.mp3",
+//           },
+//           {
+//             text: "निराशा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_36.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Disappointed", hi: "निराशा" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Which of these is a synonym for \"excitement\"?",
+//         hi: "\"उत्तेजना\" का समानार्थी शब्द कौन-सा है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_10.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_10.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Boredom",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_37.mp3",
+//           },
+//           {
+//             text: "Joy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_38.mp3",
+//           },
+//           {
+//             text: "Laziness",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_39.mp3",
+//           },
+//           {
+//             text: "Anger",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_40.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "ऊब",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_37.mp3",
+//           },
+//           {
+//             text: "खुशी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_38.mp3",
+//           },
+//           {
+//             text: "आलस्य",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_39.mp3",
+//           },
+//           {
+//             text: "गुस्सा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_40.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Joy", hi: "खुशी" },
+//     },
+//   ],
+// },
+//               // lesson 3
+//               {
+//   lessonId: "lesson-3",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How do you feel when you get to do something before everyone else?",
+//         hi: "जब आप कुछ सबसे पहले करते हैं, तो आपको कैसा लगता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_11.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_11.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Proud and excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_41.mp3",
+//           },
+//           {
+//             text: "Nervous",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_42.mp3",
+//           },
+//           {
+//             text: "Bored",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_43.mp3",
+//           },
+//           {
+//             text: "Angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_44.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गर्व और उत्साह",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_41.mp3",
+//           },
+//           {
+//             text: "घबराहट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_42.mp3",
+//           },
+//           {
+//             text: "बोरियत",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_43.mp3",
+//           },
+//           {
+//             text: "गुस्सा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_44.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Proud and excited", hi: "गर्व और उत्साह" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you usually do when you're feeling very excited?",
+//         hi: "जब आप बहुत उत्साहित होते हैं, तो आप क्या करते हैं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_12.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_12.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Jump and shout",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_45.mp3",
+//           },
+//           {
+//             text: "Stay quiet inside",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_46.mp3",
+//           },
+//           {
+//             text: "Share with friends",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_47.mp3",
+//           },
+//           {
+//             text: "All of the above",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_48.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उछलते-कूदते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_45.mp3",
+//           },
+//           {
+//             text: "चुप रहते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_46.mp3",
+//           },
+//           {
+//             text: "दोस्तों से साझा करते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_47.mp3",
+//           },
+//           {
+//             text: "ऊपर दिए गए सभी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_48.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "All of the above", hi: "ऊपर दिए गए सभी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How did Raju feel when everyone already knew the song?",
+//         hi: "जब सबको गाना पहले से पता था, तो राजू कैसा महसूस कर रहा था?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_13.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_13.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Left out and disappointed",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_49.mp3",
+//           },
+//           {
+//             text: "Proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_50.mp3",
+//           },
+//           {
+//             text: "Calm",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_51.mp3",
+//           },
+//           {
+//             text: "Excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_52.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "अलग-थलग और निराश",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_49.mp3",
+//           },
+//           {
+//             text: "गर्वित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_50.mp3",
+//           },
+//           {
+//             text: "शांत",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_51.mp3",
+//           },
+//           {
+//             text: "उत्साहित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_52.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Left out and disappointed", hi: "अलग-थलग और निराश" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What would you say to a friend who feels sad because they didn't feel special anymore?",
+//         hi: "जब आपका दोस्त दुखी हो क्योंकि उसे खास महसूस नहीं हो रहा, तो आप क्या कहेंगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_14.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_14.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "You'll always be special to me!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_53.mp3",
+//           },
+//           {
+//             text: "That's not a big deal.",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_54.mp3",
+//           },
+//           {
+//             text: "Ignore it.",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_55.mp3",
+//           },
+//           {
+//             text: "You should've tried harder.",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_56.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "तुम हमेशा मेरे लिए खास हो!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_53.mp3",
+//           },
+//           {
+//             text: "ये कोई बड़ी बात नहीं है।",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_54.mp3",
+//           },
+//           {
+//             text: "इसे नज़रअंदाज़ करो।",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_55.mp3",
+//           },
+//           {
+//             text: "तुम्हें ज़्यादा प्रयास करना चाहिए था।",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_56.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "You'll always be special to me!", hi: "तुम हमेशा मेरे लिए खास हो!" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "When Sochu tries to understand the lyrics, what skill is he using?",
+//         hi: "जब सोचू गाने के शब्दों को समझने का प्रयास करता है, तो वह कौन-सी क्षमता का उपयोग कर रहा है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_15.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_15.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Self-awareness",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_57.mp3",
+//           },
+//           {
+//             text: "Imagination",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_58.mp3",
+//           },
+//           {
+//             text: "Emotional regulation",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_59.mp3",
+//           },
+//           {
+//             text: "Reflection",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_60.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "आत्म-जागरूकता",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_57.mp3",
+//           },
+//           {
+//             text: "कल्पना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_58.mp3",
+//           },
+//           {
+//             text: "भावनात्मक नियंत्रण",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_59.mp3",
+//           },
+//           {
+//             text: "चिंतन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_60.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Reflection", hi: "चिंतन" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "If you were Raju, what would you do after finding out everyone already knew the song?",
+//         hi: "अगर आप राजू होते और सबको गाना पहले से आता, तो आप क्या करते?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_16.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_16.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Get angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_61.mp3",
+//           },
+//           {
+//             text: "Laugh and join them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_62.mp3",
+//           },
+//           {
+//             text: "Go silent",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_63.mp3",
+//           },
+//           {
+//             text: "Start a new song",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_64.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गुस्सा करते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_61.mp3",
+//           },
+//           {
+//             text: "हँसते और साथ गाते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_62.mp3",
+//           },
+//           {
+//             text: "चुप हो जाते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_63.mp3",
+//           },
+//           {
+//             text: "कोई नया गाना शुरू करते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_64.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Laugh and join them", hi: "हँसते और साथ गाते" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What can you do when you feel left out in a group, like Raju did?",
+//         hi: "जब आप किसी समूह में अकेले महसूस करें, तो क्या कर सकते हैं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_17.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_17.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Talk to a friend",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_65.mp3",
+//           },
+//           {
+//             text: "Take deep breaths",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_66.mp3",
+//           },
+//           {
+//             text: "Join the fun anyway",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_67.mp3",
+//           },
+//           {
+//             text: "All of the above",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_68.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "किसी दोस्त से बात करें",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_65.mp3",
+//           },
+//           {
+//             text: "गहरी साँस लें",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_66.mp3",
+//           },
+//           {
+//             text: "फिर भी मज़े में शामिल हों",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_67.mp3",
+//           },
+//           {
+//             text: "ऊपर दिए गए सभी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_68.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "All of the above", hi: "ऊपर दिए गए सभी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why do you think Sochu didn't jump and dance like Raju when the song played?",
+//         hi: "जब गाना बजा, तो सोचू राजू की तरह कूद-फांद क्यों नहीं कर रहा था?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_18.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_18.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He was shy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_69.mp3",
+//           },
+//           {
+//             text: "He was confused by the lyrics",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_70.mp3",
+//           },
+//           {
+//             text: "He didn't like music",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_71.mp3",
+//           },
+//           {
+//             text: "He was sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_72.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वह शर्मीला था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_69.mp3",
+//           },
+//           {
+//             text: "उसे शब्द समझ नहीं आ रहे थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_70.mp3",
+//           },
+//           {
+//             text: "उसे संगीत पसंद नहीं था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_71.mp3",
+//           },
+//           {
+//             text: "वह नींद में था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_72.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He was confused by the lyrics", hi: "उसे शब्द समझ नहीं आ रहे थे" },
+//     },
+//   ],
+// },
 
-              // lesson 4(Book)
+//               // lesson 4(Book)
 
-              {
-                lessonId: "lesson-4",
-                questions: [
-                  {
-                    type: "book",
-                    pages: {
-                      en: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/book2cover.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/booktwocover.mp3",
-                          hardWords: [],
-                          speakText: "Sochu Book 1 - Think Outside The Box ",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_2.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_1.mp3",
-                          hardWords: [],
-                          speakText:
-                            "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_3.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_2.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_4.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_3.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_5.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_4.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                      ],
-                      hi: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/book2coverhindi.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_10.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_2.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_1.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_3.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_2.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_4.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_3.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_5.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_4.mp3",
-                        },
-                      ],
-                    },
-                  },
-                ],
-              },
+//               {
+//                 lessonId: "lesson-4",
+//                 questions: [
+//                   {
+//                     type: "book",
+//                     pages: {
+//                       en: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/book2cover.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/booktwocover.mp3",
+//                           hardWords: [],
+//                           speakText: "Sochu Book 1 - Think Outside The Box ",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_2.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_1.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_3.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_2.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_4.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_3.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_5.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_4.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                       ],
+//                       hi: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/book2coverhindi.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_10.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_2.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_1.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_3.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_2.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_4.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_3.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_5.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_4.mp3",
+//                         },
+//                       ],
+//                     },
+//                   },
+//                 ],
+//               },
 
-              // lesson 5
-              {
-  lessonId: "lesson-5",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the phrase \"a slow realisation creeps into Raju's mind\" mean?",
-        hi: "\"एक धीमी सी समझ राजू के मन में घर करने लगती है\" का क्या मतलब है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_19.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_19.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He is feeling tired",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_73.mp3",
-          },
-          {
-            text: "He suddenly falls asleep",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_74.mp3",
-          },
-          {
-            text: "He slowly understands something",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_75.mp3",
-          },
-          {
-            text: "He starts dancing",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_76.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वह थक गया है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_73.mp3",
-          },
-          {
-            text: "वह अचानक सो जाता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_74.mp3",
-          },
-          {
-            text: "उसे धीरे-धीरे कुछ समझ आता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_75.mp3",
-          },
-          {
-            text: "वह नाचने लगता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_76.mp3",
-          },
-        ],
-      },
-      correct: { en: "He slowly understands something", hi: "उसे धीरे-धीरे कुछ समझ आता है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the word \"stunned\" mean in the line: \"Raju gets a shock through his body\"?",
-        hi: "\"राजू भौंचक्का रह जाता है\" — यहां \"भौंचक्का\" का मतलब क्या है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_20.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_20.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_77.mp3",
-          },
-          {
-            text: "Sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_78.mp3",
-          },
-          {
-            text: "Surprised and frozen",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_79.mp3",
-          },
-          {
-            text: "Laughing hard",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_80.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उत्साहित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_77.mp3",
-          },
-          {
-            text: "नींद में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_78.mp3",
-          },
-          {
-            text: "चौंक कर रुक जाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_79.mp3",
-          },
-          {
-            text: "ज़ोर से हँसना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_80.mp3",
-          },
-        ],
-      },
-      correct: { en: "Surprised and frozen", hi: "चौंक कर रुक जाना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why does Raju want to make the BIGGG VOLCANO?",
-        hi: "राजू को \"बड़ा ज्वालामुखी\" क्यों बनाना है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_21.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_21.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "It's the cheapest",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_81.mp3",
-          },
-          {
-            text: "It looks the coolest",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_82.mp3",
-          },
-          {
-            text: "It's very easy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_83.mp3",
-          },
-          {
-            text: "It's made of potatoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_84.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "क्योंकि वह सबसे सस्ता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_81.mp3",
-          },
-          {
-            text: "क्योंकि वह सबसे कूल दिखता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_82.mp3",
-          },
-          {
-            text: "क्योंकि वह बहुत आसान है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_83.mp3",
-          },
-          {
-            text: "क्योंकि वह आलू से बना है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_84.mp3",
-          },
-        ],
-      },
-      correct: { en: "It looks the coolest", hi: "क्योंकि वह सबसे कूल दिखता है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What is being advertised at the mall?",
-        hi: "मॉल में क्या विज्ञापित किया जा रहा है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_22.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_22.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Science fair tickets",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_85.mp3",
-          },
-          {
-            text: "A light bulb kit",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_86.mp3",
-          },
-          {
-            text: "BIGGG VOLCANO SET",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_87.mp3",
-          },
-          {
-            text: "Dancing robot",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_88.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "साइंस मेले के टिकट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_85.mp3",
-          },
-          {
-            text: "बल्ब बनाने की किट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_86.mp3",
-          },
-          {
-            text: "बड़ा ज्वालामुखी सेट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_87.mp3",
-          },
-          {
-            text: "डांसिंग रोबोट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_88.mp3",
-          },
-        ],
-      },
-      correct: { en: "BIGGG VOLCANO SET", hi: "बड़ा ज्वालामुखी सेट" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does Manju originally want to make?",
-        hi: "मंजू पहले क्या बनाना चाहती थी?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_23.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_23.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Rocket",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_89.mp3",
-          },
-          {
-            text: "Lava lamp",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_90.mp3",
-          },
-          {
-            text: "Potato light bulb",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_91.mp3",
-          },
-          {
-            text: "Dancing puppet",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_92.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "रॉकेट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_89.mp3",
-          },
-          {
-            text: "लावा लैम्प",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_90.mp3",
-          },
-          {
-            text: "आलू वाला बल्ब",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_91.mp3",
-          },
-          {
-            text: "नाचता हुआ कठपुतली",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_92.mp3",
-          },
-        ],
-      },
-      correct: { en: "Potato light bulb", hi: "आलू वाला बल्ब" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What word best describes Raju's reaction when he finds out all teams chose the same volcano?",
-        hi: "जब राजू ने देखा कि सभी टीमों के पास वही ज्वालामुखी है, तो उसकी भावना कैसी थी?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_24.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_24.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_93.mp3",
-          },
-          {
-            text: "Confused",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_94.mp3",
-          },
-          {
-            text: "Shocked",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_95.mp3",
-          },
-          {
-            text: "Sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_96.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गर्वित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_93.mp3",
-          },
-          {
-            text: "उलझन में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_94.mp3",
-          },
-          {
-            text: "चौंका हुआ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_95.mp3",
-          },
-          {
-            text: "नींद में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_96.mp3",
-          },
-        ],
-      },
-      correct: { en: "Shocked", hi: "चौंका हुआ" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does \"innovation\" mean in the line \"Science Day — a day for innovation & exploration\"?",
-        hi: "\"नवाचार\" का मतलब क्या है — \"विज्ञान दिवस, नवाचार और अन्वेषण का दिन\" में?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_25.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_25.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Copying others",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_97.mp3",
-          },
-          {
-            text: "Doing the same thing again",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_98.mp3",
-          },
-          {
-            text: "Trying new and creative ideas",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_99.mp3",
-          },
-          {
-            text: "Celebrating with songs",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_100.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "दूसरों की नकल करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_97.mp3",
-          },
-          {
-            text: "वही चीज़ दोहराना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_98.mp3",
-          },
-          {
-            text: "कुछ नया और रचनात्मक आज़माना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_99.mp3",
-          },
-          {
-            text: "गानों से जश्न मनाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_100.mp3",
-          },
-        ],
-      },
-      correct: { en: "Trying new and creative ideas", hi: "कुछ नया और रचनात्मक आज़माना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What is the meaning of \"advertised\" in this context?",
-        hi: "\"विज्ञापित\" शब्द का क्या मतलब है इस कहानी में?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_26.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_26.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Shared in a secret",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_101.mp3",
-          },
-          {
-            text: "Shown on walls and screens to get attention",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_102.mp3",
-          },
-          {
-            text: "Hidden from others",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_103.mp3",
-          },
-          {
-            text: "Made at home",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_104.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गुप्त रूप से साझा किया गया",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_101.mp3",
-          },
-          {
-            text: "दीवारों और स्क्रीन पर दिखाया गया ध्यान खींचने के लिए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_102.mp3",
-          },
-          {
-            text: "दूसरों से छुपाया गया",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_103.mp3",
-          },
-          {
-            text: "घर पर बनाया गया",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_104.mp3",
-          },
-        ],
-      },
-      correct: { en: "Shown on walls and screens to get attention", hi: "दीवारों और स्क्रीन पर दिखाया गया ध्यान खींचने के लिए" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the phrase \"Oh well, if you really want to do that…\" tell us about Manju?",
-        hi: "\"अच्छा ठीक है, अगर तुम इतना ही इच्छुक हो…\" — इस वाक्य से मंजू के बारे में क्या पता चलता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_27.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_27.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "She is angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_105.mp3",
-          },
-          {
-            text: "She is being kind and understanding",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_106.mp3",
-          },
-          {
-            text: "She is very excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_107.mp3",
-          },
-          {
-            text: "She is ignoring Raju",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_108.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वह गुस्से में है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_105.mp3",
-          },
-          {
-            text: "वह समझदारी और दयालुता दिखा रही है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_106.mp3",
-          },
-          {
-            text: "वह बहुत उत्साहित है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_107.mp3",
-          },
-          {
-            text: "वह राजू को नज़रअंदाज़ कर रही है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_108.mp3",
-          },
-        ],
-      },
-      correct: { en: "She is being kind and understanding", hi: "वह समझदारी और दयालुता दिखा रही है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What is the main idea of this part of the story?",
-        hi: "इस कहानी भाग का मुख्य संदेश क्या है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_28.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_28.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Always choose the biggest project",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_109.mp3",
-          },
-          {
-            text: "Everyone likes volcanoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_110.mp3",
-          },
-          {
-            text: "Trying to be cool doesn't always make you stand out",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_111.mp3",
-          },
-          {
-            text: "Potato bulbs don't work",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_112.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "हमेशा सबसे बड़ा प्रोजेक्ट चुनो",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_109.mp3",
-          },
-          {
-            text: "सभी को ज्वालामुखी पसंद हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_110.mp3",
-          },
-          {
-            text: "सिर्फ़ \"कूल\" दिखना ही अलग दिखने का तरीका नहीं है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_111.mp3",
-          },
-          {
-            text: "आलू के बल्ब काम नहीं करते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_112.mp3",
-          },
-        ],
-      },
-      correct: { en: "Trying to be cool doesn't always make you stand out", hi: "सिर्फ़ \"कूल\" दिखना ही अलग दिखने का तरीका नहीं है" },
-    },
-  ],
-},
+//               // lesson 5
+//               {
+//   lessonId: "lesson-5",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the phrase \"a slow realisation creeps into Raju's mind\" mean?",
+//         hi: "\"एक धीमी सी समझ राजू के मन में घर करने लगती है\" का क्या मतलब है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_19.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_19.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He is feeling tired",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_73.mp3",
+//           },
+//           {
+//             text: "He suddenly falls asleep",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_74.mp3",
+//           },
+//           {
+//             text: "He slowly understands something",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_75.mp3",
+//           },
+//           {
+//             text: "He starts dancing",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_76.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वह थक गया है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_73.mp3",
+//           },
+//           {
+//             text: "वह अचानक सो जाता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_74.mp3",
+//           },
+//           {
+//             text: "उसे धीरे-धीरे कुछ समझ आता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_75.mp3",
+//           },
+//           {
+//             text: "वह नाचने लगता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_76.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He slowly understands something", hi: "उसे धीरे-धीरे कुछ समझ आता है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the word \"stunned\" mean in the line: \"Raju gets a shock through his body\"?",
+//         hi: "\"राजू भौंचक्का रह जाता है\" — यहां \"भौंचक्का\" का मतलब क्या है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_20.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_20.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_77.mp3",
+//           },
+//           {
+//             text: "Sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_78.mp3",
+//           },
+//           {
+//             text: "Surprised and frozen",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_79.mp3",
+//           },
+//           {
+//             text: "Laughing hard",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_80.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उत्साहित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_77.mp3",
+//           },
+//           {
+//             text: "नींद में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_78.mp3",
+//           },
+//           {
+//             text: "चौंक कर रुक जाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_79.mp3",
+//           },
+//           {
+//             text: "ज़ोर से हँसना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_80.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Surprised and frozen", hi: "चौंक कर रुक जाना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why does Raju want to make the BIGGG VOLCANO?",
+//         hi: "राजू को \"बड़ा ज्वालामुखी\" क्यों बनाना है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_21.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_21.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "It's the cheapest",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_81.mp3",
+//           },
+//           {
+//             text: "It looks the coolest",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_82.mp3",
+//           },
+//           {
+//             text: "It's very easy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_83.mp3",
+//           },
+//           {
+//             text: "It's made of potatoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_84.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "क्योंकि वह सबसे सस्ता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_81.mp3",
+//           },
+//           {
+//             text: "क्योंकि वह सबसे कूल दिखता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_82.mp3",
+//           },
+//           {
+//             text: "क्योंकि वह बहुत आसान है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_83.mp3",
+//           },
+//           {
+//             text: "क्योंकि वह आलू से बना है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_84.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "It looks the coolest", hi: "क्योंकि वह सबसे कूल दिखता है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What is being advertised at the mall?",
+//         hi: "मॉल में क्या विज्ञापित किया जा रहा है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_22.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_22.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Science fair tickets",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_85.mp3",
+//           },
+//           {
+//             text: "A light bulb kit",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_86.mp3",
+//           },
+//           {
+//             text: "BIGGG VOLCANO SET",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_87.mp3",
+//           },
+//           {
+//             text: "Dancing robot",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_88.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "साइंस मेले के टिकट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_85.mp3",
+//           },
+//           {
+//             text: "बल्ब बनाने की किट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_86.mp3",
+//           },
+//           {
+//             text: "बड़ा ज्वालामुखी सेट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_87.mp3",
+//           },
+//           {
+//             text: "डांसिंग रोबोट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_88.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "BIGGG VOLCANO SET", hi: "बड़ा ज्वालामुखी सेट" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does Manju originally want to make?",
+//         hi: "मंजू पहले क्या बनाना चाहती थी?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_23.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_23.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Rocket",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_89.mp3",
+//           },
+//           {
+//             text: "Lava lamp",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_90.mp3",
+//           },
+//           {
+//             text: "Potato light bulb",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_91.mp3",
+//           },
+//           {
+//             text: "Dancing puppet",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_92.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "रॉकेट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_89.mp3",
+//           },
+//           {
+//             text: "लावा लैम्प",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_90.mp3",
+//           },
+//           {
+//             text: "आलू वाला बल्ब",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_91.mp3",
+//           },
+//           {
+//             text: "नाचता हुआ कठपुतली",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_92.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Potato light bulb", hi: "आलू वाला बल्ब" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What word best describes Raju's reaction when he finds out all teams chose the same volcano?",
+//         hi: "जब राजू ने देखा कि सभी टीमों के पास वही ज्वालामुखी है, तो उसकी भावना कैसी थी?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_24.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_24.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_93.mp3",
+//           },
+//           {
+//             text: "Confused",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_94.mp3",
+//           },
+//           {
+//             text: "Shocked",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_95.mp3",
+//           },
+//           {
+//             text: "Sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_96.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गर्वित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_93.mp3",
+//           },
+//           {
+//             text: "उलझन में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_94.mp3",
+//           },
+//           {
+//             text: "चौंका हुआ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_95.mp3",
+//           },
+//           {
+//             text: "नींद में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_96.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Shocked", hi: "चौंका हुआ" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does \"innovation\" mean in the line \"Science Day — a day for innovation & exploration\"?",
+//         hi: "\"नवाचार\" का मतलब क्या है — \"विज्ञान दिवस, नवाचार और अन्वेषण का दिन\" में?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_25.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_25.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Copying others",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_97.mp3",
+//           },
+//           {
+//             text: "Doing the same thing again",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_98.mp3",
+//           },
+//           {
+//             text: "Trying new and creative ideas",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_99.mp3",
+//           },
+//           {
+//             text: "Celebrating with songs",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_100.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "दूसरों की नकल करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_97.mp3",
+//           },
+//           {
+//             text: "वही चीज़ दोहराना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_98.mp3",
+//           },
+//           {
+//             text: "कुछ नया और रचनात्मक आज़माना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_99.mp3",
+//           },
+//           {
+//             text: "गानों से जश्न मनाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_100.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Trying new and creative ideas", hi: "कुछ नया और रचनात्मक आज़माना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What is the meaning of \"advertised\" in this context?",
+//         hi: "\"विज्ञापित\" शब्द का क्या मतलब है इस कहानी में?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_26.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_26.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Shared in a secret",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_101.mp3",
+//           },
+//           {
+//             text: "Shown on walls and screens to get attention",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_102.mp3",
+//           },
+//           {
+//             text: "Hidden from others",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_103.mp3",
+//           },
+//           {
+//             text: "Made at home",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_104.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गुप्त रूप से साझा किया गया",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_101.mp3",
+//           },
+//           {
+//             text: "दीवारों और स्क्रीन पर दिखाया गया ध्यान खींचने के लिए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_102.mp3",
+//           },
+//           {
+//             text: "दूसरों से छुपाया गया",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_103.mp3",
+//           },
+//           {
+//             text: "घर पर बनाया गया",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_104.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Shown on walls and screens to get attention", hi: "दीवारों और स्क्रीन पर दिखाया गया ध्यान खींचने के लिए" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the phrase \"Oh well, if you really want to do that…\" tell us about Manju?",
+//         hi: "\"अच्छा ठीक है, अगर तुम इतना ही इच्छुक हो…\" — इस वाक्य से मंजू के बारे में क्या पता चलता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_27.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_27.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "She is angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_105.mp3",
+//           },
+//           {
+//             text: "She is being kind and understanding",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_106.mp3",
+//           },
+//           {
+//             text: "She is very excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_107.mp3",
+//           },
+//           {
+//             text: "She is ignoring Raju",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_108.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वह गुस्से में है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_105.mp3",
+//           },
+//           {
+//             text: "वह समझदारी और दयालुता दिखा रही है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_106.mp3",
+//           },
+//           {
+//             text: "वह बहुत उत्साहित है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_107.mp3",
+//           },
+//           {
+//             text: "वह राजू को नज़रअंदाज़ कर रही है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_108.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "She is being kind and understanding", hi: "वह समझदारी और दयालुता दिखा रही है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What is the main idea of this part of the story?",
+//         hi: "इस कहानी भाग का मुख्य संदेश क्या है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_28.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_28.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Always choose the biggest project",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_109.mp3",
+//           },
+//           {
+//             text: "Everyone likes volcanoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_110.mp3",
+//           },
+//           {
+//             text: "Trying to be cool doesn't always make you stand out",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_111.mp3",
+//           },
+//           {
+//             text: "Potato bulbs don't work",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_112.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "हमेशा सबसे बड़ा प्रोजेक्ट चुनो",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_109.mp3",
+//           },
+//           {
+//             text: "सभी को ज्वालामुखी पसंद हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_110.mp3",
+//           },
+//           {
+//             text: "सिर्फ़ \"कूल\" दिखना ही अलग दिखने का तरीका नहीं है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_111.mp3",
+//           },
+//           {
+//             text: "आलू के बल्ब काम नहीं करते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_112.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Trying to be cool doesn't always make you stand out", hi: "सिर्फ़ \"कूल\" दिखना ही अलग दिखने का तरीका नहीं है" },
+//     },
+//   ],
+// },
 
-              // lesson 6
-              {
-  lessonId: "lesson-6",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why do you think Raju got super excited about the science project idea?",
-        hi: "राजू साइंस प्रोजेक्ट के बारे में इतना उत्साहित क्यों हुआ?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_29.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_29.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He wanted to win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_113.mp3",
-          },
-          {
-            text: "He loved science",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_114.mp3",
-          },
-          {
-            text: "He wanted to look cool",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_115.mp3",
-          },
-          {
-            text: "He had never done a project before",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_116.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वह जीतना चाहता था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_113.mp3",
-          },
-          {
-            text: "उसे विज्ञान पसंद था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_114.mp3",
-          },
-          {
-            text: "वह \"कूल\" दिखना चाहता था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_115.mp3",
-          },
-          {
-            text: "उसने पहले कभी प्रोजेक्ट नहीं किया था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_116.mp3",
-          },
-        ],
-      },
-      correct: { en: "He wanted to look cool", hi: "वह \"कूल\" दिखना चाहता था" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Have you ever changed your idea or plan just to fit in or look cool like Raju?",
-        hi: "क्या आपने कभी सिर्फ़ \"कूल\" दिखने के लिए या सबके जैसे बनने के लिए अपना विचार बदला है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_30.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_30.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "YES",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_117.mp3",
-          },
-          {
-            text: "NO",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_118.mp3",
-          },
-          {
-            text: "",
-            audio: "",
-          },
-          {
-            text: "",
-            audio: "",
-          },
-        ],
-        hi: [
-          {
-            text: "हाँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_117.mp3",
-          },
-          {
-            text: "नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_118.mp3",
-          },
-          {
-            text: "",
-            audio: "",
-          },
-          {
-            text: "",
-            audio: "",
-          },
-        ],
-      },
-      correct: { en: "YES", hi: "हाँ" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How do you think Manju felt when Raju insisted on the volcano idea?",
-        hi: "जब राजू ने ज़ोर देकर ज्वालामुखी बनाने की बात की, तो मंजू को कैसा लगा होगा?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_31.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_31.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_119.mp3",
-          },
-          {
-            text: "Sad",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_120.mp3",
-          },
-          {
-            text: "Understanding",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_121.mp3",
-          },
-          {
-            text: "Jealous",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_122.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गुस्सा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_119.mp3",
-          },
-          {
-            text: "दुखी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_120.mp3",
-          },
-          {
-            text: "समझदारी दिखा रही थी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_121.mp3",
-          },
-          {
-            text: "जलन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_122.mp3",
-          },
-        ],
-      },
-      correct: { en: "Understanding", hi: "समझदारी दिखा रही थी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What would you do if your friend wanted something different from you in a team project?",
-        hi: "अगर टीम प्रोजेक्ट में आपके दोस्त की राय आपसे अलग हो, तो आप क्या करेंगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_32.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_32.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Only do what you want",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_123.mp3",
-          },
-          {
-            text: "Listen and talk about both ideas",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_124.mp3",
-          },
-          {
-            text: "Let them decide everything",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_125.mp3",
-          },
-          {
-            text: "Stop working together",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_126.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "सिर्फ़ अपनी बात मानेंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_123.mp3",
-          },
-          {
-            text: "दोनों की बात सुनकर चर्चा करेंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_124.mp3",
-          },
-          {
-            text: "सब कुछ दोस्त पर छोड़ देंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_125.mp3",
-          },
-          {
-            text: "साथ काम करना छोड़ देंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_126.mp3",
-          },
-        ],
-      },
-      correct: { en: "Listen and talk about both ideas", hi: "दोनों की बात सुनकर चर्चा करेंगे" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "When Raju saw everyone had the same volcano, he was shocked. What did he learn?",
-        hi: "जब राजू ने देखा कि सबके पास वही ज्वालामुखी है, तो उसे क्या सीख मिली?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_33.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_33.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He needs to buy faster",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_127.mp3",
-          },
-          {
-            text: "Being different is valuable",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_128.mp3",
-          },
-          {
-            text: "Big things always win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_129.mp3",
-          },
-          {
-            text: "Science is boring",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_130.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "जल्दी खरीदना ज़रूरी है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_127.mp3",
-          },
-          {
-            text: "अलग होना कीमती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_128.mp3",
-          },
-          {
-            text: "बड़ी चीज़ें ही जीतती हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_129.mp3",
-          },
-          {
-            text: "विज्ञान उबाऊ है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_130.mp3",
-          },
-        ],
-      },
-      correct: { en: "Being different is valuable", hi: "अलग होना कीमती है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What might Manju have felt when she saw her idea was different from everyone else's?",
-        hi: "जब मंजू ने देखा कि उसका विचार सबसे अलग था, तो उसे कैसा महसूस हुआ होगा?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_34.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_34.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Embarrassed",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_131.mp3",
-          },
-          {
-            text: "Proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_132.mp3",
-          },
-          {
-            text: "Confused",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_133.mp3",
-          },
-          {
-            text: "Tired",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_134.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "शर्मिंदगी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_131.mp3",
-          },
-          {
-            text: "गर्व",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_132.mp3",
-          },
-          {
-            text: "उलझन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_133.mp3",
-          },
-          {
-            text: "थकावट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_134.mp3",
-          },
-        ],
-      },
-      correct: { en: "Proud", hi: "गर्व" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you think teamwork means to you?",
-        hi: "आपके लिए टीमवर्क का क्या मतलब है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_35.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_35.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Everyone doing the same thing",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_135.mp3",
-          },
-          {
-            text: "Sharing and deciding together",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_136.mp3",
-          },
-          {
-            text: "One person leading everything",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_137.mp3",
-          },
-          {
-            text: "Doing everything alone",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_138.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "सबका एक ही काम करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_135.mp3",
-          },
-          {
-            text: "मिल-बाँट कर तय करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_136.mp3",
-          },
-          {
-            text: "एक ही व्यक्ति की बात मानना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_137.mp3",
-          },
-          {
-            text: "अकेले करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_138.mp3",
-          },
-        ],
-      },
-      correct: { en: "Sharing and deciding together", hi: "मिल-बाँट कर तय करना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What would you do if you found out everyone had the same idea as you?",
-        hi: "अगर आपको पता चले कि सबके पास आपकी जैसी ही सोच है, तो आप क्या करेंगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_36.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_36.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Feel proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_139.mp3",
-          },
-          {
-            text: "Get angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_140.mp3",
-          },
-          {
-            text: "Try something new",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_141.mp3",
-          },
-          {
-            text: "Quit the project",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_142.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "गर्व महसूस करेंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_139.mp3",
-          },
-          {
-            text: "गुस्सा करेंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_140.mp3",
-          },
-          {
-            text: "कुछ नया प्रयास करेंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_141.mp3",
-          },
-          {
-            text: "प्रोजेक्ट छोड़ देंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_142.mp3",
-          },
-        ],
-      },
-      correct: { en: "Try something new", hi: "कुछ नया प्रयास करेंगे" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Do you think it's okay to change your idea for a friend? How does it feel?",
-        hi: "क्या दोस्त के लिए अपनी राय बदलना ठीक है? इससे कैसा लगता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_37.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_37.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Feels good if it makes them happy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_143.mp3",
-          },
-          {
-            text: "Always wrong",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_144.mp3",
-          },
-          {
-            text: "Makes me angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_145.mp3",
-          },
-          {
-            text: "I never do that",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_146.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "अच्छा लगता है अगर वो खुश हो जाए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_143.mp3",
-          },
-          {
-            text: "हमेशा गलत है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_144.mp3",
-          },
-          {
-            text: "गुस्सा आता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_145.mp3",
-          },
-          {
-            text: "मैं ऐसा कभी नहीं करता",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_146.mp3",
-          },
-        ],
-      },
-      correct: { en: "Feels good if it makes them happy", hi: "अच्छा लगता है अगर वो खुश हो जाए" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Have you ever felt disappointed when something you thought was special turned out to be common? What did you do then?",
-        hi: "क्या आपने कभी ऐसा महसूस किया है जब जो चीज़ आपको खास लगी, वही सबके पास थी? तब आपने क्या किया?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_38.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_38.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Felt sad and gave up",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_147.mp3",
-          },
-          {
-            text: "Got angry at others",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_148.mp3",
-          },
-          {
-            text: "Found a new idea or way",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_149.mp3",
-          },
-          {
-            text: "Laughed and moved on",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_150.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उदास होकर हार मान ली",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_147.mp3",
-          },
-          {
-            text: "दूसरों पर गुस्सा किया",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_148.mp3",
-          },
-          {
-            text: "कोई नया तरीका ढूँढा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_149.mp3",
-          },
-          {
-            text: "हँसकर आगे बढ़ गए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_150.mp3",
-          },
-        ],
-      },
-      correct: { en: "Found a new idea or way", hi: "कोई नया तरीका ढूँढा" },
-    },
-  ],
-},
+//               // lesson 6
+//               {
+//   lessonId: "lesson-6",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why do you think Raju got super excited about the science project idea?",
+//         hi: "राजू साइंस प्रोजेक्ट के बारे में इतना उत्साहित क्यों हुआ?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_29.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_29.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He wanted to win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_113.mp3",
+//           },
+//           {
+//             text: "He loved science",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_114.mp3",
+//           },
+//           {
+//             text: "He wanted to look cool",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_115.mp3",
+//           },
+//           {
+//             text: "He had never done a project before",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_116.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वह जीतना चाहता था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_113.mp3",
+//           },
+//           {
+//             text: "उसे विज्ञान पसंद था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_114.mp3",
+//           },
+//           {
+//             text: "वह \"कूल\" दिखना चाहता था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_115.mp3",
+//           },
+//           {
+//             text: "उसने पहले कभी प्रोजेक्ट नहीं किया था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_116.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He wanted to look cool", hi: "वह \"कूल\" दिखना चाहता था" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Have you ever changed your idea or plan just to fit in or look cool like Raju?",
+//         hi: "क्या आपने कभी सिर्फ़ \"कूल\" दिखने के लिए या सबके जैसे बनने के लिए अपना विचार बदला है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_30.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_30.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "YES",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_117.mp3",
+//           },
+//           {
+//             text: "NO",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_118.mp3",
+//           },
+//           {
+//             text: "",
+//             audio: "",
+//           },
+//           {
+//             text: "",
+//             audio: "",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "हाँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_117.mp3",
+//           },
+//           {
+//             text: "नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_118.mp3",
+//           },
+//           {
+//             text: "",
+//             audio: "",
+//           },
+//           {
+//             text: "",
+//             audio: "",
+//           },
+//         ],
+//       },
+//       correct: { en: "YES", hi: "हाँ" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How do you think Manju felt when Raju insisted on the volcano idea?",
+//         hi: "जब राजू ने ज़ोर देकर ज्वालामुखी बनाने की बात की, तो मंजू को कैसा लगा होगा?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_31.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_31.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_119.mp3",
+//           },
+//           {
+//             text: "Sad",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_120.mp3",
+//           },
+//           {
+//             text: "Understanding",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_121.mp3",
+//           },
+//           {
+//             text: "Jealous",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_122.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गुस्सा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_119.mp3",
+//           },
+//           {
+//             text: "दुखी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_120.mp3",
+//           },
+//           {
+//             text: "समझदारी दिखा रही थी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_121.mp3",
+//           },
+//           {
+//             text: "जलन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_122.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Understanding", hi: "समझदारी दिखा रही थी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What would you do if your friend wanted something different from you in a team project?",
+//         hi: "अगर टीम प्रोजेक्ट में आपके दोस्त की राय आपसे अलग हो, तो आप क्या करेंगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_32.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_32.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Only do what you want",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_123.mp3",
+//           },
+//           {
+//             text: "Listen and talk about both ideas",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_124.mp3",
+//           },
+//           {
+//             text: "Let them decide everything",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_125.mp3",
+//           },
+//           {
+//             text: "Stop working together",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_126.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "सिर्फ़ अपनी बात मानेंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_123.mp3",
+//           },
+//           {
+//             text: "दोनों की बात सुनकर चर्चा करेंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_124.mp3",
+//           },
+//           {
+//             text: "सब कुछ दोस्त पर छोड़ देंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_125.mp3",
+//           },
+//           {
+//             text: "साथ काम करना छोड़ देंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_126.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Listen and talk about both ideas", hi: "दोनों की बात सुनकर चर्चा करेंगे" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "When Raju saw everyone had the same volcano, he was shocked. What did he learn?",
+//         hi: "जब राजू ने देखा कि सबके पास वही ज्वालामुखी है, तो उसे क्या सीख मिली?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_33.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_33.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He needs to buy faster",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_127.mp3",
+//           },
+//           {
+//             text: "Being different is valuable",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_128.mp3",
+//           },
+//           {
+//             text: "Big things always win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_129.mp3",
+//           },
+//           {
+//             text: "Science is boring",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_130.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "जल्दी खरीदना ज़रूरी है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_127.mp3",
+//           },
+//           {
+//             text: "अलग होना कीमती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_128.mp3",
+//           },
+//           {
+//             text: "बड़ी चीज़ें ही जीतती हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_129.mp3",
+//           },
+//           {
+//             text: "विज्ञान उबाऊ है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_130.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Being different is valuable", hi: "अलग होना कीमती है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What might Manju have felt when she saw her idea was different from everyone else's?",
+//         hi: "जब मंजू ने देखा कि उसका विचार सबसे अलग था, तो उसे कैसा महसूस हुआ होगा?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_34.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_34.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Embarrassed",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_131.mp3",
+//           },
+//           {
+//             text: "Proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_132.mp3",
+//           },
+//           {
+//             text: "Confused",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_133.mp3",
+//           },
+//           {
+//             text: "Tired",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_134.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "शर्मिंदगी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_131.mp3",
+//           },
+//           {
+//             text: "गर्व",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_132.mp3",
+//           },
+//           {
+//             text: "उलझन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_133.mp3",
+//           },
+//           {
+//             text: "थकावट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_134.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Proud", hi: "गर्व" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you think teamwork means to you?",
+//         hi: "आपके लिए टीमवर्क का क्या मतलब है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_35.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_35.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Everyone doing the same thing",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_135.mp3",
+//           },
+//           {
+//             text: "Sharing and deciding together",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_136.mp3",
+//           },
+//           {
+//             text: "One person leading everything",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_137.mp3",
+//           },
+//           {
+//             text: "Doing everything alone",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_138.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "सबका एक ही काम करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_135.mp3",
+//           },
+//           {
+//             text: "मिल-बाँट कर तय करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_136.mp3",
+//           },
+//           {
+//             text: "एक ही व्यक्ति की बात मानना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_137.mp3",
+//           },
+//           {
+//             text: "अकेले करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_138.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Sharing and deciding together", hi: "मिल-बाँट कर तय करना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What would you do if you found out everyone had the same idea as you?",
+//         hi: "अगर आपको पता चले कि सबके पास आपकी जैसी ही सोच है, तो आप क्या करेंगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_36.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_36.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Feel proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_139.mp3",
+//           },
+//           {
+//             text: "Get angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_140.mp3",
+//           },
+//           {
+//             text: "Try something new",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_141.mp3",
+//           },
+//           {
+//             text: "Quit the project",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_142.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "गर्व महसूस करेंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_139.mp3",
+//           },
+//           {
+//             text: "गुस्सा करेंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_140.mp3",
+//           },
+//           {
+//             text: "कुछ नया प्रयास करेंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_141.mp3",
+//           },
+//           {
+//             text: "प्रोजेक्ट छोड़ देंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_142.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Try something new", hi: "कुछ नया प्रयास करेंगे" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Do you think it's okay to change your idea for a friend? How does it feel?",
+//         hi: "क्या दोस्त के लिए अपनी राय बदलना ठीक है? इससे कैसा लगता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_37.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_37.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Feels good if it makes them happy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_143.mp3",
+//           },
+//           {
+//             text: "Always wrong",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_144.mp3",
+//           },
+//           {
+//             text: "Makes me angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_145.mp3",
+//           },
+//           {
+//             text: "I never do that",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_146.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "अच्छा लगता है अगर वो खुश हो जाए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_143.mp3",
+//           },
+//           {
+//             text: "हमेशा गलत है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_144.mp3",
+//           },
+//           {
+//             text: "गुस्सा आता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_145.mp3",
+//           },
+//           {
+//             text: "मैं ऐसा कभी नहीं करता",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_146.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Feels good if it makes them happy", hi: "अच्छा लगता है अगर वो खुश हो जाए" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Have you ever felt disappointed when something you thought was special turned out to be common? What did you do then?",
+//         hi: "क्या आपने कभी ऐसा महसूस किया है जब जो चीज़ आपको खास लगी, वही सबके पास थी? तब आपने क्या किया?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_38.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_38.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Felt sad and gave up",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_147.mp3",
+//           },
+//           {
+//             text: "Got angry at others",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_148.mp3",
+//           },
+//           {
+//             text: "Found a new idea or way",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_149.mp3",
+//           },
+//           {
+//             text: "Laughed and moved on",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_150.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उदास होकर हार मान ली",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_147.mp3",
+//           },
+//           {
+//             text: "दूसरों पर गुस्सा किया",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_148.mp3",
+//           },
+//           {
+//             text: "कोई नया तरीका ढूँढा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_149.mp3",
+//           },
+//           {
+//             text: "हँसकर आगे बढ़ गए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_150.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Found a new idea or way", hi: "कोई नया तरीका ढूँढा" },
+//     },
+//   ],
+// },
 
-              // lesson 7 (Book)
+//               // lesson 7 (Book)
 
-              {
-                lessonId: "lesson-7",
-                questions: [
-                  {
-                    type: "book",
-                    pages: {
-                      en: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_11.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_10.mp3",
-                          hardWords: [],
-                          speakText: "Sochu Book 1 - Think Outside The Box ",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_12.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_11.mp3",
-                          hardWords: [],
-                          speakText:
-                            "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_13.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_12.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_14.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_13.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_15.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_14.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_16.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_15.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_17.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_16.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_18.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_17.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_19.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_18.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_20.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_19.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_21.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_20.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_22.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_21.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_23.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_22.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_24.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_23.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_25.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_24.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                      ],
-                      hi: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_11.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2BH_10.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_12.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/1h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_13.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/2h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_14.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/3h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_15.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_16.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_17.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_18.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_19.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_20.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_21.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_22.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_23.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_24.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_25.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                      ],
-                    },
-                  },
-                ],
-              },
+//               {
+//                 lessonId: "lesson-7",
+//                 questions: [
+//                   {
+//                     type: "book",
+//                     pages: {
+//                       en: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_11.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_10.mp3",
+//                           hardWords: [],
+//                           speakText: "Sochu Book 1 - Think Outside The Box ",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_12.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_11.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_13.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_12.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_14.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_13.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_15.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_14.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_16.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_15.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_17.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_16.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_18.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_17.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_19.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_18.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_20.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_19.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_21.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_20.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_22.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_21.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_23.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_22.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_24.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_23.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_25.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_24.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                       ],
+//                       hi: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_11.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2BH_10.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_12.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/1h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_13.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/2h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_14.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/3h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_15.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_16.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_17.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_18.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_19.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_20.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_21.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_22.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_23.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_24.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_25.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                       ],
+//                     },
+//                   },
+//                 ],
+//               },
 
-              // lesson 8
-              {
-  lessonId: "lesson-8",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What kind of race are the children practicing for?",
-        hi: "बच्चे किस दौड़ की प्रैक्टिस कर रहे हैं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_39.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_39.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Sack race",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_151.mp3",
-          },
-          {
-            text: "Three-legged race",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_152.mp3",
-          },
-          {
-            text: "Running race",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_153.mp3",
-          },
-          {
-            text: "Frog jump",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_154.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "बोरी दौड़",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_151.mp3",
-          },
-          {
-            text: "तीन-पैरों की दौड़",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_152.mp3",
-          },
-          {
-            text: "दौड़ प्रतियोगिता",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_153.mp3",
-          },
-          {
-            text: "मेंढक कूद",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_154.mp3",
-          },
-        ],
-      },
-      correct: { en: "Three-legged race", hi: "तीन-पैरों की दौड़" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What are \"FLY SHOES\" supposed to do, according to the ad?",
-        hi: "विज्ञापन के अनुसार \"उड़ने वाले जूते\" क्या करते हैं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_40.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_40.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Make you jump high",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_155.mp3",
-          },
-          {
-            text: "Help you fly",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_156.mp3",
-          },
-          {
-            text: "Make you invisible",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_157.mp3",
-          },
-          {
-            text: "Play music",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_158.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "ऊँचा कूदने में मदद करते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_155.mp3",
-          },
-          {
-            text: "उड़ने में मदद करते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_156.mp3",
-          },
-          {
-            text: "आपको अदृश्य बनाते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_157.mp3",
-          },
-          {
-            text: "संगीत बजाते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_158.mp3",
-          },
-        ],
-      },
-      correct: { en: "Help you fly", hi: "उड़ने में मदद करते हैं" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does Anju believe will help them win the race?",
-        hi: "अंजू के अनुसार रेस जीतने में क्या मदद करेगा?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_41.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_41.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Fancy shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_159.mp3",
-          },
-          {
-            text: "Running fast",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_160.mp3",
-          },
-          {
-            text: "Magic",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_161.mp3",
-          },
-          {
-            text: "Practice",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_162.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "महंगे जूते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_159.mp3",
-          },
-          {
-            text: "तेज़ दौड़ना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_160.mp3",
-          },
-          {
-            text: "जादू",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_161.mp3",
-          },
-          {
-            text: "अभ्यास",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_162.mp3",
-          },
-        ],
-      },
-      correct: { en: "Practice", hi: "अभ्यास" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What word best describes Raju's feeling after watching the shoe ad?",
-        hi: "विज्ञापन देखने के बाद राजू की भावना को कौन-सा शब्द सबसे अच्छा दर्शाता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_42.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_42.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Bored",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_163.mp3",
-          },
-          {
-            text: "Calm",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_164.mp3",
-          },
-          {
-            text: "Obsessed",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_165.mp3",
-          },
-          {
-            text: "Confused",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_166.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "बोर",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_163.mp3",
-          },
-          {
-            text: "शांत",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_164.mp3",
-          },
-          {
-            text: "दीवाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_165.mp3",
-          },
-          {
-            text: "उलझन में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_166.mp3",
-          },
-        ],
-      },
-      correct: { en: "Obsessed", hi: "दीवाना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What is the meaning of \"brainwashed\" in the line \"Is everyone brainwashed by the same advertisement?\"",
-        hi: "\"क्या सब एक ही विज्ञापन से बहक गए हैं?\" — इस पंक्ति में \"बहकना\" का क्या मतलब है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_43.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_43.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Freshly bathed",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_167.mp3",
-          },
-          {
-            text: "Made to believe something without thinking",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_168.mp3",
-          },
-          {
-            text: "Very clean",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_169.mp3",
-          },
-          {
-            text: "Feeling sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_170.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "नहाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_167.mp3",
-          },
-          {
-            text: "बिना सोचे किसी बात को मान लेना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_168.mp3",
-          },
-          {
-            text: "बहुत साफ़ होना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_169.mp3",
-          },
-          {
-            text: "नींद में होना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_170.mp3",
-          },
-        ],
-      },
-      correct: { en: "Made to believe something without thinking", hi: "बिना सोचे किसी बात को मान लेना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What is the main message in the FLY SHOES advertisement?",
-        hi: "\"FLY SHOES\" के विज्ञापन का मुख्य संदेश क्या है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_44.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_44.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Be careful of fake shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_171.mp3",
-          },
-          {
-            text: "FLY SHOES are magical",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_172.mp3",
-          },
-          {
-            text: "Only trained athletes wear them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_173.mp3",
-          },
-          {
-            text: "You need these to win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_174.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "नकली जूतों से सावधान रहें",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_171.mp3",
-          },
-          {
-            text: "उड़ने वाले जूते जादुई हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_172.mp3",
-          },
-          {
-            text: "केवल खिलाड़ी ही इन्हें पहनते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_173.mp3",
-          },
-          {
-            text: "जीतने के लिए ये ज़रूरी हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_174.mp3",
-          },
-        ],
-      },
-      correct: { en: "You need these to win", hi: "जीतने के लिए ये ज़रूरी हैं" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What word is repeated in the shoe ad to make it more exciting?",
-        hi: "जूते के विज्ञापन में किस शब्द को बार-बार दोहराया गया है ताकि वह ज़्यादा मज़ेदार लगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_45.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_45.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Cool",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_175.mp3",
-          },
-          {
-            text: "Fly",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_176.mp3",
-          },
-          {
-            text: "Fast",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_177.mp3",
-          },
-          {
-            text: "Jump",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_178.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "कूल",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_175.mp3",
-          },
-          {
-            text: "उड़ो",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_176.mp3",
-          },
-          {
-            text: "तेज़",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_177.mp3",
-          },
-          {
-            text: "कूदो",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_178.mp3",
-          },
-        ],
-      },
-      correct: { en: "Fly", hi: "उड़ो" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why does Raju say, \"I really NEED to buy those shoes\"?",
-        hi: "राजू क्यों कहता है, \"मुझे वो जूते लेने ही हैं\"?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_46.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_46.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He's afraid of losing",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_179.mp3",
-          },
-          {
-            text: "He loves running",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_180.mp3",
-          },
-          {
-            text: "He is influenced by the ad",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_181.mp3",
-          },
-          {
-            text: "He wants new shoes for school",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_182.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उसे हारने का डर है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_179.mp3",
-          },
-          {
-            text: "उसे दौड़ पसंद है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_180.mp3",
-          },
-          {
-            text: "वह विज्ञापन से प्रभावित है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_181.mp3",
-          },
-          {
-            text: "उसे स्कूल के लिए नए जूते चाहिए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_182.mp3",
-          },
-        ],
-      },
-      correct: { en: "He is influenced by the ad", hi: "वह विज्ञापन से प्रभावित है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does Anju do when Raju runs to buy the shoes?",
-        hi: "जब राजू जूते खरीदने के लिए दौड़ता है, तब अंजू क्या करती है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_47.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_47.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "She ignores him",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_183.mp3",
-          },
-          {
-            text: "She laughs",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_184.mp3",
-          },
-          {
-            text: "She runs after him to stop him",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_185.mp3",
-          },
-          {
-            text: "She also buys the shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_186.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वह अनदेखा कर देती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_183.mp3",
-          },
-          {
-            text: "वह हँसती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_184.mp3",
-          },
-          {
-            text: "वह उसे रोकने दौड़ती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_185.mp3",
-          },
-          {
-            text: "वह भी जूते खरीदती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_186.mp3",
-          },
-        ],
-      },
-      correct: { en: "She runs after him to stop him", hi: "वह उसे रोकने दौड़ती है" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does it show when all the kids run to buy the same shoes after seeing the ad?",
-        hi: "जब सभी बच्चे विज्ञापन देखकर एक ही जूते खरीदने दौड़ते हैं, तो यह क्या दिखाता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_48.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_48.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Kids love shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_187.mp3",
-          },
-          {
-            text: "Everyone follows what looks exciting",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_188.mp3",
-          },
-          {
-            text: "Shoes make you win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_189.mp3",
-          },
-          {
-            text: "Racing is fun",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_190.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "बच्चों को जूते पसंद हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_187.mp3",
-          },
-          {
-            text: "जो मज़ेदार दिखता है, सब उसी को अपनाते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_188.mp3",
-          },
-          {
-            text: "जूते से जीत मिलती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_189.mp3",
-          },
-          {
-            text: "दौड़ना मज़ेदार है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_190.mp3",
-          },
-        ],
-      },
-      correct: { en: "Everyone follows what looks exciting", hi: "जो मज़ेदार दिखता है, सब उसी को अपनाते हैं" },
-    },
-  ],
-},
+//               // lesson 8
+//               {
+//   lessonId: "lesson-8",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What kind of race are the children practicing for?",
+//         hi: "बच्चे किस दौड़ की प्रैक्टिस कर रहे हैं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_39.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_39.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Sack race",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_151.mp3",
+//           },
+//           {
+//             text: "Three-legged race",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_152.mp3",
+//           },
+//           {
+//             text: "Running race",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_153.mp3",
+//           },
+//           {
+//             text: "Frog jump",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_154.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "बोरी दौड़",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_151.mp3",
+//           },
+//           {
+//             text: "तीन-पैरों की दौड़",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_152.mp3",
+//           },
+//           {
+//             text: "दौड़ प्रतियोगिता",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_153.mp3",
+//           },
+//           {
+//             text: "मेंढक कूद",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_154.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Three-legged race", hi: "तीन-पैरों की दौड़" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What are \"FLY SHOES\" supposed to do, according to the ad?",
+//         hi: "विज्ञापन के अनुसार \"उड़ने वाले जूते\" क्या करते हैं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_40.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_40.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Make you jump high",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_155.mp3",
+//           },
+//           {
+//             text: "Help you fly",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_156.mp3",
+//           },
+//           {
+//             text: "Make you invisible",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_157.mp3",
+//           },
+//           {
+//             text: "Play music",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_158.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "ऊँचा कूदने में मदद करते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_155.mp3",
+//           },
+//           {
+//             text: "उड़ने में मदद करते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_156.mp3",
+//           },
+//           {
+//             text: "आपको अदृश्य बनाते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_157.mp3",
+//           },
+//           {
+//             text: "संगीत बजाते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_158.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Help you fly", hi: "उड़ने में मदद करते हैं" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does Anju believe will help them win the race?",
+//         hi: "अंजू के अनुसार रेस जीतने में क्या मदद करेगा?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_41.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_41.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Fancy shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_159.mp3",
+//           },
+//           {
+//             text: "Running fast",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_160.mp3",
+//           },
+//           {
+//             text: "Magic",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_161.mp3",
+//           },
+//           {
+//             text: "Practice",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_162.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "महंगे जूते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_159.mp3",
+//           },
+//           {
+//             text: "तेज़ दौड़ना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_160.mp3",
+//           },
+//           {
+//             text: "जादू",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_161.mp3",
+//           },
+//           {
+//             text: "अभ्यास",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_162.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Practice", hi: "अभ्यास" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What word best describes Raju's feeling after watching the shoe ad?",
+//         hi: "विज्ञापन देखने के बाद राजू की भावना को कौन-सा शब्द सबसे अच्छा दर्शाता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_42.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_42.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Bored",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_163.mp3",
+//           },
+//           {
+//             text: "Calm",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_164.mp3",
+//           },
+//           {
+//             text: "Obsessed",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_165.mp3",
+//           },
+//           {
+//             text: "Confused",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_166.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "बोर",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_163.mp3",
+//           },
+//           {
+//             text: "शांत",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_164.mp3",
+//           },
+//           {
+//             text: "दीवाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_165.mp3",
+//           },
+//           {
+//             text: "उलझन में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_166.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Obsessed", hi: "दीवाना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What is the meaning of \"brainwashed\" in the line \"Is everyone brainwashed by the same advertisement?\"",
+//         hi: "\"क्या सब एक ही विज्ञापन से बहक गए हैं?\" — इस पंक्ति में \"बहकना\" का क्या मतलब है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_43.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_43.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Freshly bathed",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_167.mp3",
+//           },
+//           {
+//             text: "Made to believe something without thinking",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_168.mp3",
+//           },
+//           {
+//             text: "Very clean",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_169.mp3",
+//           },
+//           {
+//             text: "Feeling sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_170.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "नहाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_167.mp3",
+//           },
+//           {
+//             text: "बिना सोचे किसी बात को मान लेना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_168.mp3",
+//           },
+//           {
+//             text: "बहुत साफ़ होना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_169.mp3",
+//           },
+//           {
+//             text: "नींद में होना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_170.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Made to believe something without thinking", hi: "बिना सोचे किसी बात को मान लेना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What is the main message in the FLY SHOES advertisement?",
+//         hi: "\"FLY SHOES\" के विज्ञापन का मुख्य संदेश क्या है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_44.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_44.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Be careful of fake shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_171.mp3",
+//           },
+//           {
+//             text: "FLY SHOES are magical",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_172.mp3",
+//           },
+//           {
+//             text: "Only trained athletes wear them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_173.mp3",
+//           },
+//           {
+//             text: "You need these to win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_174.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "नकली जूतों से सावधान रहें",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_171.mp3",
+//           },
+//           {
+//             text: "उड़ने वाले जूते जादुई हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_172.mp3",
+//           },
+//           {
+//             text: "केवल खिलाड़ी ही इन्हें पहनते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_173.mp3",
+//           },
+//           {
+//             text: "जीतने के लिए ये ज़रूरी हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_174.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "You need these to win", hi: "जीतने के लिए ये ज़रूरी हैं" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What word is repeated in the shoe ad to make it more exciting?",
+//         hi: "जूते के विज्ञापन में किस शब्द को बार-बार दोहराया गया है ताकि वह ज़्यादा मज़ेदार लगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_45.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_45.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Cool",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_175.mp3",
+//           },
+//           {
+//             text: "Fly",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_176.mp3",
+//           },
+//           {
+//             text: "Fast",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_177.mp3",
+//           },
+//           {
+//             text: "Jump",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_178.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "कूल",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_175.mp3",
+//           },
+//           {
+//             text: "उड़ो",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_176.mp3",
+//           },
+//           {
+//             text: "तेज़",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_177.mp3",
+//           },
+//           {
+//             text: "कूदो",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_178.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Fly", hi: "उड़ो" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why does Raju say, \"I really NEED to buy those shoes\"?",
+//         hi: "राजू क्यों कहता है, \"मुझे वो जूते लेने ही हैं\"?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_46.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_46.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He's afraid of losing",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_179.mp3",
+//           },
+//           {
+//             text: "He loves running",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_180.mp3",
+//           },
+//           {
+//             text: "He is influenced by the ad",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_181.mp3",
+//           },
+//           {
+//             text: "He wants new shoes for school",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_182.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उसे हारने का डर है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_179.mp3",
+//           },
+//           {
+//             text: "उसे दौड़ पसंद है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_180.mp3",
+//           },
+//           {
+//             text: "वह विज्ञापन से प्रभावित है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_181.mp3",
+//           },
+//           {
+//             text: "उसे स्कूल के लिए नए जूते चाहिए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_182.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He is influenced by the ad", hi: "वह विज्ञापन से प्रभावित है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does Anju do when Raju runs to buy the shoes?",
+//         hi: "जब राजू जूते खरीदने के लिए दौड़ता है, तब अंजू क्या करती है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_47.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_47.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "She ignores him",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_183.mp3",
+//           },
+//           {
+//             text: "She laughs",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_184.mp3",
+//           },
+//           {
+//             text: "She runs after him to stop him",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_185.mp3",
+//           },
+//           {
+//             text: "She also buys the shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_186.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वह अनदेखा कर देती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_183.mp3",
+//           },
+//           {
+//             text: "वह हँसती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_184.mp3",
+//           },
+//           {
+//             text: "वह उसे रोकने दौड़ती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_185.mp3",
+//           },
+//           {
+//             text: "वह भी जूते खरीदती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_186.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "She runs after him to stop him", hi: "वह उसे रोकने दौड़ती है" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does it show when all the kids run to buy the same shoes after seeing the ad?",
+//         hi: "जब सभी बच्चे विज्ञापन देखकर एक ही जूते खरीदने दौड़ते हैं, तो यह क्या दिखाता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_48.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_48.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Kids love shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_187.mp3",
+//           },
+//           {
+//             text: "Everyone follows what looks exciting",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_188.mp3",
+//           },
+//           {
+//             text: "Shoes make you win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_189.mp3",
+//           },
+//           {
+//             text: "Racing is fun",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_190.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "बच्चों को जूते पसंद हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_187.mp3",
+//           },
+//           {
+//             text: "जो मज़ेदार दिखता है, सब उसी को अपनाते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_188.mp3",
+//           },
+//           {
+//             text: "जूते से जीत मिलती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_189.mp3",
+//           },
+//           {
+//             text: "दौड़ना मज़ेदार है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_190.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Everyone follows what looks exciting", hi: "जो मज़ेदार दिखता है, सब उसी को अपनाते हैं" },
+//     },
+//   ],
+// },
 
-              // lesson 9
+//               // lesson 9
 
-              {
-  lessonId: "lesson-9",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why do you think Raju wanted the FLY SHOES so badly?",
-        hi: "राजू को \"उड़ने वाले जूते\" इतनी ज़ोर से क्यों चाहिए थे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_49.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_49.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He was tired of running",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_191.mp3",
-          },
-          {
-            text: "He believed they would help him win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_192.mp3",
-          },
-          {
-            text: "He liked the color",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_193.mp3",
-          },
-          {
-            text: "He wanted to gift them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_194.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वह दौड़कर थक गया था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_191.mp3",
-          },
-          {
-            text: "उसे लगा वे उसे जीतने में मदद करेंगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_192.mp3",
-          },
-          {
-            text: "उसे उनका रंग पसंद था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_193.mp3",
-          },
-          {
-            text: "वह किसी को तोहफ़ा देना चाहता था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_194.mp3",
-          },
-        ],
-      },
-      correct: { en: "He believed they would help him win", hi: "उसे लगा वे उसे जीतने में मदद करेंगे" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How do you decide if something you see in an ad is really true?",
-        hi: "आप कैसे तय करते हैं कि कोई विज्ञापन सच्चा है या नहीं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_50.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_50.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "I ask someone I trust",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_195.mp3",
-          },
-          {
-            text: "I believe it right away",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_196.mp3",
-          },
-          {
-            text: "I buy it to check",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_197.mp3",
-          },
-          {
-            text: "I ignore it completely",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_198.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "किसी भरोसेमंद से पूछता/पूछती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_195.mp3",
-          },
-          {
-            text: "तुरंत मान लेता/लेती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_196.mp3",
-          },
-          {
-            text: "खरीद कर देखता/देखती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_197.mp3",
-          },
-          {
-            text: "पूरी तरह नज़रअंदाज़ करता/करती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_198.mp3",
-          },
-        ],
-      },
-      correct: { en: "I ask someone I trust", hi: "किसी भरोसेमंद से पूछता/पूछती हूँ" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you think makes someone different from the crowd?",
-        hi: "आपको क्या लगता है — कोई व्यक्ति भीड़ से अलग कैसे बनता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_51.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_51.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Doing what others do",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_199.mp3",
-          },
-          {
-            text: "Following ads",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_200.mp3",
-          },
-          {
-            text: "Thinking for themselves",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_201.mp3",
-          },
-          {
-            text: "Having the best shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_202.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "जो सब करते हैं वही करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_199.mp3",
-          },
-          {
-            text: "विज्ञापन के पीछे चलना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_200.mp3",
-          },
-          {
-            text: "खुद सोचकर निर्णय लेना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_201.mp3",
-          },
-          {
-            text: "सबसे अच्छे जूते पहनना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_202.mp3",
-          },
-        ],
-      },
-      correct: { en: "Thinking for themselves", hi: "खुद सोचकर निर्णय लेना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why do you think Anju didn't get carried away by the advertisement?",
-        hi: "आपको क्या लगता है — अंजू विज्ञापन से क्यों नहीं बहकी?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_52.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_52.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "She doesn't like shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_203.mp3",
-          },
-          {
-            text: "She was too tired",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_204.mp3",
-          },
-          {
-            text: "She was thinking carefully",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_205.mp3",
-          },
-          {
-            text: "She didn't hear it",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_206.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उसे जूते पसंद नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_203.mp3",
-          },
-          {
-            text: "वह बहुत थकी थी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_204.mp3",
-          },
-          {
-            text: "वह सोच-समझकर चल रही थी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_205.mp3",
-          },
-          {
-            text: "उसने विज्ञापन सुना ही नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_206.mp3",
-          },
-        ],
-      },
-      correct: { en: "She was thinking carefully", hi: "वह सोच-समझकर चल रही थी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "When something is popular and exciting, how do you stop yourself from rushing into it?",
-        hi: "जब कोई चीज़ बहुत लोकप्रिय और मज़ेदार लगती है, तो आप खुद को कैसे रोकते हैं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_53.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_53.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "I wait and think",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_207.mp3",
-          },
-          {
-            text: "I copy my friends",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_208.mp3",
-          },
-          {
-            text: "I rush anyway",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_209.mp3",
-          },
-          {
-            text: "I get angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_210.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "मैं रुककर सोचता/सोचती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_207.mp3",
-          },
-          {
-            text: "मैं दोस्तों की नकल करता/करती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_208.mp3",
-          },
-          {
-            text: "मैं फिर भी दौड़ पड़ता/पड़ती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_209.mp3",
-          },
-          {
-            text: "मैं गुस्सा हो जाता/जाती हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_210.mp3",
-          },
-        ],
-      },
-      correct: { en: "I wait and think", hi: "मैं रुककर सोचता/सोचती हूँ" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What would you do if your entire class was excited about something you didn't believe in?",
-        hi: "अगर आपकी पूरी कक्षा किसी बात को लेकर बहुत उत्साहित हो और आपको उस पर विश्वास न हो — तो आप क्या करेंगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_54.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_54.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Join them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_211.mp3",
-          },
-          {
-            text: "Laugh at them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_212.mp3",
-          },
-          {
-            text: "Talk to someone",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_213.mp3",
-          },
-          {
-            text: "Think quietly to myself",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_214.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उनके साथ शामिल हो जाऊँगा/जाऊँगी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_211.mp3",
-          },
-          {
-            text: "उनका मज़ाक उड़ाऊँगा/उड़ाऊँगी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_212.mp3",
-          },
-          {
-            text: "किसी से बात करूँगा/करूँगी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_213.mp3",
-          },
-          {
-            text: "चुपचाप सोचूँगा/सोचूँगी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_214.mp3",
-          },
-        ],
-      },
-      correct: { en: "Talk to someone", hi: "किसी से बात करूँगा/करूँगी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you think Raju learned in the end — was it really the shoes that mattered most?",
-        hi: "आपको क्या लगता है — राजू ने अंत में क्या सीखा? क्या सच में सिर्फ़ जूते सबसे ज़रूरी थे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_55.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_55.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Yes, because shoes win races",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_215.mp3",
-          },
-          {
-            text: "No, because practice and thinking matter more",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_216.mp3",
-          },
-          {
-            text: "Yes, because everyone wore them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_217.mp3",
-          },
-          {
-            text: "No, because the shoes were fake",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_218.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "हाँ, क्योंकि जूते से जीत मिलती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_215.mp3",
-          },
-          {
-            text: "नहीं, क्योंकि अभ्यास और सोच ज़्यादा ज़रूरी है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_216.mp3",
-          },
-          {
-            text: "हाँ, क्योंकि सबने वही पहने",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_217.mp3",
-          },
-          {
-            text: "नहीं, क्योंकि जूते नकली थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_218.mp3",
-          },
-        ],
-      },
-      correct: { en: "No, because practice and thinking matter more", hi: "नहीं, क्योंकि अभ्यास और सोच ज़्यादा ज़रूरी है" },
-    },
-  ],
-},
+//               {
+//   lessonId: "lesson-9",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why do you think Raju wanted the FLY SHOES so badly?",
+//         hi: "राजू को \"उड़ने वाले जूते\" इतनी ज़ोर से क्यों चाहिए थे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_49.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_49.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He was tired of running",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_191.mp3",
+//           },
+//           {
+//             text: "He believed they would help him win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_192.mp3",
+//           },
+//           {
+//             text: "He liked the color",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_193.mp3",
+//           },
+//           {
+//             text: "He wanted to gift them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_194.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वह दौड़कर थक गया था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_191.mp3",
+//           },
+//           {
+//             text: "उसे लगा वे उसे जीतने में मदद करेंगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_192.mp3",
+//           },
+//           {
+//             text: "उसे उनका रंग पसंद था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_193.mp3",
+//           },
+//           {
+//             text: "वह किसी को तोहफ़ा देना चाहता था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_194.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He believed they would help him win", hi: "उसे लगा वे उसे जीतने में मदद करेंगे" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How do you decide if something you see in an ad is really true?",
+//         hi: "आप कैसे तय करते हैं कि कोई विज्ञापन सच्चा है या नहीं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_50.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_50.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "I ask someone I trust",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_195.mp3",
+//           },
+//           {
+//             text: "I believe it right away",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_196.mp3",
+//           },
+//           {
+//             text: "I buy it to check",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_197.mp3",
+//           },
+//           {
+//             text: "I ignore it completely",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_198.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "किसी भरोसेमंद से पूछता/पूछती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_195.mp3",
+//           },
+//           {
+//             text: "तुरंत मान लेता/लेती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_196.mp3",
+//           },
+//           {
+//             text: "खरीद कर देखता/देखती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_197.mp3",
+//           },
+//           {
+//             text: "पूरी तरह नज़रअंदाज़ करता/करती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_198.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "I ask someone I trust", hi: "किसी भरोसेमंद से पूछता/पूछती हूँ" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you think makes someone different from the crowd?",
+//         hi: "आपको क्या लगता है — कोई व्यक्ति भीड़ से अलग कैसे बनता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_51.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_51.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Doing what others do",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_199.mp3",
+//           },
+//           {
+//             text: "Following ads",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_200.mp3",
+//           },
+//           {
+//             text: "Thinking for themselves",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_201.mp3",
+//           },
+//           {
+//             text: "Having the best shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_202.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "जो सब करते हैं वही करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_199.mp3",
+//           },
+//           {
+//             text: "विज्ञापन के पीछे चलना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_200.mp3",
+//           },
+//           {
+//             text: "खुद सोचकर निर्णय लेना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_201.mp3",
+//           },
+//           {
+//             text: "सबसे अच्छे जूते पहनना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_202.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Thinking for themselves", hi: "खुद सोचकर निर्णय लेना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why do you think Anju didn't get carried away by the advertisement?",
+//         hi: "आपको क्या लगता है — अंजू विज्ञापन से क्यों नहीं बहकी?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_52.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_52.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "She doesn't like shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_203.mp3",
+//           },
+//           {
+//             text: "She was too tired",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_204.mp3",
+//           },
+//           {
+//             text: "She was thinking carefully",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_205.mp3",
+//           },
+//           {
+//             text: "She didn't hear it",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_206.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उसे जूते पसंद नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_203.mp3",
+//           },
+//           {
+//             text: "वह बहुत थकी थी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_204.mp3",
+//           },
+//           {
+//             text: "वह सोच-समझकर चल रही थी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_205.mp3",
+//           },
+//           {
+//             text: "उसने विज्ञापन सुना ही नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_206.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "She was thinking carefully", hi: "वह सोच-समझकर चल रही थी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "When something is popular and exciting, how do you stop yourself from rushing into it?",
+//         hi: "जब कोई चीज़ बहुत लोकप्रिय और मज़ेदार लगती है, तो आप खुद को कैसे रोकते हैं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_53.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_53.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "I wait and think",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_207.mp3",
+//           },
+//           {
+//             text: "I copy my friends",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_208.mp3",
+//           },
+//           {
+//             text: "I rush anyway",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_209.mp3",
+//           },
+//           {
+//             text: "I get angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_210.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "मैं रुककर सोचता/सोचती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_207.mp3",
+//           },
+//           {
+//             text: "मैं दोस्तों की नकल करता/करती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_208.mp3",
+//           },
+//           {
+//             text: "मैं फिर भी दौड़ पड़ता/पड़ती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_209.mp3",
+//           },
+//           {
+//             text: "मैं गुस्सा हो जाता/जाती हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_210.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "I wait and think", hi: "मैं रुककर सोचता/सोचती हूँ" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What would you do if your entire class was excited about something you didn't believe in?",
+//         hi: "अगर आपकी पूरी कक्षा किसी बात को लेकर बहुत उत्साहित हो और आपको उस पर विश्वास न हो — तो आप क्या करेंगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_54.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_54.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Join them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_211.mp3",
+//           },
+//           {
+//             text: "Laugh at them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_212.mp3",
+//           },
+//           {
+//             text: "Talk to someone",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_213.mp3",
+//           },
+//           {
+//             text: "Think quietly to myself",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_214.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उनके साथ शामिल हो जाऊँगा/जाऊँगी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_211.mp3",
+//           },
+//           {
+//             text: "उनका मज़ाक उड़ाऊँगा/उड़ाऊँगी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_212.mp3",
+//           },
+//           {
+//             text: "किसी से बात करूँगा/करूँगी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_213.mp3",
+//           },
+//           {
+//             text: "चुपचाप सोचूँगा/सोचूँगी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_214.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Talk to someone", hi: "किसी से बात करूँगा/करूँगी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you think Raju learned in the end — was it really the shoes that mattered most?",
+//         hi: "आपको क्या लगता है — राजू ने अंत में क्या सीखा? क्या सच में सिर्फ़ जूते सबसे ज़रूरी थे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_55.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_55.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Yes, because shoes win races",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_215.mp3",
+//           },
+//           {
+//             text: "No, because practice and thinking matter more",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_216.mp3",
+//           },
+//           {
+//             text: "Yes, because everyone wore them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_217.mp3",
+//           },
+//           {
+//             text: "No, because the shoes were fake",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_218.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "हाँ, क्योंकि जूते से जीत मिलती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_215.mp3",
+//           },
+//           {
+//             text: "नहीं, क्योंकि अभ्यास और सोच ज़्यादा ज़रूरी है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_216.mp3",
+//           },
+//           {
+//             text: "हाँ, क्योंकि सबने वही पहने",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_217.mp3",
+//           },
+//           {
+//             text: "नहीं, क्योंकि जूते नकली थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_218.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "No, because practice and thinking matter more", hi: "नहीं, क्योंकि अभ्यास और सोच ज़्यादा ज़रूरी है" },
+//     },
+//   ],
+// },
 
-              // lesson 10 (Book)
+//               // lesson 10 (Book)
 
-              {
-                lessonId: "lesson-10",
-                questions: [
-                  {
-                    type: "book",
-                    pages: {
-                      en: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_26.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/p1m.mp3",
-                          hardWords: [],
-                          speakText: "Sochu Book 1 - Think Outside The Box ",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_27.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_25.mp3",
-                          hardWords: [],
-                          speakText:
-                            "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_28.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_26.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_29.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_27.mp3",
-                          hardWords: [],
-                          speakText:
-                            "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_30.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_28.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_31.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_29.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_32.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_30.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_33.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_31.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_34.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_32.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_E_35.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/B2P_33.mp3",
-                          hardWords: [
-                            "engrossed - focused or lost in an activity (verb)",
-                          ],
-                          speakText:
-                            "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
-                        },
-                      ],
-                      hi: [
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_26.jpg",
-                          audio:
-                            "https://d16ho1g3lqitul.cloudfront.net/q-1-m.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_27.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/1h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_28.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/2h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_29.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/3h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_30.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_31.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_32.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_33.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_34.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                        {
-                          image:
-                            "https://d16ho1g3lqitul.cloudfront.net/SB02_H_35.jpg",
-                          audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
-                        },
-                      ],
-                    },
-                  },
-                ],
-              },
+//               {
+//                 lessonId: "lesson-10",
+//                 questions: [
+//                   {
+//                     type: "book",
+//                     pages: {
+//                       en: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_26.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/p1m.mp3",
+//                           hardWords: [],
+//                           speakText: "Sochu Book 1 - Think Outside The Box ",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_27.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_25.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "It is the first day of school. Sochu is running late to class.Oh no! I can't be late today!",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_28.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_26.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Sochu stops outside the class and takes a deep breath.Phew! I made it on time.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_29.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_27.mp3",
+//                           hardWords: [],
+//                           speakText:
+//                             "Inside the class, Sochu observes everyone! Rehman is playing the tabla on his desk while Sher Singh is throwing paper balls.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_30.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_28.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_31.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_29.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_32.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_30.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_33.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_31.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_34.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_32.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_E_35.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/B2P_33.mp3",
+//                           hardWords: [
+//                             "engrossed - focused or lost in an activity (verb)",
+//                           ],
+//                           speakText:
+//                             "Anju in engrossed in reading her book. Raju is shaking like an alarm clock as he is about to fall off his chair.",
+//                         },
+//                       ],
+//                       hi: [
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_26.jpg",
+//                           audio:
+//                             "https://d16ho1g3lqitul.cloudfront.net/q-1-m.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_27.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/1h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_28.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/2h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_29.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/3h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_30.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_31.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_32.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_33.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_34.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                         {
+//                           image:
+//                             "https://d16ho1g3lqitul.cloudfront.net/SB02_H_35.jpg",
+//                           audio: "https://d16ho1g3lqitul.cloudfront.net/4h.mp3",
+//                         },
+//                       ],
+//                     },
+//                   },
+//                 ],
+//               },
 
-              // lesson 11 (last question missing hai isme ek baar check kaaro)
+//               // lesson 11 (last question missing hai isme ek baar check kaaro)
 
-              {
-  lessonId: "lesson-11",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Who does Raju overtake first during the race?",
-        hi: "दौड़ में राजू सबसे पहले किसे पछाड़ता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_56.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_56.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Rehman and Manju",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_219.mp3",
-          },
-          {
-            text: "Sochu and Sher Singh",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_220.mp3",
-          },
-          {
-            text: "Anju",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_221.mp3",
-          },
-          {
-            text: "Robert and Julie",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_222.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "रहमान और मंजू",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_219.mp3",
-          },
-          {
-            text: "सोचू और शेर सिंह",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_220.mp3",
-          },
-          {
-            text: "अंजू",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_221.mp3",
-          },
-          {
-            text: "रॉबर्ट और जूली",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_222.mp3",
-          },
-        ],
-      },
-      correct: { en: "Sochu and Sher Singh", hi: "सोचू और शेर सिंह" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the chalkboard outside the juice shop say?",
-        hi: "रस की दुकान के बाहर काले बोर्ड पर क्या लिखा था?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_57.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_57.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Drink juice and win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_223.mp3",
-          },
-          {
-            text: "The coolest kids run fast",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_224.mp3",
-          },
-          {
-            text: "Cool things happen when you go against the flow",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_225.mp3",
-          },
-          {
-            text: "FLY SHOES 30% OFF",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_226.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "रस पियो और जीत जाओ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_223.mp3",
-          },
-          {
-            text: "सबसे कूल बच्चे तेज़ दौड़ते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_224.mp3",
-          },
-          {
-            text: "जब आप धारा के विपरीत जाते हैं तब COOL चीज़ें होती हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_225.mp3",
-          },
-          {
-            text: "उड़ने वाले जूते 30% छूट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_226.mp3",
-          },
-        ],
-      },
-      correct: { en: "Cool things happen when you go against the flow", hi: "जब आप धारा के विपरीत जाते हैं तब COOL चीज़ें होती हैं" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What picture appears in Raju's mind after reading the chalkboard?",
-        hi: "बोर्ड पढ़ने के बाद राजू के मन में कौन-सी छवि बनती है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_58.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_58.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "A pair of shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_227.mp3",
-          },
-          {
-            text: "Flying kids",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_228.mp3",
-          },
-          {
-            text: "Arrows going in opposite directions",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_229.mp3",
-          },
-          {
-            text: "A volcano",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_230.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "एक जोड़ी जूते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_227.mp3",
-          },
-          {
-            text: "उड़ते हुए बच्चे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_228.mp3",
-          },
-          {
-            text: "विपरीत दिशा में जाते तीर",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_229.mp3",
-          },
-          {
-            text: "एक ज्वालामुखी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_230.mp3",
-          },
-        ],
-      },
-      correct: { en: "Arrows going in opposite directions", hi: "विपरीत दिशा में जाते तीर" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does Raju believe makes someone COOL at first?",
-        hi: "शुरू में राजू को क्या लगता है कि किसी को COOL बनाता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_59.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_59.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Studying hard",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_231.mp3",
-          },
-          {
-            text: "Winning races",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_232.mp3",
-          },
-          {
-            text: "Following the latest trends",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_233.mp3",
-          },
-          {
-            text: "Wearing matching clothes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_234.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "मेहनत से पढ़ाई करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_231.mp3",
-          },
-          {
-            text: "दौड़ जीतना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_232.mp3",
-          },
-          {
-            text: "नए ट्रेंड्स को अपनाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_233.mp3",
-          },
-          {
-            text: "एक जैसे कपड़े पहनना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_234.mp3",
-          },
-        ],
-      },
-      correct: { en: "Following the latest trends", hi: "नए ट्रेंड्स को अपनाना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What idea does Raju begin to understand after talking to himself?",
-        hi: "खुद से बात करने के बाद राजू कौन-सी बात समझने लगता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_60.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_60.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Flying is impossible",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_235.mp3",
-          },
-          {
-            text: "Trends keep changing and may not reflect who you are",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_236.mp3",
-          },
-          {
-            text: "Shoes are expensive",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_237.mp3",
-          },
-          {
-            text: "Advertisements are funny",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_238.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उड़ना असंभव है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_235.mp3",
-          },
-          {
-            text: "ट्रेंड्स बदलते रहते हैं और वो तुम्हारी सच्चाई नहीं होते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_236.mp3",
-          },
-          {
-            text: "जूते महंगे हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_237.mp3",
-          },
-          {
-            text: "विज्ञापन मज़ेदार होते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_238.mp3",
-          },
-        ],
-      },
-      correct: { en: "Trends keep changing and may not reflect who you are", hi: "ट्रेंड्स बदलते रहते हैं और वो तुम्हारी सच्चाई नहीं होते" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does \"go against the flow\" mean in this story?",
-        hi: "इस कहानी में \"प्रवाह के विपरीत जाना\" का क्या अर्थ है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_61.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_61.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Go home early",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_239.mp3",
-          },
-          {
-            text: "Do what others are doing",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_240.mp3",
-          },
-          {
-            text: "Choose your own path even if it's different",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_241.mp3",
-          },
-          {
-            text: "Follow the rules strictly",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_242.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "जल्दी घर जाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_239.mp3",
-          },
-          {
-            text: "वही करना जो सब कर रहे हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_240.mp3",
-          },
-          {
-            text: "अपनी अलग राह चुनना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_241.mp3",
-          },
-          {
-            text: "नियमों का पालन करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_242.mp3",
-          },
-        ],
-      },
-      correct: { en: "Choose your own path even if it's different", hi: "अपनी अलग राह चुनना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do the arrows in Raju's mind represent?",
-        hi: "राजू के मन में तीरों की छवि क्या दर्शाती है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_62.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_62.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "The direction of the race",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_243.mp3",
-          },
-          {
-            text: "Different subjects in school",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_244.mp3",
-          },
-          {
-            text: "The crowd and thinking differently",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_245.mp3",
-          },
-          {
-            text: "Paths to the juice shop",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_246.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "दौड़ की दिशा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_243.mp3",
-          },
-          {
-            text: "स्कूल के विषय",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_244.mp3",
-          },
-          {
-            text: "भीड़ और अलग सोचने की बात",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_245.mp3",
-          },
-          {
-            text: "रस की दुकान के रास्ते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_246.mp3",
-          },
-        ],
-      },
-      correct: { en: "The crowd and thinking differently", hi: "भीड़ और अलग सोचने की बात" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does Anju say when Raju wants to go buy the FLY SHOES?",
-        hi: "जब राजू उड़ने वाले जूते लेने दौड़ता है तो अंजू क्या कहती है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_63.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_63.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Let's go quickly!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_247.mp3",
-          },
-          {
-            text: "We can fly together!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_248.mp3",
-          },
-          {
-            text: "Wait! Let's talk about this…",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_249.mp3",
-          },
-          {
-            text: "I want them too!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_250.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "चलो जल्दी चलें!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_247.mp3",
-          },
-          {
-            text: "हम साथ उड़ सकते हैं!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_248.mp3",
-          },
-          {
-            text: "रुको! पहले बात तो कर लो…",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_249.mp3",
-          },
-          {
-            text: "मुझे भी चाहिए!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_250.mp3",
-          },
-        ],
-      },
-      correct: { en: "Wait! Let's talk about this…", hi: "रुको! पहले बात तो कर लो…" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do the advertisements promise about the FLY SHOES?",
-        hi: "विज्ञापन में उड़ने वाले जूतों के बारे में क्या कहा गया है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_64.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_64.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "They help you win prizes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_251.mp3",
-          },
-          {
-            text: "They make you fly",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_252.mp3",
-          },
-          {
-            text: "They cost less than other shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_253.mp3",
-          },
-          {
-            text: "They are made of feathers",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_254.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "ये इनाम जिताते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_251.mp3",
-          },
-          {
-            text: "ये उड़ाते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_252.mp3",
-          },
-          {
-            text: "ये सस्ते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_253.mp3",
-          },
-          {
-            text: "ये पंखों से बने हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_254.mp3",
-          },
-        ],
-      },
-      correct: { en: "They make you fly", hi: "ये उड़ाते हैं" },
-    },
-  ],
-},
+//               {
+//   lessonId: "lesson-11",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Who does Raju overtake first during the race?",
+//         hi: "दौड़ में राजू सबसे पहले किसे पछाड़ता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_56.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_56.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Rehman and Manju",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_219.mp3",
+//           },
+//           {
+//             text: "Sochu and Sher Singh",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_220.mp3",
+//           },
+//           {
+//             text: "Anju",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_221.mp3",
+//           },
+//           {
+//             text: "Robert and Julie",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_222.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "रहमान और मंजू",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_219.mp3",
+//           },
+//           {
+//             text: "सोचू और शेर सिंह",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_220.mp3",
+//           },
+//           {
+//             text: "अंजू",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_221.mp3",
+//           },
+//           {
+//             text: "रॉबर्ट और जूली",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_222.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Sochu and Sher Singh", hi: "सोचू और शेर सिंह" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the chalkboard outside the juice shop say?",
+//         hi: "रस की दुकान के बाहर काले बोर्ड पर क्या लिखा था?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_57.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_57.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Drink juice and win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_223.mp3",
+//           },
+//           {
+//             text: "The coolest kids run fast",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_224.mp3",
+//           },
+//           {
+//             text: "Cool things happen when you go against the flow",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_225.mp3",
+//           },
+//           {
+//             text: "FLY SHOES 30% OFF",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_226.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "रस पियो और जीत जाओ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_223.mp3",
+//           },
+//           {
+//             text: "सबसे कूल बच्चे तेज़ दौड़ते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_224.mp3",
+//           },
+//           {
+//             text: "जब आप धारा के विपरीत जाते हैं तब COOL चीज़ें होती हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_225.mp3",
+//           },
+//           {
+//             text: "उड़ने वाले जूते 30% छूट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_226.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Cool things happen when you go against the flow", hi: "जब आप धारा के विपरीत जाते हैं तब COOL चीज़ें होती हैं" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What picture appears in Raju's mind after reading the chalkboard?",
+//         hi: "बोर्ड पढ़ने के बाद राजू के मन में कौन-सी छवि बनती है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_58.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_58.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "A pair of shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_227.mp3",
+//           },
+//           {
+//             text: "Flying kids",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_228.mp3",
+//           },
+//           {
+//             text: "Arrows going in opposite directions",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_229.mp3",
+//           },
+//           {
+//             text: "A volcano",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_230.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "एक जोड़ी जूते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_227.mp3",
+//           },
+//           {
+//             text: "उड़ते हुए बच्चे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_228.mp3",
+//           },
+//           {
+//             text: "विपरीत दिशा में जाते तीर",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_229.mp3",
+//           },
+//           {
+//             text: "एक ज्वालामुखी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_230.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Arrows going in opposite directions", hi: "विपरीत दिशा में जाते तीर" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does Raju believe makes someone COOL at first?",
+//         hi: "शुरू में राजू को क्या लगता है कि किसी को COOL बनाता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_59.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_59.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Studying hard",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_231.mp3",
+//           },
+//           {
+//             text: "Winning races",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_232.mp3",
+//           },
+//           {
+//             text: "Following the latest trends",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_233.mp3",
+//           },
+//           {
+//             text: "Wearing matching clothes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_234.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "मेहनत से पढ़ाई करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_231.mp3",
+//           },
+//           {
+//             text: "दौड़ जीतना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_232.mp3",
+//           },
+//           {
+//             text: "नए ट्रेंड्स को अपनाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_233.mp3",
+//           },
+//           {
+//             text: "एक जैसे कपड़े पहनना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_234.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Following the latest trends", hi: "नए ट्रेंड्स को अपनाना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What idea does Raju begin to understand after talking to himself?",
+//         hi: "खुद से बात करने के बाद राजू कौन-सी बात समझने लगता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_60.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_60.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Flying is impossible",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_235.mp3",
+//           },
+//           {
+//             text: "Trends keep changing and may not reflect who you are",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_236.mp3",
+//           },
+//           {
+//             text: "Shoes are expensive",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_237.mp3",
+//           },
+//           {
+//             text: "Advertisements are funny",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_238.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उड़ना असंभव है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_235.mp3",
+//           },
+//           {
+//             text: "ट्रेंड्स बदलते रहते हैं और वो तुम्हारी सच्चाई नहीं होते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_236.mp3",
+//           },
+//           {
+//             text: "जूते महंगे हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_237.mp3",
+//           },
+//           {
+//             text: "विज्ञापन मज़ेदार होते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_238.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Trends keep changing and may not reflect who you are", hi: "ट्रेंड्स बदलते रहते हैं और वो तुम्हारी सच्चाई नहीं होते" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does \"go against the flow\" mean in this story?",
+//         hi: "इस कहानी में \"प्रवाह के विपरीत जाना\" का क्या अर्थ है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_61.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_61.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Go home early",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_239.mp3",
+//           },
+//           {
+//             text: "Do what others are doing",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_240.mp3",
+//           },
+//           {
+//             text: "Choose your own path even if it's different",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_241.mp3",
+//           },
+//           {
+//             text: "Follow the rules strictly",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_242.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "जल्दी घर जाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_239.mp3",
+//           },
+//           {
+//             text: "वही करना जो सब कर रहे हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_240.mp3",
+//           },
+//           {
+//             text: "अपनी अलग राह चुनना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_241.mp3",
+//           },
+//           {
+//             text: "नियमों का पालन करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_242.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Choose your own path even if it's different", hi: "अपनी अलग राह चुनना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do the arrows in Raju's mind represent?",
+//         hi: "राजू के मन में तीरों की छवि क्या दर्शाती है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_62.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_62.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "The direction of the race",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_243.mp3",
+//           },
+//           {
+//             text: "Different subjects in school",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_244.mp3",
+//           },
+//           {
+//             text: "The crowd and thinking differently",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_245.mp3",
+//           },
+//           {
+//             text: "Paths to the juice shop",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_246.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "दौड़ की दिशा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_243.mp3",
+//           },
+//           {
+//             text: "स्कूल के विषय",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_244.mp3",
+//           },
+//           {
+//             text: "भीड़ और अलग सोचने की बात",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_245.mp3",
+//           },
+//           {
+//             text: "रस की दुकान के रास्ते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_246.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "The crowd and thinking differently", hi: "भीड़ और अलग सोचने की बात" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does Anju say when Raju wants to go buy the FLY SHOES?",
+//         hi: "जब राजू उड़ने वाले जूते लेने दौड़ता है तो अंजू क्या कहती है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_63.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_63.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Let's go quickly!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_247.mp3",
+//           },
+//           {
+//             text: "We can fly together!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_248.mp3",
+//           },
+//           {
+//             text: "Wait! Let's talk about this…",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_249.mp3",
+//           },
+//           {
+//             text: "I want them too!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_250.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "चलो जल्दी चलें!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_247.mp3",
+//           },
+//           {
+//             text: "हम साथ उड़ सकते हैं!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_248.mp3",
+//           },
+//           {
+//             text: "रुको! पहले बात तो कर लो…",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_249.mp3",
+//           },
+//           {
+//             text: "मुझे भी चाहिए!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_250.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Wait! Let's talk about this…", hi: "रुको! पहले बात तो कर लो…" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do the advertisements promise about the FLY SHOES?",
+//         hi: "विज्ञापन में उड़ने वाले जूतों के बारे में क्या कहा गया है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_64.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_64.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "They help you win prizes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_251.mp3",
+//           },
+//           {
+//             text: "They make you fly",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_252.mp3",
+//           },
+//           {
+//             text: "They cost less than other shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_253.mp3",
+//           },
+//           {
+//             text: "They are made of feathers",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_254.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "ये इनाम जिताते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_251.mp3",
+//           },
+//           {
+//             text: "ये उड़ाते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_252.mp3",
+//           },
+//           {
+//             text: "ये सस्ते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_253.mp3",
+//           },
+//           {
+//             text: "ये पंखों से बने हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_254.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "They make you fly", hi: "ये उड़ाते हैं" },
+//     },
+//   ],
+// },
 
-              // lesson 12
+//               // lesson 12
 
-              {
-  lessonId: "lesson-12",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "When Raju chooses a new path, how do you think he feels inside?",
-        hi: "जब राजू नई दिशा चुनता है, तो उसके दिल में कैसा भाव आता होगा?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_65.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_65.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Nervous but excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_255.mp3",
-          },
-          {
-            text: "Angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_256.mp3",
-          },
-          {
-            text: "Bored",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_257.mp3",
-          },
-          {
-            text: "Sleepy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_258.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "घबराया लेकिन उत्साहित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_255.mp3",
-          },
-          {
-            text: "गुस्से में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_256.mp3",
-          },
-          {
-            text: "ऊबा हुआ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_257.mp3",
-          },
-          {
-            text: "नींद में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_258.mp3",
-          },
-        ],
-      },
-      correct: { en: "Nervous but excited", hi: "घबराया लेकिन उत्साहित" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why might someone choose to do something just because they truly want to, not because others are doing it?",
-        hi: "कोई व्यक्ति सिर्फ इसलिए कुछ करता है क्योंकि वह खुद करना चाहता है — न कि इसलिए कि और लोग कर रहे हैं — तो उसका कारण क्या हो सकता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_66.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_66.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "It makes them feel proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_259.mp3",
-          },
-          {
-            text: "It helps them feel true to themselves",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_260.mp3",
-          },
-          {
-            text: "It gives them joy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_261.mp3",
-          },
-          {
-            text: "All of the above",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_262.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उन्हें गर्व महसूस होता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_259.mp3",
-          },
-          {
-            text: "उन्हें अपने जैसा महसूस होता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_260.mp3",
-          },
-          {
-            text: "उन्हें ख़ुशी मिलती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_261.mp3",
-          },
-          {
-            text: "ऊपर दिए गए सभी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_262.mp3",
-          },
-        ],
-      },
-      correct: { en: "All of the above", hi: "ऊपर दिए गए सभी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you think makes someone truly COOL?",
-        hi: "आपके अनुसार कोई व्यक्ति सच में COOL कब होता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_67.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_67.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "New gadgets",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_263.mp3",
-          },
-          {
-            text: "Confidence and kindness",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_264.mp3",
-          },
-          {
-            text: "Loud voice",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_265.mp3",
-          },
-          {
-            text: "Fancy clothes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_266.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "नए गैजेट्स",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_263.mp3",
-          },
-          {
-            text: "आत्मविश्वास और दयालुता",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_264.mp3",
-          },
-          {
-            text: "ज़ोर से बोलना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_265.mp3",
-          },
-          {
-            text: "फैशनेबल कपड़े",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_266.mp3",
-          },
-        ],
-      },
-      correct: { en: "Confidence and kindness", hi: "आत्मविश्वास और दयालुता" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "When everyone is running one way, what might you find by going the other way?",
-        hi: "जब सभी एक दिशा में जा रहे हों, तो दूसरी दिशा में क्या मिल सकता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_68.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_68.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Confusion",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_267.mp3",
-          },
-          {
-            text: "New ideas or answers",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_268.mp3",
-          },
-          {
-            text: "Boredom",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_269.mp3",
-          },
-          {
-            text: "Trouble",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_270.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उलझन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_267.mp3",
-          },
-          {
-            text: "नए विचार या उत्तर",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_268.mp3",
-          },
-          {
-            text: "बोरियत",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_269.mp3",
-          },
-          {
-            text: "परेशानी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_270.mp3",
-          },
-        ],
-      },
-      correct: { en: "New ideas or answers", hi: "नए विचार या उत्तर" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: true,
-      question: {
-        en: "Do you think it's okay to question what you're told is \"cool\"?",
-        hi: "क्या \"कूल\" कहे जाने वाली चीज़ों पर सवाल करना ठीक है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_69.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_69.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Yes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_271.mp3",
-          },
-          {
-            text: "No",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_272.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "हाँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_271.mp3",
-          },
-          {
-            text: "नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_272.mp3",
-          },
-        ],
-      },
-      correct: { en: "Yes", hi: "हाँ" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What would you say to a friend who wants to follow a trend you find silly?",
-        hi: "अगर आपका दोस्त किसी ऐसे ट्रेंड को अपनाना चाहता है जो आपको बेवकूफी लगे, तो आप क्या कहेंगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_70.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_70.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "That's your choice, but I'll pass",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_273.mp3",
-          },
-          {
-            text: "Let's think about it together",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_274.mp3",
-          },
-          {
-            text: "That's so silly, don't do it!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_275.mp3",
-          },
-          {
-            text: "Okay, I'll do it too",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_276.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "ये तुम्हारी पसंद है, पर मैं नहीं करूँगा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_273.mp3",
-          },
-          {
-            text: "चलो मिलकर सोचते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_274.mp3",
-          },
-          {
-            text: "ये तो बेवकूफी है, मत करो!",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_275.mp3",
-          },
-          {
-            text: "ठीक है, मैं भी करूँगा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_276.mp3",
-          },
-        ],
-      },
-      correct: { en: "That's your choice, but I'll pass", hi: "ये तुम्हारी पसंद है, पर मैं नहीं करूँगा" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "If your friend chose to be different from everyone, would you support them?",
-        hi: "अगर आपका दोस्त बाकी सबसे अलग कुछ करना चाहे, तो क्या आप उसका साथ देंगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_71.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_71.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Yes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_277.mp3",
-          },
-          {
-            text: "No",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_278.mp3",
-          },
-          {
-            text: "Only if I agree",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_279.mp3",
-          },
-          {
-            text: "Not sure",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_280.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "हाँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_277.mp3",
-          },
-          {
-            text: "नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_278.mp3",
-          },
-          {
-            text: "अगर मैं सहमत हुआ तो",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_279.mp3",
-          },
-          {
-            text: "पता नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_280.mp3",
-          },
-        ],
-      },
-      correct: { en: "Yes", hi: "हाँ" },
-    },
-  ],
-},
+//               {
+//   lessonId: "lesson-12",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "When Raju chooses a new path, how do you think he feels inside?",
+//         hi: "जब राजू नई दिशा चुनता है, तो उसके दिल में कैसा भाव आता होगा?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_65.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_65.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Nervous but excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_255.mp3",
+//           },
+//           {
+//             text: "Angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_256.mp3",
+//           },
+//           {
+//             text: "Bored",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_257.mp3",
+//           },
+//           {
+//             text: "Sleepy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_258.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "घबराया लेकिन उत्साहित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_255.mp3",
+//           },
+//           {
+//             text: "गुस्से में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_256.mp3",
+//           },
+//           {
+//             text: "ऊबा हुआ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_257.mp3",
+//           },
+//           {
+//             text: "नींद में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_258.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Nervous but excited", hi: "घबराया लेकिन उत्साहित" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why might someone choose to do something just because they truly want to, not because others are doing it?",
+//         hi: "कोई व्यक्ति सिर्फ इसलिए कुछ करता है क्योंकि वह खुद करना चाहता है — न कि इसलिए कि और लोग कर रहे हैं — तो उसका कारण क्या हो सकता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_66.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_66.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "It makes them feel proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_259.mp3",
+//           },
+//           {
+//             text: "It helps them feel true to themselves",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_260.mp3",
+//           },
+//           {
+//             text: "It gives them joy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_261.mp3",
+//           },
+//           {
+//             text: "All of the above",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_262.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उन्हें गर्व महसूस होता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_259.mp3",
+//           },
+//           {
+//             text: "उन्हें अपने जैसा महसूस होता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_260.mp3",
+//           },
+//           {
+//             text: "उन्हें ख़ुशी मिलती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_261.mp3",
+//           },
+//           {
+//             text: "ऊपर दिए गए सभी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_262.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "All of the above", hi: "ऊपर दिए गए सभी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you think makes someone truly COOL?",
+//         hi: "आपके अनुसार कोई व्यक्ति सच में COOL कब होता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_67.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_67.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "New gadgets",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_263.mp3",
+//           },
+//           {
+//             text: "Confidence and kindness",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_264.mp3",
+//           },
+//           {
+//             text: "Loud voice",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_265.mp3",
+//           },
+//           {
+//             text: "Fancy clothes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_266.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "नए गैजेट्स",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_263.mp3",
+//           },
+//           {
+//             text: "आत्मविश्वास और दयालुता",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_264.mp3",
+//           },
+//           {
+//             text: "ज़ोर से बोलना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_265.mp3",
+//           },
+//           {
+//             text: "फैशनेबल कपड़े",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_266.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Confidence and kindness", hi: "आत्मविश्वास और दयालुता" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "When everyone is running one way, what might you find by going the other way?",
+//         hi: "जब सभी एक दिशा में जा रहे हों, तो दूसरी दिशा में क्या मिल सकता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_68.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_68.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Confusion",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_267.mp3",
+//           },
+//           {
+//             text: "New ideas or answers",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_268.mp3",
+//           },
+//           {
+//             text: "Boredom",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_269.mp3",
+//           },
+//           {
+//             text: "Trouble",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_270.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उलझन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_267.mp3",
+//           },
+//           {
+//             text: "नए विचार या उत्तर",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_268.mp3",
+//           },
+//           {
+//             text: "बोरियत",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_269.mp3",
+//           },
+//           {
+//             text: "परेशानी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_270.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "New ideas or answers", hi: "नए विचार या उत्तर" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: true,
+//       question: {
+//         en: "Do you think it's okay to question what you're told is \"cool\"?",
+//         hi: "क्या \"कूल\" कहे जाने वाली चीज़ों पर सवाल करना ठीक है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_69.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_69.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Yes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_271.mp3",
+//           },
+//           {
+//             text: "No",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_272.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "हाँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_271.mp3",
+//           },
+//           {
+//             text: "नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_272.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Yes", hi: "हाँ" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What would you say to a friend who wants to follow a trend you find silly?",
+//         hi: "अगर आपका दोस्त किसी ऐसे ट्रेंड को अपनाना चाहता है जो आपको बेवकूफी लगे, तो आप क्या कहेंगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_70.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_70.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "That's your choice, but I'll pass",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_273.mp3",
+//           },
+//           {
+//             text: "Let's think about it together",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_274.mp3",
+//           },
+//           {
+//             text: "That's so silly, don't do it!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_275.mp3",
+//           },
+//           {
+//             text: "Okay, I'll do it too",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_276.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "ये तुम्हारी पसंद है, पर मैं नहीं करूँगा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_273.mp3",
+//           },
+//           {
+//             text: "चलो मिलकर सोचते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_274.mp3",
+//           },
+//           {
+//             text: "ये तो बेवकूफी है, मत करो!",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_275.mp3",
+//           },
+//           {
+//             text: "ठीक है, मैं भी करूँगा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_276.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "That's your choice, but I'll pass", hi: "ये तुम्हारी पसंद है, पर मैं नहीं करूँगा" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "If your friend chose to be different from everyone, would you support them?",
+//         hi: "अगर आपका दोस्त बाकी सबसे अलग कुछ करना चाहे, तो क्या आप उसका साथ देंगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_71.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_71.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Yes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_277.mp3",
+//           },
+//           {
+//             text: "No",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_278.mp3",
+//           },
+//           {
+//             text: "Only if I agree",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_279.mp3",
+//           },
+//           {
+//             text: "Not sure",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_280.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "हाँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_277.mp3",
+//           },
+//           {
+//             text: "नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_278.mp3",
+//           },
+//           {
+//             text: "अगर मैं सहमत हुआ तो",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_279.mp3",
+//           },
+//           {
+//             text: "पता नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_280.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Yes", hi: "हाँ" },
+//     },
+//   ],
+// },
 
-              // lesson 13 (book)
+//               // lesson 13 (book)
 
-              // lesson 14
-              {
-  lessonId: "lesson-14",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What caught Raju and Anju's attention inside the Charlie Shoe Shop?",
-        hi: "चार्ली जूते की दुकान के अंदर राजू और अंजू का ध्यान किसने खींचा?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_72.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_72.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Red slippers",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_281.mp3",
-          },
-          {
-            text: "Flying shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_282.mp3",
-          },
-          {
-            text: "Charlie Chaplin shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_283.mp3",
-          },
-          {
-            text: "Candy wrappers",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_284.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "लाल चप्पलें",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_281.mp3",
-          },
-          {
-            text: "उड़ने वाले जूते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_282.mp3",
-          },
-          {
-            text: "चार्ली चैपलिन जूते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_283.mp3",
-          },
-          {
-            text: "टॉफी के रैपर",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_284.mp3",
-          },
-        ],
-      },
-      correct: { en: "Charlie Chaplin shoes", hi: "चार्ली चैपलिन जूते" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How did Raju and Anju feel when they saw the Charlie Chaplin shoes?",
-        hi: "जब राजू और अंजू ने चार्ली चैपलिन के जूते देखे तो वे कैसा महसूस कर रहे थे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_73.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_73.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Confused",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_285.mp3",
-          },
-          {
-            text: "Angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_286.mp3",
-          },
-          {
-            text: "Excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_287.mp3",
-          },
-          {
-            text: "Scared",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_288.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उलझन में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_285.mp3",
-          },
-          {
-            text: "गुस्से में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_286.mp3",
-          },
-          {
-            text: "उत्साहित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_287.mp3",
-          },
-          {
-            text: "डरे हुए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_288.mp3",
-          },
-        ],
-      },
-      correct: { en: "Excited", hi: "उत्साहित" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What made it difficult for Raju and Anju to start the race?",
-        hi: "रेस की शुरुआत में राजू और अंजू को क्या कठिनाई हुई?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_74.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_74.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "They didn't want to run",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_289.mp3",
-          },
-          {
-            text: "Their shoes were slippery",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_290.mp3",
-          },
-          {
-            text: "They were late",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_291.mp3",
-          },
-          {
-            text: "They were dancing",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_292.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "वे दौड़ना नहीं चाहते थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_289.mp3",
-          },
-          {
-            text: "उनके जूते फिसल रहे थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_290.mp3",
-          },
-          {
-            text: "वे देर से आए थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_291.mp3",
-          },
-          {
-            text: "वे नाच रहे थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_292.mp3",
-          },
-        ],
-      },
-      correct: { en: "Their shoes were slippery", hi: "उनके जूते फिसल रहे थे" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What unexpected thing helped Raju and Anju slide ahead?",
-        hi: "ऐसा क्या हुआ जिससे राजू और अंजू अचानक आगे फिसलने लगे?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_75.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_75.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Wind",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_293.mp3",
-          },
-          {
-            text: "Their shoes acted like skates",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_294.mp3",
-          },
-          {
-            text: "Push from friends",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_295.mp3",
-          },
-          {
-            text: "A slope",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_296.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "हवा चली",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_293.mp3",
-          },
-          {
-            text: "उनके जूते स्केट की तरह थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_294.mp3",
-          },
-          {
-            text: "दोस्तों ने धक्का दिया",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_295.mp3",
-          },
-          {
-            text: "रास्ता ढलान पर था",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_296.mp3",
-          },
-        ],
-      },
-      correct: { en: "Their shoes acted like skates", hi: "उनके जूते स्केट की तरह थे" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What did Mr. Williams do when he saw everyone having fun?",
-        hi: "जब मिस्टर विलियम्स ने सबको मज़ा करते देखा तो उन्होंने क्या किया?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_76.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_76.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Stopped the race",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_297.mp3",
-          },
-          {
-            text: "Gave medals",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_298.mp3",
-          },
-          {
-            text: "Took away the finish line",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_299.mp3",
-          },
-          {
-            text: "Asked them to sit down",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_300.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "रेस रोक दी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_297.mp3",
-          },
-          {
-            text: "मेडल दिए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_298.mp3",
-          },
-          {
-            text: "समाप्ति रेखा हटा दी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_299.mp3",
-          },
-          {
-            text: "सबको बैठने को कहा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_300.mp3",
-          },
-        ],
-      },
-      correct: { en: "Took away the finish line", hi: "समाप्ति रेखा हटा दी" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does the \"finish line\" symbolize in this story moment?",
-        hi: "इस कहानी में \"समाप्ति रेखा\" किसका प्रतीक है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_77.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_77.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "A challenge",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_301.mp3",
-          },
-          {
-            text: "A reward",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_302.mp3",
-          },
-          {
-            text: "An end that takes joy away",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_303.mp3",
-          },
-          {
-            text: "A new beginning",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_304.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "एक चुनौती",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_301.mp3",
-          },
-          {
-            text: "एक इनाम",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_302.mp3",
-          },
-          {
-            text: "आनंद को रोकने वाली सीमा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_303.mp3",
-          },
-          {
-            text: "एक नई शुरुआत",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_304.mp3",
-          },
-        ],
-      },
-      correct: { en: "An end that takes joy away", hi: "आनंद को रोकने वाली सीमा" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How did the crowd react to Raju and Anju's sliding performance?",
-        hi: "राजू और अंजू के फिसलते हुए आगे जाने पर लोगों ने क्या प्रतिक्रिया दी?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_78.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_78.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Laughed at them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_305.mp3",
-          },
-          {
-            text: "Ignored them",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_306.mp3",
-          },
-          {
-            text: "Turned their heads in amazement",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_307.mp3",
-          },
-          {
-            text: "Cheered for someone else",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_308.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उन पर हँसे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_305.mp3",
-          },
-          {
-            text: "ध्यान नहीं दिया",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_306.mp3",
-          },
-          {
-            text: "चौंक कर देखने लगे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_307.mp3",
-          },
-          {
-            text: "किसी और के लिए तालियाँ बजाईं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_308.mp3",
-          },
-        ],
-      },
-      correct: { en: "Turned their heads in amazement", hi: "चौंक कर देखने लगे" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What happened after the finish line was removed?",
-        hi: "जब समाप्ति रेखा हटा दी गई, तब क्या हुआ?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_79.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_79.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "The race restarted",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_309.mp3",
-          },
-          {
-            text: "Everyone went home",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_310.mp3",
-          },
-          {
-            text: "Everyone danced together",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_311.mp3",
-          },
-          {
-            text: "Raju and Anju were disqualified",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_312.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "रेस फिर से शुरू हुई",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_309.mp3",
-          },
-          {
-            text: "सब घर चले गए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_310.mp3",
-          },
-          {
-            text: "सबने साथ में नाचा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_311.mp3",
-          },
-          {
-            text: "राजू और अंजू बाहर हो गए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_312.mp3",
-          },
-        ],
-      },
-      correct: { en: "Everyone danced together", hi: "सबने साथ में नाचा" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What message does Raju share at the end about being COOL?",
-        hi: "राजू ने अंत में COOL होने को लेकर क्या संदेश दिया?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_80.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_80.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Do what others do",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_313.mp3",
-          },
-          {
-            text: "Follow new trends",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_314.mp3",
-          },
-          {
-            text: "Find what you love and follow it with your heart",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_315.mp3",
-          },
-          {
-            text: "Always win",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_316.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "दूसरों की नकल करो",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_313.mp3",
-          },
-          {
-            text: "नए ट्रेंड्स अपनाओ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_314.mp3",
-          },
-          {
-            text: "जो पसंद है उसे दिल से अपनाओ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_315.mp3",
-          },
-          {
-            text: "हमेशा जीतना ज़रूरी है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_316.mp3",
-          },
-        ],
-      },
-      correct: { en: "Find what you love and follow it with your heart", hi: "जो पसंद है उसे दिल से अपनाओ" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What genre of film is Charlie Chaplin most known for?",
-        hi: "चार्ली चैपलिन किस तरह की फ़िल्मों के लिए जाने जाते हैं?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_81.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_81.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Horror",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_317.mp3",
-          },
-          {
-            text: "Silent comedy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_318.mp3",
-          },
-          {
-            text: "Science fiction",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_319.mp3",
-          },
-          {
-            text: "Action",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_320.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "डरावनी फ़िल्में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_317.mp3",
-          },
-          {
-            text: "मूक हास्य",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_318.mp3",
-          },
-          {
-            text: "विज्ञान कथा",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_319.mp3",
-          },
-          {
-            text: "एक्शन",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_320.mp3",
-          },
-        ],
-      },
-      correct: { en: "Silent comedy", hi: "मूक हास्य" },
-    },
-  ],
-},
+//               // lesson 14
+//               {
+//   lessonId: "lesson-14",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What caught Raju and Anju's attention inside the Charlie Shoe Shop?",
+//         hi: "चार्ली जूते की दुकान के अंदर राजू और अंजू का ध्यान किसने खींचा?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_72.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_72.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Red slippers",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_281.mp3",
+//           },
+//           {
+//             text: "Flying shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_282.mp3",
+//           },
+//           {
+//             text: "Charlie Chaplin shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_283.mp3",
+//           },
+//           {
+//             text: "Candy wrappers",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_284.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "लाल चप्पलें",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_281.mp3",
+//           },
+//           {
+//             text: "उड़ने वाले जूते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_282.mp3",
+//           },
+//           {
+//             text: "चार्ली चैपलिन जूते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_283.mp3",
+//           },
+//           {
+//             text: "टॉफी के रैपर",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_284.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Charlie Chaplin shoes", hi: "चार्ली चैपलिन जूते" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How did Raju and Anju feel when they saw the Charlie Chaplin shoes?",
+//         hi: "जब राजू और अंजू ने चार्ली चैपलिन के जूते देखे तो वे कैसा महसूस कर रहे थे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_73.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_73.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Confused",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_285.mp3",
+//           },
+//           {
+//             text: "Angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_286.mp3",
+//           },
+//           {
+//             text: "Excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_287.mp3",
+//           },
+//           {
+//             text: "Scared",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_288.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उलझन में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_285.mp3",
+//           },
+//           {
+//             text: "गुस्से में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_286.mp3",
+//           },
+//           {
+//             text: "उत्साहित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_287.mp3",
+//           },
+//           {
+//             text: "डरे हुए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_288.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Excited", hi: "उत्साहित" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What made it difficult for Raju and Anju to start the race?",
+//         hi: "रेस की शुरुआत में राजू और अंजू को क्या कठिनाई हुई?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_74.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_74.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "They didn't want to run",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_289.mp3",
+//           },
+//           {
+//             text: "Their shoes were slippery",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_290.mp3",
+//           },
+//           {
+//             text: "They were late",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_291.mp3",
+//           },
+//           {
+//             text: "They were dancing",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_292.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "वे दौड़ना नहीं चाहते थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_289.mp3",
+//           },
+//           {
+//             text: "उनके जूते फिसल रहे थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_290.mp3",
+//           },
+//           {
+//             text: "वे देर से आए थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_291.mp3",
+//           },
+//           {
+//             text: "वे नाच रहे थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_292.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Their shoes were slippery", hi: "उनके जूते फिसल रहे थे" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What unexpected thing helped Raju and Anju slide ahead?",
+//         hi: "ऐसा क्या हुआ जिससे राजू और अंजू अचानक आगे फिसलने लगे?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_75.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_75.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Wind",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_293.mp3",
+//           },
+//           {
+//             text: "Their shoes acted like skates",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_294.mp3",
+//           },
+//           {
+//             text: "Push from friends",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_295.mp3",
+//           },
+//           {
+//             text: "A slope",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_296.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "हवा चली",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_293.mp3",
+//           },
+//           {
+//             text: "उनके जूते स्केट की तरह थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_294.mp3",
+//           },
+//           {
+//             text: "दोस्तों ने धक्का दिया",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_295.mp3",
+//           },
+//           {
+//             text: "रास्ता ढलान पर था",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_296.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Their shoes acted like skates", hi: "उनके जूते स्केट की तरह थे" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What did Mr. Williams do when he saw everyone having fun?",
+//         hi: "जब मिस्टर विलियम्स ने सबको मज़ा करते देखा तो उन्होंने क्या किया?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_76.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_76.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Stopped the race",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_297.mp3",
+//           },
+//           {
+//             text: "Gave medals",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_298.mp3",
+//           },
+//           {
+//             text: "Took away the finish line",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_299.mp3",
+//           },
+//           {
+//             text: "Asked them to sit down",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_300.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "रेस रोक दी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_297.mp3",
+//           },
+//           {
+//             text: "मेडल दिए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_298.mp3",
+//           },
+//           {
+//             text: "समाप्ति रेखा हटा दी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_299.mp3",
+//           },
+//           {
+//             text: "सबको बैठने को कहा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_300.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Took away the finish line", hi: "समाप्ति रेखा हटा दी" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does the \"finish line\" symbolize in this story moment?",
+//         hi: "इस कहानी में \"समाप्ति रेखा\" किसका प्रतीक है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_77.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_77.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "A challenge",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_301.mp3",
+//           },
+//           {
+//             text: "A reward",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_302.mp3",
+//           },
+//           {
+//             text: "An end that takes joy away",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_303.mp3",
+//           },
+//           {
+//             text: "A new beginning",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_304.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "एक चुनौती",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_301.mp3",
+//           },
+//           {
+//             text: "एक इनाम",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_302.mp3",
+//           },
+//           {
+//             text: "आनंद को रोकने वाली सीमा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_303.mp3",
+//           },
+//           {
+//             text: "एक नई शुरुआत",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_304.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "An end that takes joy away", hi: "आनंद को रोकने वाली सीमा" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How did the crowd react to Raju and Anju's sliding performance?",
+//         hi: "राजू और अंजू के फिसलते हुए आगे जाने पर लोगों ने क्या प्रतिक्रिया दी?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_78.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_78.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Laughed at them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_305.mp3",
+//           },
+//           {
+//             text: "Ignored them",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_306.mp3",
+//           },
+//           {
+//             text: "Turned their heads in amazement",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_307.mp3",
+//           },
+//           {
+//             text: "Cheered for someone else",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_308.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उन पर हँसे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_305.mp3",
+//           },
+//           {
+//             text: "ध्यान नहीं दिया",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_306.mp3",
+//           },
+//           {
+//             text: "चौंक कर देखने लगे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_307.mp3",
+//           },
+//           {
+//             text: "किसी और के लिए तालियाँ बजाईं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_308.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Turned their heads in amazement", hi: "चौंक कर देखने लगे" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What happened after the finish line was removed?",
+//         hi: "जब समाप्ति रेखा हटा दी गई, तब क्या हुआ?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_79.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_79.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "The race restarted",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_309.mp3",
+//           },
+//           {
+//             text: "Everyone went home",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_310.mp3",
+//           },
+//           {
+//             text: "Everyone danced together",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_311.mp3",
+//           },
+//           {
+//             text: "Raju and Anju were disqualified",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_312.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "रेस फिर से शुरू हुई",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_309.mp3",
+//           },
+//           {
+//             text: "सब घर चले गए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_310.mp3",
+//           },
+//           {
+//             text: "सबने साथ में नाचा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_311.mp3",
+//           },
+//           {
+//             text: "राजू और अंजू बाहर हो गए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_312.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Everyone danced together", hi: "सबने साथ में नाचा" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What message does Raju share at the end about being COOL?",
+//         hi: "राजू ने अंत में COOL होने को लेकर क्या संदेश दिया?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_80.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_80.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Do what others do",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_313.mp3",
+//           },
+//           {
+//             text: "Follow new trends",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_314.mp3",
+//           },
+//           {
+//             text: "Find what you love and follow it with your heart",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_315.mp3",
+//           },
+//           {
+//             text: "Always win",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_316.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "दूसरों की नकल करो",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_313.mp3",
+//           },
+//           {
+//             text: "नए ट्रेंड्स अपनाओ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_314.mp3",
+//           },
+//           {
+//             text: "जो पसंद है उसे दिल से अपनाओ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_315.mp3",
+//           },
+//           {
+//             text: "हमेशा जीतना ज़रूरी है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_316.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Find what you love and follow it with your heart", hi: "जो पसंद है उसे दिल से अपनाओ" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What genre of film is Charlie Chaplin most known for?",
+//         hi: "चार्ली चैपलिन किस तरह की फ़िल्मों के लिए जाने जाते हैं?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_81.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_81.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Horror",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_317.mp3",
+//           },
+//           {
+//             text: "Silent comedy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_318.mp3",
+//           },
+//           {
+//             text: "Science fiction",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_319.mp3",
+//           },
+//           {
+//             text: "Action",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_320.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "डरावनी फ़िल्में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_317.mp3",
+//           },
+//           {
+//             text: "मूक हास्य",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_318.mp3",
+//           },
+//           {
+//             text: "विज्ञान कथा",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_319.mp3",
+//           },
+//           {
+//             text: "एक्शन",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_320.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Silent comedy", hi: "मूक हास्य" },
+//     },
+//   ],
+// },
 
-              // lesson 15
-              {
-  lessonId: "lesson-15",
-  questions: [
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you think made Raju and Anju's moment on the race track feel joyful?",
-        hi: "आपको क्या लगता है कि रेस के दौरान राजू और अंजू का पल इतना मज़ेदार क्यों था?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_82.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_82.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Winning the race",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_321.mp3",
-          },
-          {
-            text: "Having fun and being different",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_322.mp3",
-          },
-          {
-            text: "Wearing expensive shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_323.mp3",
-          },
-          {
-            text: "Being the fastest",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_324.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "रेस जीतना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_321.mp3",
-          },
-          {
-            text: "मस्ती करना और अलग होना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_322.mp3",
-          },
-          {
-            text: "महंगे जूते पहनना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_323.mp3",
-          },
-          {
-            text: "सबसे तेज़ होना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_324.mp3",
-          },
-        ],
-      },
-      correct: { en: "Having fun and being different", hi: "मस्ती करना और अलग होना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: true,
-      question: {
-        en: "When everyone turns to look at you, how do you feel?",
-        hi: "जब सब लोग आपकी ओर देखते हैं, तो आपको कैसा लगता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_83.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_83.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Shy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_325.mp3",
-          },
-          {
-            text: "Nervous",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_326.mp3",
-          },
-          {
-            text: "Proud",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_327.mp3",
-          },
-          {
-            text: "Excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_328.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "शर्म",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_325.mp3",
-          },
-          {
-            text: "घबराहट",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_326.mp3",
-          },
-          {
-            text: "गर्व",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_327.mp3",
-          },
-          {
-            text: "उत्साह",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_328.mp3",
-          },
-        ],
-      },
-      correct: { en: "Varies", hi: "भिन्न" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "Why do you think Mr. Williams removed the finish line?",
-        hi: "आपको क्या लगता है कि मिस्टर विलियम्स ने समाप्ति रेखा क्यों हटा दी?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_84.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_84.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "He forgot where it was",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_329.mp3",
-          },
-          {
-            text: "He was angry",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_330.mp3",
-          },
-          {
-            text: "He wanted everyone to have fun",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_331.mp3",
-          },
-          {
-            text: "He was being silly",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_332.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उन्हें रेखा की जगह याद नहीं थी",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_329.mp3",
-          },
-          {
-            text: "वे गुस्से में थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_330.mp3",
-          },
-          {
-            text: "वे चाहते थे कि सभी मज़े करें",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_331.mp3",
-          },
-          {
-            text: "वे मस्ती कर रहे थे",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_332.mp3",
-          },
-        ],
-      },
-      correct: { en: "He wanted everyone to have fun", hi: "वे चाहते थे कि सभी मज़े करें" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: true,
-      question: {
-        en: "What do you enjoy more — winning or playing for fun?",
-        hi: "आपको किसमें ज़्यादा आनंद आता है — जीतने में या मज़े के लिए खेलने में?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_85.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_85.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Winning",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_333.mp3",
-          },
-          {
-            text: "Playing for fun",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_334.mp3",
-          },
-          {
-            text: "Both",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_335.mp3",
-          },
-          {
-            text: "Depends on the game",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_336.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "जीतने में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_333.mp3",
-          },
-          {
-            text: "मज़े के लिए खेलने में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_334.mp3",
-          },
-          {
-            text: "दोनों में",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_335.mp3",
-          },
-          {
-            text: "खेल पर निर्भर करता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_336.mp3",
-          },
-        ],
-      },
-      correct: { en: "Varies", hi: "भिन्न" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: true,
-      question: {
-        en: "How do you feel when you lose a game or race?",
-        hi: "जब आप कोई खेल या रेस हार जाते हैं तो आपको कैसा लगता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_86.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_86.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Sad or upset",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_337.mp3",
-          },
-          {
-            text: "I laugh it off",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_338.mp3",
-          },
-          {
-            text: "I try again next time",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_339.mp3",
-          },
-          {
-            text: "I don't mind as long as I had fun",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_340.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "दुखी या नाराज़",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_337.mp3",
-          },
-          {
-            text: "हँसी में टाल देता हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_338.mp3",
-          },
-          {
-            text: "अगली बार फिर प्रयास करता हूँ",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_339.mp3",
-          },
-          {
-            text: "जब तक मज़ा आया, हार की परवाह नहीं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_340.mp3",
-          },
-        ],
-      },
-      correct: { en: "Varies", hi: "भिन्न" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "How do you think Raju and Anju felt when they saw everyone wearing the same shoes again?",
-        hi: "जब राजू और अंजू ने देखा कि सबने वही जूते पहने हैं, तो उन्हें कैसा लगा होगा?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_87.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_87.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Excited",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_341.mp3",
-          },
-          {
-            text: "Shocked",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_342.mp3",
-          },
-          {
-            text: "Disappointed",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_343.mp3",
-          },
-          {
-            text: "Happy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_344.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "उत्साहित",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_341.mp3",
-          },
-          {
-            text: "चौंक गए",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_342.mp3",
-          },
-          {
-            text: "निराश",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_343.mp3",
-          },
-          {
-            text: "खुश",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_344.mp3",
-          },
-        ],
-      },
-      correct: { en: "Disappointed", hi: "निराश" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What made Raju and Anju truly COOL in the end?",
-        hi: "आखिर में राजू और अंजू को सच में COOL किस बात ने बनाया?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_88.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_88.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "New shoes",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_345.mp3",
-          },
-          {
-            text: "Being the fastest",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_346.mp3",
-          },
-          {
-            text: "Finding joy in their own way",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_347.mp3",
-          },
-          {
-            text: "Copying others",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_348.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "नए जूते",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_345.mp3",
-          },
-          {
-            text: "सबसे तेज़ होना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_346.mp3",
-          },
-          {
-            text: "अपनी तरह से आनंद पाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_347.mp3",
-          },
-          {
-            text: "दूसरों की नकल करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_348.mp3",
-          },
-        ],
-      },
-      correct: { en: "Finding joy in their own way", hi: "अपनी तरह से आनंद पाना" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What do you think happens when there's no finish line or no competition?",
-        hi: "जब कोई \"समाप्ति रेखा\" या प्रतियोगिता न हो, तो क्या होता है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_89.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_89.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "People enjoy more",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_349.mp3",
-          },
-          {
-            text: "It gets boring",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_350.mp3",
-          },
-          {
-            text: "Everyone feels free",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_351.mp3",
-          },
-          {
-            text: "No one tries hard",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_352.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "लोग ज़्यादा आनंद लेते हैं",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_349.mp3",
-          },
-          {
-            text: "यह उबाऊ हो जाता है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_350.mp3",
-          },
-          {
-            text: "सबको स्वतंत्रता महसूस होती है",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_351.mp3",
-          },
-          {
-            text: "कोई मेहनत नहीं करता",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_352.mp3",
-          },
-        ],
-      },
-      correct: { en: "People enjoy more", hi: "लोग ज़्यादा आनंद लेते हैं" },
-    },
-    {
-      type: "mcq",
-      allowCustomAnswer: false,
-      question: {
-        en: "What does it mean to follow your passion?",
-        hi: "अपने जुनून को अपनाने का क्या मतलब है?",
-      },
-      questionAudio: {
-        en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_90.mp3",
-        hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_90.mp3",
-      },
-      options: {
-        en: [
-          {
-            text: "Doing what your friends do",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_353.mp3",
-          },
-          {
-            text: "Doing what you enjoy deeply",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_354.mp3",
-          },
-          {
-            text: "Doing something trendy",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_355.mp3",
-          },
-          {
-            text: "Doing what others tell you",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_356.mp3",
-          },
-        ],
-        hi: [
-          {
-            text: "दोस्तों की नकल करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_353.mp3",
-          },
-          {
-            text: "जो आपको बहुत पसंद हो वो करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_354.mp3",
-          },
-          {
-            text: "ट्रेंड्स को अपनाना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_355.mp3",
-          },
-          {
-            text: "जो लोग कहें वो करना",
-            audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_356.mp3",
-          },
-        ],
-      },
-      correct: { en: "Doing what you enjoy deeply", hi: "जो आपको बहुत पसंद हो वो करना" },
-    },
-  ],
-}
-            ],
-          },
+//               // lesson 15
+//               {
+//   lessonId: "lesson-15",
+//   questions: [
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you think made Raju and Anju's moment on the race track feel joyful?",
+//         hi: "आपको क्या लगता है कि रेस के दौरान राजू और अंजू का पल इतना मज़ेदार क्यों था?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_82.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_82.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Winning the race",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_321.mp3",
+//           },
+//           {
+//             text: "Having fun and being different",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_322.mp3",
+//           },
+//           {
+//             text: "Wearing expensive shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_323.mp3",
+//           },
+//           {
+//             text: "Being the fastest",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_324.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "रेस जीतना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_321.mp3",
+//           },
+//           {
+//             text: "मस्ती करना और अलग होना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_322.mp3",
+//           },
+//           {
+//             text: "महंगे जूते पहनना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_323.mp3",
+//           },
+//           {
+//             text: "सबसे तेज़ होना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_324.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Having fun and being different", hi: "मस्ती करना और अलग होना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: true,
+//       question: {
+//         en: "When everyone turns to look at you, how do you feel?",
+//         hi: "जब सब लोग आपकी ओर देखते हैं, तो आपको कैसा लगता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_83.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_83.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Shy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_325.mp3",
+//           },
+//           {
+//             text: "Nervous",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_326.mp3",
+//           },
+//           {
+//             text: "Proud",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_327.mp3",
+//           },
+//           {
+//             text: "Excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_328.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "शर्म",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_325.mp3",
+//           },
+//           {
+//             text: "घबराहट",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_326.mp3",
+//           },
+//           {
+//             text: "गर्व",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_327.mp3",
+//           },
+//           {
+//             text: "उत्साह",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_328.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Varies", hi: "भिन्न" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "Why do you think Mr. Williams removed the finish line?",
+//         hi: "आपको क्या लगता है कि मिस्टर विलियम्स ने समाप्ति रेखा क्यों हटा दी?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_84.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_84.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "He forgot where it was",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_329.mp3",
+//           },
+//           {
+//             text: "He was angry",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_330.mp3",
+//           },
+//           {
+//             text: "He wanted everyone to have fun",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_331.mp3",
+//           },
+//           {
+//             text: "He was being silly",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_332.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उन्हें रेखा की जगह याद नहीं थी",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_329.mp3",
+//           },
+//           {
+//             text: "वे गुस्से में थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_330.mp3",
+//           },
+//           {
+//             text: "वे चाहते थे कि सभी मज़े करें",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_331.mp3",
+//           },
+//           {
+//             text: "वे मस्ती कर रहे थे",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_332.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "He wanted everyone to have fun", hi: "वे चाहते थे कि सभी मज़े करें" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: true,
+//       question: {
+//         en: "What do you enjoy more — winning or playing for fun?",
+//         hi: "आपको किसमें ज़्यादा आनंद आता है — जीतने में या मज़े के लिए खेलने में?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_85.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_85.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Winning",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_333.mp3",
+//           },
+//           {
+//             text: "Playing for fun",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_334.mp3",
+//           },
+//           {
+//             text: "Both",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_335.mp3",
+//           },
+//           {
+//             text: "Depends on the game",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_336.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "जीतने में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_333.mp3",
+//           },
+//           {
+//             text: "मज़े के लिए खेलने में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_334.mp3",
+//           },
+//           {
+//             text: "दोनों में",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_335.mp3",
+//           },
+//           {
+//             text: "खेल पर निर्भर करता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_336.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Varies", hi: "भिन्न" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: true,
+//       question: {
+//         en: "How do you feel when you lose a game or race?",
+//         hi: "जब आप कोई खेल या रेस हार जाते हैं तो आपको कैसा लगता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_86.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_86.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Sad or upset",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_337.mp3",
+//           },
+//           {
+//             text: "I laugh it off",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_338.mp3",
+//           },
+//           {
+//             text: "I try again next time",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_339.mp3",
+//           },
+//           {
+//             text: "I don't mind as long as I had fun",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_340.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "दुखी या नाराज़",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_337.mp3",
+//           },
+//           {
+//             text: "हँसी में टाल देता हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_338.mp3",
+//           },
+//           {
+//             text: "अगली बार फिर प्रयास करता हूँ",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_339.mp3",
+//           },
+//           {
+//             text: "जब तक मज़ा आया, हार की परवाह नहीं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_340.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Varies", hi: "भिन्न" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "How do you think Raju and Anju felt when they saw everyone wearing the same shoes again?",
+//         hi: "जब राजू और अंजू ने देखा कि सबने वही जूते पहने हैं, तो उन्हें कैसा लगा होगा?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_87.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_87.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Excited",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_341.mp3",
+//           },
+//           {
+//             text: "Shocked",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_342.mp3",
+//           },
+//           {
+//             text: "Disappointed",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_343.mp3",
+//           },
+//           {
+//             text: "Happy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_344.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "उत्साहित",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_341.mp3",
+//           },
+//           {
+//             text: "चौंक गए",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_342.mp3",
+//           },
+//           {
+//             text: "निराश",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_343.mp3",
+//           },
+//           {
+//             text: "खुश",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_344.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Disappointed", hi: "निराश" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What made Raju and Anju truly COOL in the end?",
+//         hi: "आखिर में राजू और अंजू को सच में COOL किस बात ने बनाया?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_88.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_88.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "New shoes",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_345.mp3",
+//           },
+//           {
+//             text: "Being the fastest",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_346.mp3",
+//           },
+//           {
+//             text: "Finding joy in their own way",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_347.mp3",
+//           },
+//           {
+//             text: "Copying others",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_348.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "नए जूते",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_345.mp3",
+//           },
+//           {
+//             text: "सबसे तेज़ होना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_346.mp3",
+//           },
+//           {
+//             text: "अपनी तरह से आनंद पाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_347.mp3",
+//           },
+//           {
+//             text: "दूसरों की नकल करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_348.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Finding joy in their own way", hi: "अपनी तरह से आनंद पाना" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What do you think happens when there's no finish line or no competition?",
+//         hi: "जब कोई \"समाप्ति रेखा\" या प्रतियोगिता न हो, तो क्या होता है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_89.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_89.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "People enjoy more",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_349.mp3",
+//           },
+//           {
+//             text: "It gets boring",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_350.mp3",
+//           },
+//           {
+//             text: "Everyone feels free",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_351.mp3",
+//           },
+//           {
+//             text: "No one tries hard",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_352.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "लोग ज़्यादा आनंद लेते हैं",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_349.mp3",
+//           },
+//           {
+//             text: "यह उबाऊ हो जाता है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_350.mp3",
+//           },
+//           {
+//             text: "सबको स्वतंत्रता महसूस होती है",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_351.mp3",
+//           },
+//           {
+//             text: "कोई मेहनत नहीं करता",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_352.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "People enjoy more", hi: "लोग ज़्यादा आनंद लेते हैं" },
+//     },
+//     {
+//       type: "mcq",
+//       allowCustomAnswer: false,
+//       question: {
+//         en: "What does it mean to follow your passion?",
+//         hi: "अपने जुनून को अपनाने का क्या मतलब है?",
+//       },
+//       questionAudio: {
+//         en: "https://d16ho1g3lqitul.cloudfront.net/GQBSEV_90.mp3",
+//         hi: "https://d16ho1g3lqitul.cloudfront.net/DQBSEV_90.mp3",
+//       },
+//       options: {
+//         en: [
+//           {
+//             text: "Doing what your friends do",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_353.mp3",
+//           },
+//           {
+//             text: "Doing what you enjoy deeply",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_354.mp3",
+//           },
+//           {
+//             text: "Doing something trendy",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_355.mp3",
+//           },
+//           {
+//             text: "Doing what others tell you",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/GOBSEV_356.mp3",
+//           },
+//         ],
+//         hi: [
+//           {
+//             text: "दोस्तों की नकल करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_353.mp3",
+//           },
+//           {
+//             text: "जो आपको बहुत पसंद हो वो करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_354.mp3",
+//           },
+//           {
+//             text: "ट्रेंड्स को अपनाना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_355.mp3",
+//           },
+//           {
+//             text: "जो लोग कहें वो करना",
+//             audio: "https://d16ho1g3lqitul.cloudfront.net/DOBSEV_356.mp3",
+//           },
+//         ],
+//       },
+//       correct: { en: "Doing what you enjoy deeply", hi: "जो आपको बहुत पसंद हो वो करना" },
+//     },
+//   ],
+// }
+//             ],
+//           },
 
           // unit 8
 

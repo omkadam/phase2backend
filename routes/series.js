@@ -5,8 +5,13 @@ import Broadcast from "../models/Broadcast.js";
 import Parent from "../models/Parent.js";
 import Idea from "../models/Idea.js";
 import BedtimeStory from "../models/BedtimeStory.js"; // ✅ NEW - Add this import
+import TeacherSeries from "../models/TeacherSeries.js";
+
 
 const router = express.Router();
+
+
+
 
 // ====================================
 // ✅ BEDTIME STORIES ROUTES - MUST BE BEFORE DYNAMIC ROUTES
